@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android" android:id="false" android:paddingLeft="16dp" android:paddingTop="16dp" android:paddingRight="16dp" android:paddingBottom="0dp" android:layout_width="-1" android:layout_height="-1">
+	<ScrollView android:layout_width="-1" android:layout_height="-1" android:layout_marginBottom="50dp">
+		<LinearLayout android:orientation="1" android:layout_width="-1" android:layout_height="-1">
+			<TextView android:textSize="18sp" android:textStyle="0x1" android:textColor="23cd0" android:layout_width="-1" android:layout_height="-2" android:text="स्कॅनरच्या साह्याने डॉक्युमेंट स्कॅन करणे
+" />
+			<TextView android:textSize="18sp" android:textColor="000" android:id="false" android:layout_width="-1" android:layout_height="-1" android:text="      स्कॅनरच्या साह्याने आपण आपली कागदपत्रे, फोटोग्राफ्स कंप्युटरमध्ये साठवू शकतो. व नंतर आपल्या आवश्यकतेप्रमाणे त्यांचा वापर करू शकतो. स्कॅनरच्या साह्याने एखादे डॉक्युमेंट कसे स्कॅन करावे हे आपण पाहू.
+" />
+			<ImageView android:layout_gravity="0x11" android:layout_width="-1" android:layout_height="150dp" android:src="res/drawable/scanners.png" />
+			<TextView android:textSize="18sp" android:textColor="000" android:layout_width="-1" android:layout_height="-2" android:text="      स्कॅनरच्या साह्याने एखादे डॉक्युमेंट स्कॅन करण्यासाठी प्रथम आपणास स्कॅनरची स्कॅनिंग विंडो ओपन करावी लागेल. त्यासाठी प्रथम स्टार्ट बटणावर क्लिक करा.
+" />
+			<TextView android:textSize="18sp" android:textColor="000" android:layout_width="-1" android:layout_height="-1" android:text="      स्टार्ट मेनूमध्ये उजव्या बाजूस डिव्हाइसेस एन्ड प्रिंटर्स (Devices and Printers) पर्यायावर क्लिक करा. डिव्हाइसेस एन्ड प्रिंटर्स विंडो ओपन होईल. त्यात  खालील बाजूस तुमच्या स्कॅनरचे नाव दिसेल. त्यावर डबल क्लिक करा. स्कॅन विंडो ओपन होईल. आता तुम्हाला स्कॅन करायचे डॉक्युमेंट्स किंवा फोटोग्राफ्स स्कॅनरमध्ये ठेवा.
+" />
+			<TextView android:textSize="18sp" android:textColor="000" android:layout_width="-1" android:layout_height="-2" android:text="      त्यानंतर स्कॅन विंडोत खालील बाजूस असलेल्या प्रिव्ह्यू (Preview) पर्यायावर क्लिक करा. आपणास स्कॅन करायचे डॉक्युमेंटचे प्रिव्ह्यू दिसेल. त्यानंतर स्कॅन (Scan) पर्यायावर क्लिक करा. तुमचे डॉक्युमेंट स्कॅन होईल. व कंप्युटरमध्ये साठविले जाईल.
+" />
+			<TextView android:textSize="18sp" android:textColor="000" android:layout_width="-1" android:layout_height="-2" android:text="       (वेगवेगळ्या स्कॅनर्स नुसार स्कॅनिंग विंडोतील पर्याय भिन्न असू शकतात. अधिक माहितीसाठी आपण स्कॅनर सोबत मिळालेल्या माहितीपुस्तिकेचा वापर करू शकतो.)
+" />
+			<WebView android:id="false" android:background="resourceId:0x0" android:layout_width="-1" android:layout_height="-2" />
+		</LinearLayout>
+	</ScrollView>
+	<com.google.android.gms.ads.AdView xmlns:ads="http://schemas.android.com/apk/res-auto" android:id="false" android:layout_width="-2" android:layout_height="-2" android:layout_alignParentBottom="true" android:layout_centerHorizontal="true" ads:adSize="BANNER" ads:adUnitId="ca-app-pub-2393065895339578/1243970239" />
+</RelativeLayout>

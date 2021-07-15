@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android" android:id="false" android:paddingLeft="16dp" android:paddingTop="16dp" android:paddingRight="16dp" android:paddingBottom="0dp" android:layout_width="-1" android:layout_height="-1">
+	<ScrollView android:layout_width="-1" android:layout_height="-1" android:layout_marginBottom="50dp">
+		<LinearLayout android:orientation="1" android:layout_width="-1" android:layout_height="-1">
+			<TextView android:textSize="18sp" android:textStyle="0x1" android:textColor="23cd0" android:layout_width="-1" android:layout_height="-2" android:text="रॅम चिप्स
+" android:textAlignment="4" />
+			<TextView android:textSize="18sp" android:textColor="000" android:id="false" android:layout_width="-1" android:layout_height="-1" android:text="      रॅम चिप्स कंप्यूटर सिस्टिम का एक महत्वपूर्ण भाग हैं। रॅम चिप्स 4 जीबी या अधिक क्षमता की होनी चाहिए। इससे कंप्यूटर के अॅप्लिकेशन्स बिना किसी रुकावट के चलने में मदद होती है।
+" />
+			<ImageView android:layout_gravity="0x11" android:layout_width="-1" android:layout_height="150dp" android:src="res/drawable/ramchip.png" />
+			<TextView android:textSize="18sp" android:textColor="000" android:layout_width="-1" android:layout_height="-2" android:text="      रॅम प्राथमिक स्टोरेज का एक उदाहरण है। रॅम चिप्स सिस्टिम युनिट के अंदर स्थापित होती हैं। रॅम में संग्रहीत जानकारी अस्थायी रूप से संग्रहित की जाती है। उदाहरण के लिए। जब कंप्यूटर पर काम करते समय कंप्यूटर अचानक बंद हो जाता है, तो कंप्यूटर को फिर से शुरू करने के बाद आपके द्वारा टाइप किया गया डेटा उपलब्ध नहीं हो पाता है। क्योंकि उस डेटा को रॅम में संग्रहित किया जाता है। अगर कंप्यूटर बंद हो जाता है तो वह डेटा नष्ट हो जाता है। क्योंकि रॅम अस्थायी रूप से जानकारी संग्रहीत करता है। इसलिए, आपके कंप्यूटर पर काम करते समय, डेटा को समय-समय पर सहेजा जाना चाहिए।
+" />
+		</LinearLayout>
+	</ScrollView>
+	<com.google.android.gms.ads.AdView xmlns:ads="http://schemas.android.com/apk/res-auto" android:id="false" android:layout_width="-2" android:layout_height="-2" android:layout_alignParentBottom="true" android:layout_centerHorizontal="true" ads:adSize="BANNER" ads:adUnitId="ca-app-pub-2393065895339578/1243970239" />
+</RelativeLayout>

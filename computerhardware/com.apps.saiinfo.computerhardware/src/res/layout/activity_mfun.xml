@@ -1,0 +1,38 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android" android:id="false" android:paddingLeft="16dp" android:paddingTop="16dp" android:paddingRight="16dp" android:paddingBottom="0dp" android:layout_width="-1" android:layout_height="-1">
+	<ScrollView android:layout_width="-1" android:layout_height="-1" android:layout_marginBottom="50dp">
+		<LinearLayout android:orientation="1" android:layout_width="-1" android:layout_height="-1">
+			<TextView android:textSize="18sp" android:textStyle="0x1" android:textColor="23cd0" android:layout_width="-1" android:layout_height="-2" android:text="किबोर्ड फंक्शन किज् चा उपयोग
+" />
+			<TextView android:textSize="18sp" android:textColor="000" android:id="false" android:layout_width="-1" android:layout_height="-1" android:text="      किबोर्डवरील फंक्शन किज् चा उपयोग कंप्युटरमध्ये शॉर्टकट कामांसाठी होतो. फंक्शन किज् च्या साह्याने आपण कंप्युटरमध्ये एखादे काम पटकन करू शकतो. व वेळेची बचत करू शकतो." />
+			<ImageView android:layout_gravity="0x11" android:layout_width="-1" android:layout_height="90dp" android:src="res/drawable/fun.png" />
+			<TextView android:textSize="18sp" android:textStyle="0x1" android:textColor="000" android:layout_width="-1" android:layout_height="-2" android:text="      किबोर्डवरील फंक्शन किज् चा उपयोग पुढीलप्रमाणे आहे.
+" />
+			<TextView android:textSize="18sp" android:textColor="000" android:layout_width="-1" android:layout_height="-1" android:text="      F1 :- F1 बटणाचा उपयोग एखाद्या फाईल किंवा प्रोग्रॅम मध्ये हेल्प ची सुविधा मिळविण्यास होतो.
+" />
+			<TextView android:textSize="18sp" android:textColor="000" android:layout_width="-1" android:layout_height="-2" android:text="      F2  :- F2 बटणाचा उपयोग सिलेक्ट केलेली फाईल रिनेम करण्यासाठी होतो. तसेच वर्ड, एक्सेलमध्ये Ctrl + F2 दाबून प्रिंट कमांड ओपन करता येते. बऱ्याच कंप्युटरमध्ये F2 बटणाचा उपयोग बूट विंडो ओपन करण्यासाठी होतो.
+" />
+			<TextView android:textSize="18sp" android:textColor="000" android:layout_width="-1" android:layout_height="-1" android:text="      F3  :- F3 बटणाचा उपयोग एखाद्या प्रोग्रॅममध्ये सर्च सुविधा ओपन करण्यास होते. उदा. विंडोज एक्स्प्लोरर, गुगल क्रोम, फायरफॉक्स इ.
+" />
+			<TextView android:textSize="18sp" android:textColor="000" android:layout_width="-1" android:layout_height="-2" android:text="      F4  :- F4 बटणाचा उपयोग विंडोज एक्स्प्लोररमध्ये एड्रेस बार ओपन करण्यासाठी होतो.
+" />
+			<TextView android:textSize="18sp" android:textColor="000" android:layout_width="-1" android:layout_height="-1" android:text="      F5  :- F5 बटणाचा उपयोग रिफ्रेश करण्यासाठी होतो. एम. एस. वर्ड, मध्ये फाइंड रिप्लेस विंडो ओपन करण्यासाठी होतो. तसेच पावरपॉइंट मध्ये प्रेझेन्टेशन फुलस्क्रीन मध्ये पाहण्यासाठी होतो.
+" />
+			<TextView android:textSize="18sp" android:textColor="000" android:layout_width="-1" android:layout_height="-2" android:text="      F6  :- F6 बटणाचा उपयोग सहसा एखाद्या ब्राउजरमध्ये कर्सरची स्थिती एड्रेसबार मध्ये नेण्यासाठी होतो.
+" />
+			<TextView android:textSize="18sp" android:textColor="000" android:layout_width="-1" android:layout_height="-1" android:text="      F7  :- F7 बटणाचा उपयोग एम. एस. वर्ड, डॉक्युमेंटमध्ये स्पेलिंग एन्ड ग्रामर विंडो ओपन करण्यासाठी होतो.
+" />
+			<TextView android:textSize="18sp" android:textColor="000" android:layout_width="-1" android:layout_height="-2" android:text="      F8  :- F8 बटणाचा उपयोग विंडोज ऑपरेटिंग सिस्टिममध्ये कंप्युटर सेफ मोड(Safe Mode) मध्ये ओपन करण्यासाठी होतो. तसेच एम. एस. वर्ड, डॉक्युमेंटमध्ये टाईप केलेली माहिती सिलेक्ट करण्यासाठी F8 बटणाचा उपयोग होतो. उदा. F8 बटण दोनदा प्रेस केल्यास एक शब्द सिलेक्ट होते. तीनदा प्रेस केल्यास वाक्य सिलेक्ट होते. चारदा प्रेस केल्यास एक पॅरेग्राफ सिलेक्ट होते. पाचदा प्रेस केल्यास पूर्ण माहिती सिलेक्ट होते.
+" />
+			<TextView android:textSize="18sp" android:textColor="000" android:layout_width="-1" android:layout_height="-1" android:text="      F9  :- Ctrl + F9 बटणाचा उपयोग एम. एस. वर्ड, डॉक्युमेंटमध्ये { } चिन्ह इन्सर्ट करण्यासाठी होतो. तसेच एक्सेल मध्ये फाईल मिनिमाइज करण्यासाठी होतो.
+" />
+			<TextView android:textSize="18sp" android:textColor="000" android:layout_width="-1" android:layout_height="-2" android:text="      F10  :- F10 बटणाचा उपयोग विंडोज एक्प्लोरर मध्ये तसेच इंटरनेट एक्स्प्लोररमध्ये मेनूबार दर्शविण्यासाठी होतो. Ctrl + F10 बटणाचा उपयोग वर्ड, एक्सेल फाईल रिस्टोअर किंवा मॅक्झीमाइज करण्यासाठी होतो. 
+" />
+			<TextView android:textSize="18sp" android:textColor="000" android:layout_width="-1" android:layout_height="-1" android:text="      F11  :- F11 बटणाचा उपयोग विंडोज एक्प्लोरर तसेच इंटरनेट ब्राउजर्स फुल स्क्रीन मोडमध्ये पाहण्यासाठी होतो.
+" />
+			<TextView android:textSize="18sp" android:textColor="000" android:layout_width="-1" android:layout_height="-2" android:text="      F12  :- F12 बटणाचा उपयोग वर्ड, एक्सेल, पावरपॉइंट फाईल्स सेव्ह करण्यासाठी होतो. तसेच Ctrl + F12 बटणाचा उपयोग वर्ड, एक्सेल, पावरपॉइंट फाईल्स ओपन करण्यासाठी होतो.
+" />
+		</LinearLayout>
+	</ScrollView>
+	<com.google.android.gms.ads.AdView xmlns:ads="http://schemas.android.com/apk/res-auto" android:id="false" android:layout_width="-2" android:layout_height="-2" android:layout_alignParentBottom="true" android:layout_centerHorizontal="true" ads:adSize="BANNER" ads:adUnitId="ca-app-pub-2393065895339578/1243970239" />
+</RelativeLayout>

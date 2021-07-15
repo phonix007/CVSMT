@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android" android:id="false" android:paddingLeft="16dp" android:paddingTop="16dp" android:paddingRight="16dp" android:paddingBottom="0dp" android:layout_width="-1" android:layout_height="-1">
+	<ScrollView android:layout_width="-1" android:layout_height="-1" android:layout_marginBottom="50dp">
+		<LinearLayout android:orientation="1" android:layout_width="-1" android:layout_height="-1">
+			<TextView android:textSize="18sp" android:textStyle="0x1" android:textColor="23cd0" android:layout_width="-1" android:layout_height="-2" android:text="स्कॅनर का उपयोग
+" android:textAlignment="4" />
+			<ImageView android:layout_gravity="0x11" android:layout_width="-1" android:layout_height="150dp" android:src="res/drawable/scan.png" />
+			<TextView android:textSize="18sp" android:textColor="000" android:id="false" android:layout_width="-1" android:layout_height="-1" android:text="      स्कॅनर विभिन्न प्रकार के दस्तावेजों, फोटो इत्यादि कंप्यूटर में स्टोर करने के लिए उपयोग किया जाता है। स्कॅनर के सहायता से आप कंप्यूटर में अपने दस्तावेज़ और फोटोग्राफ्स को संग्रहीत कर सकते हैं। और फिर आप अपनी आवश्यकता के अनुसार बाद में उपयोग में ले सकते हैं।
+" />
+			<ImageView android:layout_gravity="0x11" android:layout_width="-1" android:layout_height="150dp" android:src="res/drawable/scanners.png" />
+		</LinearLayout>
+	</ScrollView>
+	<com.google.android.gms.ads.AdView xmlns:ads="http://schemas.android.com/apk/res-auto" android:id="false" android:layout_width="-2" android:layout_height="-2" android:layout_alignParentBottom="true" android:layout_centerHorizontal="true" ads:adSize="BANNER" ads:adUnitId="ca-app-pub-2393065895339578/1243970239" />
+</RelativeLayout>

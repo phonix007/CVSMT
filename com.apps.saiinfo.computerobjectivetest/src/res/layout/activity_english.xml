@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="utf-8"?>
+<android.support.design.widget.CoordinatorLayout xmlns:android="http://schemas.android.com/apk/res/android" xmlns:app="http://schemas.android.com/apk/res-auto" android:fitsSystemWindows="true" android:layout_width="-1" android:layout_height="-1">
+	<android.support.design.widget.AppBarLayout android:theme="resourceId:0x7f0900a9" android:id="false" android:fitsSystemWindows="true" android:layout_width="-1" android:layout_height="180dp">
+		<android.support.design.widget.CollapsingToolbarLayout android:id="false" android:fitsSystemWindows="true" android:layout_width="-1" android:layout_height="-1" app:layout_scrollFlags="0x3" app:contentScrim="{2:2130772101}">
+			<ImageView android:id="false" android:background="res/drawable/header.png" android:fitsSystemWindows="true" android:layout_width="-1" android:layout_height="-1" android:scaleType="6" app:layout_collapseMode="2" />
+			<android.support.v7.widget.Toolbar android:id="false" android:layout_width="-1" android:layout_height="{2:2130772040}" app:popupTheme="resourceId:0x7f0900aa" app:layout_collapseMode="1" />
+		</android.support.design.widget.CollapsingToolbarLayout>
+	</android.support.design.widget.AppBarLayout>
+	<include layout="@layout/content_english" />
+	<android.support.design.widget.FloatingActionButton android:id="false" android:layout_width="-2" android:layout_height="-2" android:layout_margin="16dp" app:srcCompat="res/drawable-xhdpi-v4/play.png" app:layout_anchor="false" app:layout_anchorGravity="0x800055" />
+</android.support.design.widget.CoordinatorLayout>

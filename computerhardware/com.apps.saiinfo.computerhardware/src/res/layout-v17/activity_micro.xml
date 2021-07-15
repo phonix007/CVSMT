@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android" android:id="false" android:paddingLeft="16dp" android:paddingTop="16dp" android:paddingRight="16dp" android:paddingBottom="0dp" android:layout_width="-1" android:layout_height="-1">
+	<ScrollView android:layout_width="-1" android:layout_height="-1" android:layout_marginBottom="50dp">
+		<LinearLayout android:orientation="1" android:layout_width="-1" android:layout_height="-1">
+			<TextView android:textSize="18sp" android:textStyle="0x1" android:textColor="23cd0" android:layout_width="-1" android:layout_height="-2" android:text="Microphone
+" android:textAlignment="4" />
+			<ImageView android:layout_gravity="0x11" android:layout_width="-1" android:layout_height="150dp" android:src="res/drawable/mike.png" />
+			<TextView android:textSize="18sp" android:textColor="000" android:id="false" android:layout_width="-1" android:layout_height="-1" android:text="      The microphone is an important audio-input device. The microphone is used to record sound in the computer.
+" />
+			<TextView android:textSize="18sp" android:textStyle="0x1" android:textColor="23cd0" android:layout_width="-1" android:layout_height="-2" android:text="Speaker and Headphone
+" android:textAlignment="4" />
+			<ImageView android:layout_gravity="0x11" android:layout_width="-1" android:layout_height="150dp" android:src="res/drawable/speaker.png" />
+			<TextView android:textSize="18sp" android:textColor="000" android:layout_width="-1" android:layout_height="-1" android:text="      Speaker and headphones are the most widely used audio-output devices. Speaker and headphone are used to listen sound in the computer.
+" />
+			<TextView android:textSize="18sp" android:textStyle="0x1" android:textColor="23cd0" android:layout_width="-1" android:layout_height="-2" android:text="Optical Drive
+" android:textAlignment="4" />
+			<ImageView android:layout_gravity="0x11" android:layout_width="-1" android:layout_height="150dp" android:src="res/drawable/cd.png" />
+			<TextView android:textSize="18sp" android:textColor="000" android:layout_width="-1" android:layout_height="-2" android:text="      Optical drive is used to reads and writes data from optical disks through laser beaming technology. Such as CD, DVDs etc.
+" />
+			<ImageView android:layout_gravity="0x11" android:layout_width="-1" android:layout_height="150dp" android:layout_marginBottom="10dp" android:src="res/drawable/dvddrive.png" />
+		</LinearLayout>
+	</ScrollView>
+	<com.google.android.gms.ads.AdView xmlns:ads="http://schemas.android.com/apk/res-auto" android:id="false" android:layout_width="-2" android:layout_height="-2" android:layout_alignParentBottom="true" android:layout_centerHorizontal="true" ads:adSize="BANNER" ads:adUnitId="ca-app-pub-2393065895339578/1243970239" />
+</RelativeLayout>

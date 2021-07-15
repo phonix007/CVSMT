@@ -1,0 +1,544 @@
+<?xml version="1.0" encoding="utf-8"?>
+<manifest xmlns:android="http://schemas.android.com/apk/res/android" android:versionCode="3" android:versionName="1.2" package="com.apps.saiinfo.computerobjectivetest" platformBuildVersionCode="26" platformBuildVersionName="8.0.0">
+	<uses-sdk android:minSdkVersion="16" android:targetSdkVersion="26" />
+	<uses-permission android:name="android.permission.INTERNET" />
+	<uses-permission android:name="android.permission.WRITE_EXTERNAL_STORAGE" />
+	<uses-permission android:name="android.permission.ACCESS_NETWORK_STATE" />
+	<meta-data android:name="android.support.VERSION" android:value="26.0.0-alpha1" />
+	<application android:theme="resourceId:0x7f0900a8" android:label="Computer Objective Test" android:icon="res/mipmap-xxxhdpi-v4/ic_launcher.png" android:allowBackup="true" android:supportsRtl="true">
+		<activity android:name="com.apps.saiinfo.computerobjectivetest.MainActivity" android:screenOrientation="portrait" />
+		<activity android:name="com.apps.saiinfo.computerobjectivetest.SplashActivity" android:screenOrientation="portrait">
+			<intent-filter>
+				<action android:name="android.intent.action.MAIN" />
+				<category android:name="android.intent.category.LAUNCHER" />
+			</intent-filter>
+		</activity>
+		<activity android:theme="@android:style/Theme.Translucent" android:name="com.google.android.gms.ads.AdActivity" android:configChanges="0xfb0" />
+		<activity android:name="com.apps.saiinfo.computerobjectivetest.DesignActivity" android:screenOrientation="portrait" android:parentActivityName="com.apps.saiinfo.computerobjectivetest.EnglishActivity">
+			<meta-data android:name="android.support.PARENT_ACTIVITY" android:value=".EnglishActivity" />
+		</activity>
+		<activity android:name="com.apps.saiinfo.computerobjectivetest.ResultActivity" android:screenOrientation="portrait" android:parentActivityName="com.apps.saiinfo.computerobjectivetest.EnglishActivity">
+			<meta-data android:name="android.support.PARENT_ACTIVITY" android:value=".EnglishActivity" />
+		</activity>
+		<activity android:name="com.apps.saiinfo.computerobjectivetest.AnswersActivity" android:screenOrientation="portrait" android:parentActivityName="com.apps.saiinfo.computerobjectivetest.EnglishActivity">
+			<meta-data android:name="android.support.PARENT_ACTIVITY" android:value=".EnglishActivity" />
+		</activity>
+		<activity android:name="com.apps.saiinfo.computerobjectivetest.DesigninActivity" android:screenOrientation="portrait" android:parentActivityName="com.apps.saiinfo.computerobjectivetest.EnglishActivity">
+			<meta-data android:name="android.support.PARENT_ACTIVITY" android:value=".EnglishActivity" />
+		</activity>
+		<activity android:name="com.apps.saiinfo.computerobjectivetest.ResultinActivity" android:screenOrientation="portrait" android:parentActivityName="com.apps.saiinfo.computerobjectivetest.EnglishActivity">
+			<meta-data android:name="android.support.PARENT_ACTIVITY" android:value=".EnglishActivity" />
+		</activity>
+		<activity android:name="com.apps.saiinfo.computerobjectivetest.AnswersinActivity" android:screenOrientation="portrait" android:parentActivityName="com.apps.saiinfo.computerobjectivetest.EnglishActivity">
+			<meta-data android:name="android.support.PARENT_ACTIVITY" android:value=".EnglishActivity" />
+		</activity>
+		<activity android:name="com.apps.saiinfo.computerobjectivetest.DesigninputActivity" android:screenOrientation="portrait" android:parentActivityName="com.apps.saiinfo.computerobjectivetest.EnglishActivity">
+			<meta-data android:name="android.support.PARENT_ACTIVITY" android:value=".EnglishActivity" />
+		</activity>
+		<activity android:name="com.apps.saiinfo.computerobjectivetest.ResultinputActivity" android:screenOrientation="portrait" android:parentActivityName="com.apps.saiinfo.computerobjectivetest.EnglishActivity">
+			<meta-data android:name="android.support.PARENT_ACTIVITY" android:value=".EnglishActivity" />
+		</activity>
+		<activity android:name="com.apps.saiinfo.computerobjectivetest.AnswersinputActivity" android:screenOrientation="portrait" android:parentActivityName="com.apps.saiinfo.computerobjectivetest.EnglishActivity">
+			<meta-data android:name="android.support.PARENT_ACTIVITY" android:value=".EnglishActivity" />
+		</activity>
+		<activity android:theme="resourceId:0x7f090040" android:label="Objective Test" android:name="com.apps.saiinfo.computerobjectivetest.EnglishActivity" android:screenOrientation="portrait" />
+		<activity android:label="Input Output" android:name="com.apps.saiinfo.computerobjectivetest.TestActivity" android:screenOrientation="portrait" />
+		<activity android:theme="resourceId:0x7f09011e" android:label="Reference Image No.1" android:name="com.apps.saiinfo.computerobjectivetest.mouse" />
+		<activity android:theme="resourceId:0x7f09011e" android:label="Reference Image No.2" android:name="com.apps.saiinfo.computerobjectivetest.joy" />
+		<activity android:theme="resourceId:0x7f09011e" android:label="Reference Image No.3" android:name="com.apps.saiinfo.computerobjectivetest.win" />
+		<activity android:theme="resourceId:0x7f09011e" android:label="Reference Image No.4" android:name="com.apps.saiinfo.computerobjectivetest.mon" />
+		<activity android:theme="resourceId:0x7f090040" android:label="वैकल्पिक टेस्ट" android:name="com.apps.saiinfo.computerobjectivetest.MarathiActivity" android:screenOrientation="portrait" />
+		<activity android:label="इनपुट आउटपुट" android:name="com.apps.saiinfo.computerobjectivetest.activity_testmarathi" />
+		<activity android:name="com.apps.saiinfo.computerobjectivetest.DesignmActivity" android:screenOrientation="portrait" android:parentActivityName="com.apps.saiinfo.computerobjectivetest.MarathiActivity">
+			<meta-data android:name="android.support.PARENT_ACTIVITY" android:value=".MarathiActivity" />
+		</activity>
+		<activity android:name="com.apps.saiinfo.computerobjectivetest.ResultmActivity" android:screenOrientation="portrait" android:parentActivityName="com.apps.saiinfo.computerobjectivetest.MarathiActivity">
+			<meta-data android:name="android.support.PARENT_ACTIVITY" android:value=".MarathiActivity" />
+		</activity>
+		<activity android:name="com.apps.saiinfo.computerobjectivetest.AnswersmActivity" android:screenOrientation="portrait" android:parentActivityName="com.apps.saiinfo.computerobjectivetest.MarathiActivity">
+			<meta-data android:name="android.support.PARENT_ACTIVITY" android:value=".MarathiActivity" />
+		</activity>
+		<activity android:name="com.apps.saiinfo.computerobjectivetest.DesigninmActivity" android:screenOrientation="portrait" android:parentActivityName="com.apps.saiinfo.computerobjectivetest.MarathiActivity">
+			<meta-data android:name="android.support.PARENT_ACTIVITY" android:value=".MarathiActivity" />
+		</activity>
+		<activity android:name="com.apps.saiinfo.computerobjectivetest.ResultinmActivity" android:screenOrientation="portrait" android:parentActivityName="com.apps.saiinfo.computerobjectivetest.MarathiActivity">
+			<meta-data android:name="android.support.PARENT_ACTIVITY" android:value=".MarathiActivity" />
+		</activity>
+		<activity android:name="com.apps.saiinfo.computerobjectivetest.AnswersinmActivity" android:screenOrientation="portrait" android:parentActivityName="com.apps.saiinfo.computerobjectivetest.MarathiActivity">
+			<meta-data android:name="android.support.PARENT_ACTIVITY" android:value=".MarathiActivity" />
+		</activity>
+		<activity android:name="com.apps.saiinfo.computerobjectivetest.DesigninmarActivity" android:screenOrientation="portrait" android:parentActivityName="com.apps.saiinfo.computerobjectivetest.MarathiActivity">
+			<meta-data android:name="android.support.PARENT_ACTIVITY" android:value=".MarathiActivity" />
+		</activity>
+		<activity android:name="com.apps.saiinfo.computerobjectivetest.ResultinmarActivity" android:screenOrientation="portrait" android:parentActivityName="com.apps.saiinfo.computerobjectivetest.MarathiActivity">
+			<meta-data android:name="android.support.PARENT_ACTIVITY" android:value=".MarathiActivity" />
+		</activity>
+		<activity android:name="com.apps.saiinfo.computerobjectivetest.AnswersinmarActivity" android:screenOrientation="portrait" android:parentActivityName="com.apps.saiinfo.computerobjectivetest.MarathiActivity">
+			<meta-data android:name="android.support.PARENT_ACTIVITY" android:value=".MarathiActivity" />
+		</activity>
+		<activity android:theme="resourceId:0x7f090040" android:label="वैकल्पिक टेस्ट" android:name="com.apps.saiinfo.computerobjectivetest.HindiActivity" android:screenOrientation="portrait" />
+		<activity android:label="इनपुट आउटपुट" android:name="com.apps.saiinfo.computerobjectivetest.testhindi" />
+		<activity android:name="com.apps.saiinfo.computerobjectivetest.DesignhActivity" android:screenOrientation="portrait" android:parentActivityName="com.apps.saiinfo.computerobjectivetest.HindiActivity">
+			<meta-data android:name="android.support.PARENT_ACTIVITY" android:value=".HindiActivity" />
+		</activity>
+		<activity android:name="com.apps.saiinfo.computerobjectivetest.ResulthActivity" android:screenOrientation="portrait" android:parentActivityName="com.apps.saiinfo.computerobjectivetest.HindiActivity">
+			<meta-data android:name="android.support.PARENT_ACTIVITY" android:value=".HindiActivity" />
+		</activity>
+		<activity android:name="com.apps.saiinfo.computerobjectivetest.AnswershActivity" android:screenOrientation="portrait" android:parentActivityName="com.apps.saiinfo.computerobjectivetest.HindiActivity" />
+		<meta-data android:name="android.support.PARENT_ACTIVITY" android:value=".HindiActivity" />
+		<activity android:name="com.apps.saiinfo.computerobjectivetest.DesigninhActivity" android:screenOrientation="portrait" android:parentActivityName="com.apps.saiinfo.computerobjectivetest.HindiActivity">
+			<meta-data android:name="android.support.PARENT_ACTIVITY" android:value=".HindiActivity" />
+		</activity>
+		<activity android:name="com.apps.saiinfo.computerobjectivetest.ResultinhActivity" android:screenOrientation="portrait" android:parentActivityName="com.apps.saiinfo.computerobjectivetest.HindiActivity">
+			<meta-data android:name="android.support.PARENT_ACTIVITY" android:value=".HindiActivity" />
+		</activity>
+		<activity android:name="com.apps.saiinfo.computerobjectivetest.AnswersinhActivity" android:screenOrientation="portrait" android:parentActivityName="com.apps.saiinfo.computerobjectivetest.HindiActivity">
+			<meta-data android:name="android.support.PARENT_ACTIVITY" android:value=".HindiActivity" />
+		</activity>
+		<activity android:name="com.apps.saiinfo.computerobjectivetest.DesigninhiActivity" android:screenOrientation="portrait" android:parentActivityName="com.apps.saiinfo.computerobjectivetest.HindiActivity">
+			<meta-data android:name="android.support.PARENT_ACTIVITY" android:value=".HindiActivity" />
+		</activity>
+		<activity android:name="com.apps.saiinfo.computerobjectivetest.ResultinhiActivity" android:screenOrientation="portrait" android:parentActivityName="com.apps.saiinfo.computerobjectivetest.HindiActivity">
+			<meta-data android:name="android.support.PARENT_ACTIVITY" android:value=".HindiActivity" />
+		</activity>
+		<activity android:name="com.apps.saiinfo.computerobjectivetest.AnswersinhiActivity" android:screenOrientation="portrait" android:parentActivityName="com.apps.saiinfo.computerobjectivetest.HindiActivity">
+			<meta-data android:name="android.support.PARENT_ACTIVITY" android:value=".HindiActivity" />
+		</activity>
+		<activity android:name="com.apps.saiinfo.computerobjectivetest.DesignsengActivity" android:screenOrientation="portrait" android:parentActivityName="com.apps.saiinfo.computerobjectivetest.EnglishActivity">
+			<meta-data android:name="android.support.PARENT_ACTIVITY" android:value=".EnglishActivity" />
+		</activity>
+		<activity android:name="com.apps.saiinfo.computerobjectivetest.ResultsengActivity" android:screenOrientation="portrait" android:parentActivityName="com.apps.saiinfo.computerobjectivetest.EnglishActivity">
+			<meta-data android:name="android.support.PARENT_ACTIVITY" android:value=".EnglishActivity" />
+		</activity>
+		<activity android:name="com.apps.saiinfo.computerobjectivetest.AnswerssengActivity" android:screenOrientation="portrait" android:parentActivityName="com.apps.saiinfo.computerobjectivetest.EnglishActivity">
+			<meta-data android:name="android.support.PARENT_ACTIVITY" android:value=".EnglishActivity" />
+		</activity>
+		<activity android:name="com.apps.saiinfo.computerobjectivetest.DesignsecenglishActivity" android:screenOrientation="portrait" android:parentActivityName="com.apps.saiinfo.computerobjectivetest.EnglishActivity">
+			<meta-data android:name="android.support.PARENT_ACTIVITY" android:value=".EnglishActivity" />
+		</activity>
+		<activity android:name="com.apps.saiinfo.computerobjectivetest.ResultsecenglishActivity" android:screenOrientation="portrait" android:parentActivityName="com.apps.saiinfo.computerobjectivetest.EnglishActivity">
+			<meta-data android:name="android.support.PARENT_ACTIVITY" android:value=".EnglishActivity" />
+		</activity>
+		<activity android:name="com.apps.saiinfo.computerobjectivetest.AnswerssecenglishActivity" android:screenOrientation="portrait" android:parentActivityName="com.apps.saiinfo.computerobjectivetest.EnglishActivity">
+			<meta-data android:name="android.support.PARENT_ACTIVITY" android:value=".EnglishActivity" />
+		</activity>
+		<activity android:name="com.apps.saiinfo.computerobjectivetest.DesignengsecActivity" android:screenOrientation="portrait" android:parentActivityName="com.apps.saiinfo.computerobjectivetest.EnglishActivity">
+			<meta-data android:name="android.support.PARENT_ACTIVITY" android:value=".EnglishActivity" />
+		</activity>
+		<activity android:name="com.apps.saiinfo.computerobjectivetest.ResultengsecActivity" android:screenOrientation="portrait" android:parentActivityName="com.apps.saiinfo.computerobjectivetest.EnglishActivity">
+			<meta-data android:name="android.support.PARENT_ACTIVITY" android:value=".EnglishActivity" />
+		</activity>
+		<activity android:name="com.apps.saiinfo.computerobjectivetest.AnswersengsecActivity" android:screenOrientation="portrait" android:parentActivityName="com.apps.saiinfo.computerobjectivetest.EnglishActivity">
+			<meta-data android:name="android.support.PARENT_ACTIVITY" android:value=".EnglishActivity" />
+		</activity>
+		<activity android:name="com.apps.saiinfo.computerobjectivetest.DesignsmActivity" android:screenOrientation="portrait" android:parentActivityName="com.apps.saiinfo.computerobjectivetest.MarathiActivity">
+			<meta-data android:name="android.support.PARENT_ACTIVITY" android:value=".MarathiActivity" />
+		</activity>
+		<activity android:name="com.apps.saiinfo.computerobjectivetest.ResultsmActivity" android:screenOrientation="portrait" android:parentActivityName="com.apps.saiinfo.computerobjectivetest.MarathiActivity">
+			<meta-data android:name="android.support.PARENT_ACTIVITY" android:value=".MarathiActivity" />
+		</activity>
+		<activity android:name="com.apps.saiinfo.computerobjectivetest.AnswerssmActivity" android:screenOrientation="portrait" android:parentActivityName="com.apps.saiinfo.computerobjectivetest.MarathiActivity">
+			<meta-data android:name="android.support.PARENT_ACTIVITY" android:value=".MarathiActivity" />
+		</activity>
+		<activity android:name="com.apps.saiinfo.computerobjectivetest.DesignsecmarActivity" android:screenOrientation="portrait" android:parentActivityName="com.apps.saiinfo.computerobjectivetest.MarathiActivity">
+			<meta-data android:name="android.support.PARENT_ACTIVITY" android:value=".MarathiActivity" />
+		</activity>
+		<activity android:name="com.apps.saiinfo.computerobjectivetest.ResultsecmarActivity" android:screenOrientation="portrait" android:parentActivityName="com.apps.saiinfo.computerobjectivetest.MarathiActivity">
+			<meta-data android:name="android.support.PARENT_ACTIVITY" android:value=".MarathiActivity" />
+		</activity>
+		<activity android:name="com.apps.saiinfo.computerobjectivetest.AnswerssecmarActivity" android:screenOrientation="portrait" android:parentActivityName="com.apps.saiinfo.computerobjectivetest.MarathiActivity">
+			<meta-data android:name="android.support.PARENT_ACTIVITY" android:value=".MarathiActivity" />
+		</activity>
+		<activity android:name="com.apps.saiinfo.computerobjectivetest.DesignsecmarathiActivity" android:screenOrientation="portrait" android:parentActivityName="com.apps.saiinfo.computerobjectivetest.MarathiActivity">
+			<meta-data android:name="android.support.PARENT_ACTIVITY" android:value=".MarathiActivity" />
+		</activity>
+		<activity android:name="com.apps.saiinfo.computerobjectivetest.ResultsecmarathiActivity" android:screenOrientation="portrait" android:parentActivityName="com.apps.saiinfo.computerobjectivetest.MarathiActivity">
+			<meta-data android:name="android.support.PARENT_ACTIVITY" android:value=".MarathiActivity" />
+		</activity>
+		<activity android:name="com.apps.saiinfo.computerobjectivetest.AnswerssecmarathiActivity" android:screenOrientation="portrait" android:parentActivityName="com.apps.saiinfo.computerobjectivetest.MarathiActivity">
+			<meta-data android:name="android.support.PARENT_ACTIVITY" android:value=".MarathiActivity" />
+		</activity>
+		<activity android:label="Secondary Storage" android:name="com.apps.saiinfo.computerobjectivetest.testsecActivity" android:screenOrientation="portrait" />
+		<activity android:label="सेकंडरी स्टोरेज" android:name="com.apps.saiinfo.computerobjectivetest.testsecmarActivity" android:screenOrientation="portrait" />
+		<activity android:label="Hardware Software" android:name="com.apps.saiinfo.computerobjectivetest.testhardActivity" android:screenOrientation="portrait" />
+		<activity android:name="com.apps.saiinfo.computerobjectivetest.DesignehardActivity" android:screenOrientation="portrait" android:parentActivityName="com.apps.saiinfo.computerobjectivetest.EnglishActivity">
+			<meta-data android:name="android.support.PARENT_ACTIVITY" android:value=".EnglishActivity" />
+		</activity>
+		<activity android:name="com.apps.saiinfo.computerobjectivetest.ResultehardActivity" android:screenOrientation="portrait" android:parentActivityName="com.apps.saiinfo.computerobjectivetest.EnglishActivity">
+			<meta-data android:name="android.support.PARENT_ACTIVITY" android:value=".EnglishActivity" />
+		</activity>
+		<activity android:name="com.apps.saiinfo.computerobjectivetest.AnswersehardActivity" android:screenOrientation="portrait" android:parentActivityName="com.apps.saiinfo.computerobjectivetest.EnglishActivity">
+			<meta-data android:name="android.support.PARENT_ACTIVITY" android:value=".EnglishActivity" />
+		</activity>
+		<activity android:name="com.apps.saiinfo.computerobjectivetest.DesignhardActivity" android:screenOrientation="portrait" android:parentActivityName="com.apps.saiinfo.computerobjectivetest.EnglishActivity">
+			<meta-data android:name="android.support.PARENT_ACTIVITY" android:value=".EnglishActivity" />
+		</activity>
+		<activity android:name="com.apps.saiinfo.computerobjectivetest.ResulthardActivity" android:screenOrientation="portrait" android:parentActivityName="com.apps.saiinfo.computerobjectivetest.EnglishActivity">
+			<meta-data android:name="android.support.PARENT_ACTIVITY" android:value=".EnglishActivity" />
+		</activity>
+		<activity android:name="com.apps.saiinfo.computerobjectivetest.AnswershardActivity" android:screenOrientation="portrait" android:parentActivityName="com.apps.saiinfo.computerobjectivetest.EnglishActivity">
+			<meta-data android:name="android.support.PARENT_ACTIVITY" android:value=".EnglishActivity" />
+		</activity>
+		<activity android:name="com.apps.saiinfo.computerobjectivetest.DesignsoftActivity" android:screenOrientation="portrait" android:parentActivityName="com.apps.saiinfo.computerobjectivetest.EnglishActivity">
+			<meta-data android:name="android.support.PARENT_ACTIVITY" android:value=".EnglishActivity" />
+		</activity>
+		<activity android:name="com.apps.saiinfo.computerobjectivetest.ResultsoftActivity" android:screenOrientation="portrait" android:parentActivityName="com.apps.saiinfo.computerobjectivetest.EnglishActivity">
+			<meta-data android:name="android.support.PARENT_ACTIVITY" android:value=".EnglishActivity" />
+		</activity>
+		<activity android:name="com.apps.saiinfo.computerobjectivetest.AnswerssoftActivity" android:screenOrientation="portrait" android:parentActivityName="com.apps.saiinfo.computerobjectivetest.EnglishActivity">
+			<meta-data android:name="android.support.PARENT_ACTIVITY" android:value=".EnglishActivity" />
+		</activity>
+		<activity android:name="com.apps.saiinfo.computerobjectivetest.DesignsysActivity" android:screenOrientation="portrait" android:parentActivityName="com.apps.saiinfo.computerobjectivetest.EnglishActivity">
+			<meta-data android:name="android.support.PARENT_ACTIVITY" android:value=".EnglishActivity" />
+		</activity>
+		<activity android:name="com.apps.saiinfo.computerobjectivetest.ResultsysActivity" android:screenOrientation="portrait" android:parentActivityName="com.apps.saiinfo.computerobjectivetest.EnglishActivity">
+			<meta-data android:name="android.support.PARENT_ACTIVITY" android:value=".EnglishActivity" />
+		</activity>
+		<activity android:name="com.apps.saiinfo.computerobjectivetest.AnswerssysActivity" android:screenOrientation="portrait" android:parentActivityName="com.apps.saiinfo.computerobjectivetest.EnglishActivity">
+			<meta-data android:name="android.support.PARENT_ACTIVITY" android:value=".EnglishActivity" />
+		</activity>
+		<activity android:label="System Unit" android:name="com.apps.saiinfo.computerobjectivetest.systemActivity" android:screenOrientation="portrait" />
+		<activity android:name="com.apps.saiinfo.computerobjectivetest.DesignunitActivity" android:screenOrientation="portrait" android:parentActivityName="com.apps.saiinfo.computerobjectivetest.EnglishActivity">
+			<meta-data android:name="android.support.PARENT_ACTIVITY" android:value=".EnglishActivity" />
+		</activity>
+		<activity android:name="com.apps.saiinfo.computerobjectivetest.ResultunitActivity" android:screenOrientation="portrait" android:parentActivityName="com.apps.saiinfo.computerobjectivetest.EnglishActivity">
+			<meta-data android:name="android.support.PARENT_ACTIVITY" android:value=".EnglishActivity" />
+		</activity>
+		<activity android:name="com.apps.saiinfo.computerobjectivetest.AnswersunitActivity" android:screenOrientation="portrait" android:parentActivityName="com.apps.saiinfo.computerobjectivetest.EnglishActivity">
+			<meta-data android:name="android.support.PARENT_ACTIVITY" android:value=".EnglishActivity" />
+		</activity>
+		<activity android:name="com.apps.saiinfo.computerobjectivetest.DesignsystemActivity" android:screenOrientation="portrait" android:parentActivityName="com.apps.saiinfo.computerobjectivetest.EnglishActivity">
+			<meta-data android:name="android.support.PARENT_ACTIVITY" android:value=".EnglishActivity" />
+		</activity>
+		<activity android:name="com.apps.saiinfo.computerobjectivetest.ResultsystemActivity" android:screenOrientation="portrait" android:parentActivityName="com.apps.saiinfo.computerobjectivetest.EnglishActivity">
+			<meta-data android:name="android.support.PARENT_ACTIVITY" android:value=".EnglishActivity" />
+		</activity>
+		<activity android:name="com.apps.saiinfo.computerobjectivetest.AnswerssystemActivity" android:screenOrientation="portrait" android:parentActivityName="com.apps.saiinfo.computerobjectivetest.EnglishActivity">
+			<meta-data android:name="android.support.PARENT_ACTIVITY" android:value=".EnglishActivity" />
+		</activity>
+		<activity android:label="Internet" android:name="com.apps.saiinfo.computerobjectivetest.InternetActivity" android:screenOrientation="portrait" />
+		<activity android:name="com.apps.saiinfo.computerobjectivetest.DesignintActivity" android:screenOrientation="portrait" android:parentActivityName="com.apps.saiinfo.computerobjectivetest.EnglishActivity">
+			<meta-data android:name="android.support.PARENT_ACTIVITY" android:value=".EnglishActivity" />
+		</activity>
+		<activity android:name="com.apps.saiinfo.computerobjectivetest.ResultintActivity" android:screenOrientation="portrait" android:parentActivityName="com.apps.saiinfo.computerobjectivetest.EnglishActivity">
+			<meta-data android:name="android.support.PARENT_ACTIVITY" android:value=".EnglishActivity" />
+		</activity>
+		<activity android:name="com.apps.saiinfo.computerobjectivetest.AnswersintActivity" android:screenOrientation="portrait" android:parentActivityName="com.apps.saiinfo.computerobjectivetest.EnglishActivity">
+			<meta-data android:name="android.support.PARENT_ACTIVITY" android:value=".EnglishActivity" />
+		</activity>
+		<activity android:name="com.apps.saiinfo.computerobjectivetest.DesignnetActivity" android:screenOrientation="portrait" android:parentActivityName="com.apps.saiinfo.computerobjectivetest.EnglishActivity">
+			<meta-data android:name="android.support.PARENT_ACTIVITY" android:value=".EnglishActivity" />
+		</activity>
+		<activity android:name="com.apps.saiinfo.computerobjectivetest.ResultnetActivity" android:screenOrientation="portrait" android:parentActivityName="com.apps.saiinfo.computerobjectivetest.EnglishActivity">
+			<meta-data android:name="android.support.PARENT_ACTIVITY" android:value=".EnglishActivity" />
+		</activity>
+		<activity android:name="com.apps.saiinfo.computerobjectivetest.AnswersnetActivity" android:screenOrientation="portrait" android:parentActivityName="com.apps.saiinfo.computerobjectivetest.EnglishActivity">
+			<meta-data android:name="android.support.PARENT_ACTIVITY" android:value=".EnglishActivity" />
+		</activity>
+		<activity android:name="com.apps.saiinfo.computerobjectivetest.DesigninterActivity" android:screenOrientation="portrait" android:parentActivityName="com.apps.saiinfo.computerobjectivetest.EnglishActivity">
+			<meta-data android:name="android.support.PARENT_ACTIVITY" android:value=".EnglishActivity" />
+		</activity>
+		<activity android:name="com.apps.saiinfo.computerobjectivetest.ResultinterActivity" android:screenOrientation="portrait" android:parentActivityName="com.apps.saiinfo.computerobjectivetest.EnglishActivity">
+			<meta-data android:name="android.support.PARENT_ACTIVITY" android:value=".EnglishActivity" />
+		</activity>
+		<activity android:name="com.apps.saiinfo.computerobjectivetest.AnswersinterActivity" android:screenOrientation="portrait" android:parentActivityName="com.apps.saiinfo.computerobjectivetest.EnglishActivity">
+			<meta-data android:name="android.support.PARENT_ACTIVITY" android:value=".EnglishActivity" />
+		</activity>
+		<activity android:label="All Topics" android:name="com.apps.saiinfo.computerobjectivetest.AllActivity" android:screenOrientation="portrait" />
+		<activity android:name="com.apps.saiinfo.computerobjectivetest.DesignallActivity" android:screenOrientation="portrait" android:parentActivityName="com.apps.saiinfo.computerobjectivetest.EnglishActivity">
+			<meta-data android:name="android.support.PARENT_ACTIVITY" android:value=".EnglishActivity" />
+		</activity>
+		<activity android:name="com.apps.saiinfo.computerobjectivetest.ResultallActivity" android:screenOrientation="portrait" android:parentActivityName="com.apps.saiinfo.computerobjectivetest.EnglishActivity">
+			<meta-data android:name="android.support.PARENT_ACTIVITY" android:value=".EnglishActivity" />
+		</activity>
+		<activity android:name="com.apps.saiinfo.computerobjectivetest.AnswersallActivity" android:screenOrientation="portrait" android:parentActivityName="com.apps.saiinfo.computerobjectivetest.EnglishActivity">
+			<meta-data android:name="android.support.PARENT_ACTIVITY" android:value=".EnglishActivity" />
+		</activity>
+		<activity android:name="com.apps.saiinfo.computerobjectivetest.DesignallengActivity" android:screenOrientation="portrait" android:parentActivityName="com.apps.saiinfo.computerobjectivetest.EnglishActivity">
+			<meta-data android:name="android.support.PARENT_ACTIVITY" android:value=".EnglishActivity" />
+		</activity>
+		<activity android:name="com.apps.saiinfo.computerobjectivetest.ResultallengActivity" android:screenOrientation="portrait" android:parentActivityName="com.apps.saiinfo.computerobjectivetest.EnglishActivity">
+			<meta-data android:name="android.support.PARENT_ACTIVITY" android:value=".EnglishActivity" />
+		</activity>
+		<activity android:name="com.apps.saiinfo.computerobjectivetest.AnswersallengActivity" android:screenOrientation="portrait" android:parentActivityName="com.apps.saiinfo.computerobjectivetest.EnglishActivity">
+			<meta-data android:name="android.support.PARENT_ACTIVITY" android:value=".EnglishActivity" />
+		</activity>
+		<activity android:name="com.apps.saiinfo.computerobjectivetest.DesigneallActivity" android:screenOrientation="portrait" android:parentActivityName="com.apps.saiinfo.computerobjectivetest.EnglishActivity">
+			<meta-data android:name="android.support.PARENT_ACTIVITY" android:value=".EnglishActivity" />
+		</activity>
+		<activity android:name="com.apps.saiinfo.computerobjectivetest.ResulteallActivity" android:screenOrientation="portrait" android:parentActivityName="com.apps.saiinfo.computerobjectivetest.EnglishActivity">
+			<meta-data android:name="android.support.PARENT_ACTIVITY" android:value=".EnglishActivity" />
+		</activity>
+		<activity android:name="com.apps.saiinfo.computerobjectivetest.AnswerseallActivity" android:screenOrientation="portrait" android:parentActivityName="com.apps.saiinfo.computerobjectivetest.EnglishActivity">
+			<meta-data android:name="android.support.PARENT_ACTIVITY" android:value=".EnglishActivity" />
+		</activity>
+		<activity android:label="हार्डवेअर सॉफ्टवेअर" android:name="com.apps.saiinfo.computerobjectivetest.HardMarActivity" android:screenOrientation="portrait" />
+		<activity android:name="com.apps.saiinfo.computerobjectivetest.DesignhardmActivity" android:screenOrientation="portrait" android:parentActivityName="com.apps.saiinfo.computerobjectivetest.MarathiActivity">
+			<meta-data android:name="android.support.PARENT_ACTIVITY" android:value=".MarathiActivity" />
+		</activity>
+		<activity android:name="com.apps.saiinfo.computerobjectivetest.ResulthardmActivity" android:screenOrientation="portrait" android:parentActivityName="com.apps.saiinfo.computerobjectivetest.MarathiActivity">
+			<meta-data android:name="android.support.PARENT_ACTIVITY" android:value=".MarathiActivity" />
+		</activity>
+		<activity android:name="com.apps.saiinfo.computerobjectivetest.AnswershardmActivity" android:screenOrientation="portrait" android:parentActivityName="com.apps.saiinfo.computerobjectivetest.MarathiActivity">
+			<meta-data android:name="android.support.PARENT_ACTIVITY" android:value=".MarathiActivity" />
+		</activity>
+		<activity android:name="com.apps.saiinfo.computerobjectivetest.DesignmhardActivity" android:screenOrientation="portrait" android:parentActivityName="com.apps.saiinfo.computerobjectivetest.MarathiActivity">
+			<meta-data android:name="android.support.PARENT_ACTIVITY" android:value=".MarathiActivity" />
+		</activity>
+		<activity android:name="com.apps.saiinfo.computerobjectivetest.ResultmhardActivity" android:screenOrientation="portrait" android:parentActivityName="com.apps.saiinfo.computerobjectivetest.MarathiActivity">
+			<meta-data android:name="android.support.PARENT_ACTIVITY" android:value=".MarathiActivity" />
+		</activity>
+		<activity android:name="com.apps.saiinfo.computerobjectivetest.AnswersmhardActivity" android:screenOrientation="portrait" android:parentActivityName="com.apps.saiinfo.computerobjectivetest.MarathiActivity">
+			<meta-data android:name="android.support.PARENT_ACTIVITY" android:value=".MarathiActivity" />
+		</activity>
+		<activity android:name="com.apps.saiinfo.computerobjectivetest.DesignsoftmActivity" android:screenOrientation="portrait" android:parentActivityName="com.apps.saiinfo.computerobjectivetest.MarathiActivity">
+			<meta-data android:name="android.support.PARENT_ACTIVITY" android:value=".MarathiActivity" />
+		</activity>
+		<activity android:name="com.apps.saiinfo.computerobjectivetest.ResultsoftmActivity" android:screenOrientation="portrait" android:parentActivityName="com.apps.saiinfo.computerobjectivetest.MarathiActivity">
+			<meta-data android:name="android.support.PARENT_ACTIVITY" android:value=".MarathiActivity" />
+		</activity>
+		<activity android:name="com.apps.saiinfo.computerobjectivetest.AnswerssoftmActivity" android:screenOrientation="portrait" android:parentActivityName="com.apps.saiinfo.computerobjectivetest.MarathiActivity">
+			<meta-data android:name="android.support.PARENT_ACTIVITY" android:value=".MarathiActivity" />
+		</activity>
+		<activity android:label="सिस्टिम युनिट" android:name="com.apps.saiinfo.computerobjectivetest.SystemMarActivity" android:screenOrientation="portrait" />
+		<activity android:name="com.apps.saiinfo.computerobjectivetest.DesignsysmActivity" android:screenOrientation="portrait" android:parentActivityName="com.apps.saiinfo.computerobjectivetest.MarathiActivity">
+			<meta-data android:name="android.support.PARENT_ACTIVITY" android:value=".MarathiActivity" />
+		</activity>
+		<activity android:name="com.apps.saiinfo.computerobjectivetest.ResultsysmActivity" android:screenOrientation="portrait" android:parentActivityName="com.apps.saiinfo.computerobjectivetest.MarathiActivity">
+			<meta-data android:name="android.support.PARENT_ACTIVITY" android:value=".MarathiActivity" />
+		</activity>
+		<activity android:name="com.apps.saiinfo.computerobjectivetest.AnswerssysmActivity" android:screenOrientation="portrait" android:parentActivityName="com.apps.saiinfo.computerobjectivetest.MarathiActivity">
+			<meta-data android:name="android.support.PARENT_ACTIVITY" android:value=".MarathiActivity" />
+		</activity>
+		<activity android:name="com.apps.saiinfo.computerobjectivetest.DesignmsysActivity" android:screenOrientation="portrait" android:parentActivityName="com.apps.saiinfo.computerobjectivetest.MarathiActivity">
+			<meta-data android:name="android.support.PARENT_ACTIVITY" android:value=".MarathiActivity" />
+		</activity>
+		<activity android:name="com.apps.saiinfo.computerobjectivetest.ResultmsysActivity" android:screenOrientation="portrait" android:parentActivityName="com.apps.saiinfo.computerobjectivetest.MarathiActivity">
+			<meta-data android:name="android.support.PARENT_ACTIVITY" android:value=".MarathiActivity" />
+		</activity>
+		<activity android:name="com.apps.saiinfo.computerobjectivetest.AnswersmsysActivity" android:screenOrientation="portrait" android:parentActivityName="com.apps.saiinfo.computerobjectivetest.MarathiActivity">
+			<meta-data android:name="android.support.PARENT_ACTIVITY" android:value=".MarathiActivity" />
+		</activity>
+		<activity android:name="com.apps.saiinfo.computerobjectivetest.DesignmunitActivity" android:screenOrientation="portrait" android:parentActivityName="com.apps.saiinfo.computerobjectivetest.MarathiActivity">
+			<meta-data android:name="android.support.PARENT_ACTIVITY" android:value=".MarathiActivity" />
+		</activity>
+		<activity android:name="com.apps.saiinfo.computerobjectivetest.ResultmunitActivity" android:screenOrientation="portrait" android:parentActivityName="com.apps.saiinfo.computerobjectivetest.MarathiActivity">
+			<meta-data android:name="android.support.PARENT_ACTIVITY" android:value=".MarathiActivity" />
+		</activity>
+		<activity android:name="com.apps.saiinfo.computerobjectivetest.AnswersmunitActivity" android:screenOrientation="portrait" android:parentActivityName="com.apps.saiinfo.computerobjectivetest.MarathiActivity">
+			<meta-data android:name="android.support.PARENT_ACTIVITY" android:value=".MarathiActivity" />
+		</activity>
+		<activity android:label="इंटरनेट" android:name="com.apps.saiinfo.computerobjectivetest.InternetMarActivity" android:screenOrientation="portrait" />
+		<activity android:name="com.apps.saiinfo.computerobjectivetest.DesignintmActivity" android:screenOrientation="portrait" android:parentActivityName="com.apps.saiinfo.computerobjectivetest.MarathiActivity">
+			<meta-data android:name="android.support.PARENT_ACTIVITY" android:value=".MarathiActivity" />
+		</activity>
+		<activity android:name="com.apps.saiinfo.computerobjectivetest.ResultintmActivity" android:screenOrientation="portrait" android:parentActivityName="com.apps.saiinfo.computerobjectivetest.MarathiActivity">
+			<meta-data android:name="android.support.PARENT_ACTIVITY" android:value=".MarathiActivity" />
+		</activity>
+		<activity android:name="com.apps.saiinfo.computerobjectivetest.AnswersintmActivity" android:screenOrientation="portrait" android:parentActivityName="com.apps.saiinfo.computerobjectivetest.MarathiActivity">
+			<meta-data android:name="android.support.PARENT_ACTIVITY" android:value=".MarathiActivity" />
+		</activity>
+		<activity android:name="com.apps.saiinfo.computerobjectivetest.DesignintermActivity" android:screenOrientation="portrait" android:parentActivityName="com.apps.saiinfo.computerobjectivetest.MarathiActivity">
+			<meta-data android:name="android.support.PARENT_ACTIVITY" android:value=".MarathiActivity" />
+		</activity>
+		<activity android:name="com.apps.saiinfo.computerobjectivetest.ResultintermActivity" android:screenOrientation="portrait" android:parentActivityName="com.apps.saiinfo.computerobjectivetest.MarathiActivity">
+			<meta-data android:name="android.support.PARENT_ACTIVITY" android:value=".MarathiActivity" />
+		</activity>
+		<activity android:name="com.apps.saiinfo.computerobjectivetest.AnswersintermActivity" android:screenOrientation="portrait" android:parentActivityName="com.apps.saiinfo.computerobjectivetest.MarathiActivity">
+			<meta-data android:name="android.support.PARENT_ACTIVITY" android:value=".MarathiActivity" />
+		</activity>
+		<activity android:name="com.apps.saiinfo.computerobjectivetest.DesignnetmActivity" android:screenOrientation="portrait" android:parentActivityName="com.apps.saiinfo.computerobjectivetest.MarathiActivity">
+			<meta-data android:name="android.support.PARENT_ACTIVITY" android:value=".MarathiActivity" />
+		</activity>
+		<activity android:name="com.apps.saiinfo.computerobjectivetest.ResultnetmActivity" android:screenOrientation="portrait" android:parentActivityName="com.apps.saiinfo.computerobjectivetest.MarathiActivity">
+			<meta-data android:name="android.support.PARENT_ACTIVITY" android:value=".MarathiActivity" />
+		</activity>
+		<activity android:name="com.apps.saiinfo.computerobjectivetest.AnswersnetmActivity" android:screenOrientation="portrait" android:parentActivityName="com.apps.saiinfo.computerobjectivetest.MarathiActivity">
+			<meta-data android:name="android.support.PARENT_ACTIVITY" android:value=".MarathiActivity" />
+		</activity>
+		<activity android:label="सर्व टॉपिक्स" android:name="com.apps.saiinfo.computerobjectivetest.AllMarActivity" android:screenOrientation="portrait" />
+		<activity android:name="com.apps.saiinfo.computerobjectivetest.DesignallmActivity" android:screenOrientation="portrait" android:parentActivityName="com.apps.saiinfo.computerobjectivetest.MarathiActivity">
+			<meta-data android:name="android.support.PARENT_ACTIVITY" android:value=".MarathiActivity" />
+		</activity>
+		<activity android:name="com.apps.saiinfo.computerobjectivetest.ResultallmActivity" android:screenOrientation="portrait" android:parentActivityName="com.apps.saiinfo.computerobjectivetest.MarathiActivity">
+			<meta-data android:name="android.support.PARENT_ACTIVITY" android:value=".MarathiActivity" />
+		</activity>
+		<activity android:name="com.apps.saiinfo.computerobjectivetest.AnswersallmActivity" android:screenOrientation="portrait" android:parentActivityName="com.apps.saiinfo.computerobjectivetest.MarathiActivity">
+			<meta-data android:name="android.support.PARENT_ACTIVITY" android:value=".MarathiActivity" />
+		</activity>
+		<activity android:name="com.apps.saiinfo.computerobjectivetest.DesignmallActivity" android:screenOrientation="portrait" android:parentActivityName="com.apps.saiinfo.computerobjectivetest.MarathiActivity">
+			<meta-data android:name="android.support.PARENT_ACTIVITY" android:value=".MarathiActivity" />
+		</activity>
+		<activity android:name="com.apps.saiinfo.computerobjectivetest.ResultmallActivity" android:screenOrientation="portrait" android:parentActivityName="com.apps.saiinfo.computerobjectivetest.MarathiActivity">
+			<meta-data android:name="android.support.PARENT_ACTIVITY" android:value=".MarathiActivity" />
+		</activity>
+		<activity android:name="com.apps.saiinfo.computerobjectivetest.AnswersmallActivity" android:screenOrientation="portrait" android:parentActivityName="com.apps.saiinfo.computerobjectivetest.MarathiActivity">
+			<meta-data android:name="android.support.PARENT_ACTIVITY" android:value=".MarathiActivity" />
+		</activity>
+		<activity android:name="com.apps.saiinfo.computerobjectivetest.DesignallmarActivity" android:screenOrientation="portrait" android:parentActivityName="com.apps.saiinfo.computerobjectivetest.MarathiActivity">
+			<meta-data android:name="android.support.PARENT_ACTIVITY" android:value=".MarathiActivity" />
+		</activity>
+		<activity android:name="com.apps.saiinfo.computerobjectivetest.ResultallmarActivity" android:screenOrientation="portrait" android:parentActivityName="com.apps.saiinfo.computerobjectivetest.MarathiActivity">
+			<meta-data android:name="android.support.PARENT_ACTIVITY" android:value=".MarathiActivity" />
+		</activity>
+		<activity android:name="com.apps.saiinfo.computerobjectivetest.AnswersallmarActivity" android:screenOrientation="portrait" android:parentActivityName="com.apps.saiinfo.computerobjectivetest.MarathiActivity">
+			<meta-data android:name="android.support.PARENT_ACTIVITY" android:value=".MarathiActivity" />
+		</activity>
+		<activity android:label="सेकंडरी स्टोरेज" android:name="com.apps.saiinfo.computerobjectivetest.SechiActivity" android:screenOrientation="portrait" />
+		<activity android:name="com.apps.saiinfo.computerobjectivetest.DesignshActivity" android:screenOrientation="portrait" android:parentActivityName="com.apps.saiinfo.computerobjectivetest.HindiActivity">
+			<meta-data android:name="android.support.PARENT_ACTIVITY" android:value=".HindiActivity" />
+		</activity>
+		<activity android:name="com.apps.saiinfo.computerobjectivetest.ResultshActivity" android:screenOrientation="portrait" android:parentActivityName="com.apps.saiinfo.computerobjectivetest.HindiActivity">
+			<meta-data android:name="android.support.PARENT_ACTIVITY" android:value=".HindiActivity" />
+		</activity>
+		<activity android:name="com.apps.saiinfo.computerobjectivetest.AnswersshActivity" android:screenOrientation="portrait" android:parentActivityName="com.apps.saiinfo.computerobjectivetest.HindiActivity">
+			<meta-data android:name="android.support.PARENT_ACTIVITY" android:value=".HindiActivity" />
+		</activity>
+		<activity android:name="com.apps.saiinfo.computerobjectivetest.DesignsechiActivity" android:screenOrientation="portrait" android:parentActivityName="com.apps.saiinfo.computerobjectivetest.HindiActivity">
+			<meta-data android:name="android.support.PARENT_ACTIVITY" android:value=".HindiActivity" />
+		</activity>
+		<activity android:name="com.apps.saiinfo.computerobjectivetest.ResultsechiActivity" android:screenOrientation="portrait" android:parentActivityName="com.apps.saiinfo.computerobjectivetest.HindiActivity">
+			<meta-data android:name="android.support.PARENT_ACTIVITY" android:value=".HindiActivity" />
+		</activity>
+		<activity android:name="com.apps.saiinfo.computerobjectivetest.AnswerssechiActivity" android:screenOrientation="portrait" android:parentActivityName="com.apps.saiinfo.computerobjectivetest.HindiActivity">
+			<meta-data android:name="android.support.PARENT_ACTIVITY" android:value=".HindiActivity" />
+		</activity>
+		<activity android:name="com.apps.saiinfo.computerobjectivetest.DesignsechindiActivity" android:screenOrientation="portrait" android:parentActivityName="com.apps.saiinfo.computerobjectivetest.HindiActivity">
+			<meta-data android:name="android.support.PARENT_ACTIVITY" android:value=".HindiActivity" />
+		</activity>
+		<activity android:name="com.apps.saiinfo.computerobjectivetest.ResultsechindiActivity" android:screenOrientation="portrait" android:parentActivityName="com.apps.saiinfo.computerobjectivetest.HindiActivity">
+			<meta-data android:name="android.support.PARENT_ACTIVITY" android:value=".HindiActivity" />
+		</activity>
+		<activity android:name="com.apps.saiinfo.computerobjectivetest.AnswerssechindiActivity" android:screenOrientation="portrait" android:parentActivityName="com.apps.saiinfo.computerobjectivetest.HindiActivity">
+			<meta-data android:name="android.support.PARENT_ACTIVITY" android:value=".HindiActivity" />
+		</activity>
+		<activity android:label="हार्डवेअर सॉफ्टवेअर" android:name="com.apps.saiinfo.computerobjectivetest.HardHiActivity" android:screenOrientation="portrait" />
+		<activity android:name="com.apps.saiinfo.computerobjectivetest.DesignhardhActivity" android:screenOrientation="portrait" android:parentActivityName="com.apps.saiinfo.computerobjectivetest.HindiActivity">
+			<meta-data android:name="android.support.PARENT_ACTIVITY" android:value=".HindiActivity" />
+		</activity>
+		<activity android:name="com.apps.saiinfo.computerobjectivetest.ResulthardhActivity" android:screenOrientation="portrait" android:parentActivityName="com.apps.saiinfo.computerobjectivetest.HindiActivity">
+			<meta-data android:name="android.support.PARENT_ACTIVITY" android:value=".HindiActivity" />
+		</activity>
+		<activity android:name="com.apps.saiinfo.computerobjectivetest.AnswershardhActivity" android:screenOrientation="portrait" android:parentActivityName="com.apps.saiinfo.computerobjectivetest.HindiActivity">
+			<meta-data android:name="android.support.PARENT_ACTIVITY" android:value=".HindiActivity" />
+		</activity>
+		<activity android:name="com.apps.saiinfo.computerobjectivetest.DesignhhardActivity" android:screenOrientation="portrait" android:parentActivityName="com.apps.saiinfo.computerobjectivetest.HindiActivity">
+			<meta-data android:name="android.support.PARENT_ACTIVITY" android:value=".HindiActivity" />
+		</activity>
+		<activity android:name="com.apps.saiinfo.computerobjectivetest.ResulthhardActivity" android:screenOrientation="portrait" android:parentActivityName="com.apps.saiinfo.computerobjectivetest.HindiActivity">
+			<meta-data android:name="android.support.PARENT_ACTIVITY" android:value=".HindiActivity" />
+		</activity>
+		<activity android:name="com.apps.saiinfo.computerobjectivetest.AnswershhardActivity" android:screenOrientation="portrait" android:parentActivityName="com.apps.saiinfo.computerobjectivetest.HindiActivity">
+			<meta-data android:name="android.support.PARENT_ACTIVITY" android:value=".HindiActivity" />
+		</activity>
+		<activity android:name="com.apps.saiinfo.computerobjectivetest.DesignsofthActivity" android:screenOrientation="portrait" android:parentActivityName="com.apps.saiinfo.computerobjectivetest.HindiActivity">
+			<meta-data android:name="android.support.PARENT_ACTIVITY" android:value=".HindiActivity" />
+		</activity>
+		<activity android:name="com.apps.saiinfo.computerobjectivetest.ResultsofthActivity" android:screenOrientation="portrait" android:parentActivityName="com.apps.saiinfo.computerobjectivetest.HindiActivity">
+			<meta-data android:name="android.support.PARENT_ACTIVITY" android:value=".HindiActivity" />
+		</activity>
+		<activity android:name="com.apps.saiinfo.computerobjectivetest.AnswerssofthActivity" android:screenOrientation="portrait" android:parentActivityName="com.apps.saiinfo.computerobjectivetest.HindiActivity">
+			<meta-data android:name="android.support.PARENT_ACTIVITY" android:value=".HindiActivity" />
+		</activity>
+		<activity android:label="सिस्टिम युनिट" android:name="com.apps.saiinfo.computerobjectivetest.SystemHiActivity" android:screenOrientation="portrait" />
+		<activity android:name="com.apps.saiinfo.computerobjectivetest.DesignsyshActivity" android:screenOrientation="portrait" android:parentActivityName="com.apps.saiinfo.computerobjectivetest.HindiActivity">
+			<meta-data android:name="android.support.PARENT_ACTIVITY" android:value=".HindiActivity" />
+		</activity>
+		<activity android:name="com.apps.saiinfo.computerobjectivetest.ResultsyshActivity" android:screenOrientation="portrait" android:parentActivityName="com.apps.saiinfo.computerobjectivetest.HindiActivity">
+			<meta-data android:name="android.support.PARENT_ACTIVITY" android:value=".HindiActivity" />
+		</activity>
+		<activity android:name="com.apps.saiinfo.computerobjectivetest.AnswerssyshActivity" android:screenOrientation="portrait" android:parentActivityName="com.apps.saiinfo.computerobjectivetest.HindiActivity">
+			<meta-data android:name="android.support.PARENT_ACTIVITY" android:value=".HindiActivity" />
+		</activity>
+		<activity android:name="com.apps.saiinfo.computerobjectivetest.DesignhsysActivity" android:screenOrientation="portrait" android:parentActivityName="com.apps.saiinfo.computerobjectivetest.HindiActivity">
+			<meta-data android:name="android.support.PARENT_ACTIVITY" android:value=".HindiActivity" />
+		</activity>
+		<activity android:name="com.apps.saiinfo.computerobjectivetest.ResulthsysActivity" android:screenOrientation="portrait" android:parentActivityName="com.apps.saiinfo.computerobjectivetest.HindiActivity">
+			<meta-data android:name="android.support.PARENT_ACTIVITY" android:value=".HindiActivity" />
+		</activity>
+		<activity android:name="com.apps.saiinfo.computerobjectivetest.AnswershsysActivity" android:screenOrientation="portrait" android:parentActivityName="com.apps.saiinfo.computerobjectivetest.HindiActivity">
+			<meta-data android:name="android.support.PARENT_ACTIVITY" android:value=".HindiActivity" />
+		</activity>
+		<activity android:name="com.apps.saiinfo.computerobjectivetest.DesignhunitActivity" android:screenOrientation="portrait" android:parentActivityName="com.apps.saiinfo.computerobjectivetest.HindiActivity">
+			<meta-data android:name="android.support.PARENT_ACTIVITY" android:value=".HindiActivity" />
+		</activity>
+		<activity android:name="com.apps.saiinfo.computerobjectivetest.ResulthunitActivity" android:screenOrientation="portrait" android:parentActivityName="com.apps.saiinfo.computerobjectivetest.HindiActivity">
+			<meta-data android:name="android.support.PARENT_ACTIVITY" android:value=".HindiActivity" />
+		</activity>
+		<activity android:name="com.apps.saiinfo.computerobjectivetest.AnswershunitActivity" android:screenOrientation="portrait" android:parentActivityName="com.apps.saiinfo.computerobjectivetest.HindiActivity">
+			<meta-data android:name="android.support.PARENT_ACTIVITY" android:value=".HindiActivity" />
+		</activity>
+		<activity android:label="इंटरनेट" android:name="com.apps.saiinfo.computerobjectivetest.InterHiActivity" android:screenOrientation="portrait" />
+		<activity android:name="com.apps.saiinfo.computerobjectivetest.DesigninthActivity" android:screenOrientation="portrait" android:parentActivityName="com.apps.saiinfo.computerobjectivetest.HindiActivity">
+			<meta-data android:name="android.support.PARENT_ACTIVITY" android:value=".HindiActivity" />
+		</activity>
+		<activity android:name="com.apps.saiinfo.computerobjectivetest.ResultinthActivity" android:screenOrientation="portrait" android:parentActivityName="com.apps.saiinfo.computerobjectivetest.HindiActivity">
+			<meta-data android:name="android.support.PARENT_ACTIVITY" android:value=".HindiActivity" />
+		</activity>
+		<activity android:name="com.apps.saiinfo.computerobjectivetest.AnswersinthActivity" android:screenOrientation="portrait" android:parentActivityName="com.apps.saiinfo.computerobjectivetest.HindiActivity">
+			<meta-data android:name="android.support.PARENT_ACTIVITY" android:value=".HindiActivity" />
+		</activity>
+		<activity android:name="com.apps.saiinfo.computerobjectivetest.DesigninterhActivity" android:screenOrientation="portrait" android:parentActivityName="com.apps.saiinfo.computerobjectivetest.HindiActivity">
+			<meta-data android:name="android.support.PARENT_ACTIVITY" android:value=".HindiActivity" />
+		</activity>
+		<activity android:name="com.apps.saiinfo.computerobjectivetest.ResultinterhActivity" android:screenOrientation="portrait" android:parentActivityName="com.apps.saiinfo.computerobjectivetest.HindiActivity">
+			<meta-data android:name="android.support.PARENT_ACTIVITY" android:value=".HindiActivity" />
+		</activity>
+		<activity android:name="com.apps.saiinfo.computerobjectivetest.AnswersinterhActivity" android:screenOrientation="portrait" android:parentActivityName="com.apps.saiinfo.computerobjectivetest.HindiActivity">
+			<meta-data android:name="android.support.PARENT_ACTIVITY" android:value=".HindiActivity" />
+		</activity>
+		<activity android:name="com.apps.saiinfo.computerobjectivetest.DesignnethindiActivity" android:screenOrientation="portrait" android:parentActivityName="com.apps.saiinfo.computerobjectivetest.HindiActivity">
+			<meta-data android:name="android.support.PARENT_ACTIVITY" android:value=".HindiActivity" />
+		</activity>
+		<activity android:name="com.apps.saiinfo.computerobjectivetest.ResultnethindiActivity" android:screenOrientation="portrait" android:parentActivityName="com.apps.saiinfo.computerobjectivetest.HindiActivity">
+			<meta-data android:name="android.support.PARENT_ACTIVITY" android:value=".HindiActivity" />
+		</activity>
+		<activity android:name="com.apps.saiinfo.computerobjectivetest.AnswersnethindiActivity" android:screenOrientation="portrait" android:parentActivityName="com.apps.saiinfo.computerobjectivetest.HindiActivity">
+			<meta-data android:name="android.support.PARENT_ACTIVITY" android:value=".HindiActivity" />
+		</activity>
+		<activity android:label="सभी टॉपिक्स" android:name="com.apps.saiinfo.computerobjectivetest.AllHiActivity" android:screenOrientation="portrait" />
+		<activity android:name="com.apps.saiinfo.computerobjectivetest.DesignallhActivity" android:screenOrientation="portrait" android:parentActivityName="com.apps.saiinfo.computerobjectivetest.HindiActivity">
+			<meta-data android:name="android.support.PARENT_ACTIVITY" android:value=".HindiActivity" />
+		</activity>
+		<activity android:name="com.apps.saiinfo.computerobjectivetest.ResultallhActivity" android:screenOrientation="portrait" android:parentActivityName="com.apps.saiinfo.computerobjectivetest.HindiActivity">
+			<meta-data android:name="android.support.PARENT_ACTIVITY" android:value=".HindiActivity" />
+		</activity>
+		<activity android:name="com.apps.saiinfo.computerobjectivetest.AnswersallhActivity" android:screenOrientation="portrait" android:parentActivityName="com.apps.saiinfo.computerobjectivetest.HindiActivity">
+			<meta-data android:name="android.support.PARENT_ACTIVITY" android:value=".HindiActivity" />
+		</activity>
+		<activity android:name="com.apps.saiinfo.computerobjectivetest.DesignhallActivity" android:screenOrientation="portrait" android:parentActivityName="com.apps.saiinfo.computerobjectivetest.HindiActivity">
+			<meta-data android:name="android.support.PARENT_ACTIVITY" android:value=".HindiActivity" />
+		</activity>
+		<activity android:name="com.apps.saiinfo.computerobjectivetest.ResulthallActivity" android:screenOrientation="portrait" android:parentActivityName="com.apps.saiinfo.computerobjectivetest.HindiActivity">
+			<meta-data android:name="android.support.PARENT_ACTIVITY" android:value=".HindiActivity" />
+		</activity>
+		<activity android:name="com.apps.saiinfo.computerobjectivetest.AnswershallActivity" android:screenOrientation="portrait" android:parentActivityName="com.apps.saiinfo.computerobjectivetest.HindiActivity">
+			<meta-data android:name="android.support.PARENT_ACTIVITY" android:value=".HindiActivity" />
+		</activity>
+		<activity android:name="com.apps.saiinfo.computerobjectivetest.DesignallhiActivity" android:screenOrientation="portrait" android:parentActivityName="com.apps.saiinfo.computerobjectivetest.HindiActivity">
+			<meta-data android:name="android.support.PARENT_ACTIVITY" android:value=".HindiActivity" />
+		</activity>
+		<activity android:name="com.apps.saiinfo.computerobjectivetest.ResultallhiActivity" android:screenOrientation="portrait" android:parentActivityName="com.apps.saiinfo.computerobjectivetest.HindiActivity">
+			<meta-data android:name="android.support.PARENT_ACTIVITY" android:value=".HindiActivity" />
+		</activity>
+		<activity android:name="com.apps.saiinfo.computerobjectivetest.AnswersallhiActivity" android:screenOrientation="portrait" android:parentActivityName="com.apps.saiinfo.computerobjectivetest.HindiActivity">
+			<meta-data android:name="android.support.PARENT_ACTIVITY" android:value=".HindiActivity" />
+		</activity>
+		<activity android:theme="resourceId:0x7f09011e" android:label="Reference Image No.1" android:name="com.apps.saiinfo.computerobjectivetest.PenActivity" />
+		<activity android:theme="resourceId:0x7f09011e" android:label="Reference Image No.2" android:name="com.apps.saiinfo.computerobjectivetest.PrinterActivity" />
+		<activity android:theme="resourceId:0x7f09011e" android:label="Reference Image" android:name="com.apps.saiinfo.computerobjectivetest.RamActivity" />
+		<activity android:theme="resourceId:0x7f09011e" android:label="Reference Image No.4" android:name="com.apps.saiinfo.computerobjectivetest.HardActivity" />
+		<activity android:theme="resourceId:0x7f09011e" android:label="Reference Image No.1" android:name="com.apps.saiinfo.computerobjectivetest.BoardActivity" />
+		<activity android:theme="resourceId:0x7f09011e" android:label="Reference Image No.2" android:name="com.apps.saiinfo.computerobjectivetest.PCActivity" />
+		<activity android:theme="resourceId:0x7f09011e" android:label="Reference Image No.3" android:name="com.apps.saiinfo.computerobjectivetest.USBActivity" />
+		<activity android:theme="resourceId:0x7f09011e" android:label="Reference Image No.1" android:name="com.apps.saiinfo.computerobjectivetest.NetActivity" />
+		<activity android:theme="resourceId:0x7f09011e" android:label="Reference Image No.2" android:name="com.apps.saiinfo.computerobjectivetest.orgActivity" />
+		<activity android:theme="resourceId:0x7f09011e" android:label="Reference Image No.3" android:name="com.apps.saiinfo.computerobjectivetest.domainActivity" />
+		<activity android:theme="resourceId:0x7f09011e" android:label="Computer Objective Test" android:name="com.apps.saiinfo.computerobjectivetest.AboutActivity" />
+		<activity android:theme="resourceId:0x7f09011e" android:label="कंप्युटर वैकल्पिक टेस्ट" android:name="com.apps.saiinfo.computerobjectivetest.AboutmActivity" />
+		<activity android:theme="resourceId:0x7f09011e" android:label="कंप्युटर वैकल्पिक टेस्ट" android:name="com.apps.saiinfo.computerobjectivetest.AbouthActivity" />
+		<activity android:theme="@android:style/Theme.Translucent.NoTitleBar" android:name="com.google.android.gms.common.api.GoogleApiActivity" android:exported="false" />
+		<meta-data android:name="com.google.android.gms.version" android:value="11020000" />
+		<meta-data android:name="com.android.vending.derived.apk.id" android:value="1" />
+	</application>
+</manifest>

@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android" xmlns:app="http://schemas.android.com/apk/res-auto" android:id="@+id/activity_mscan_use" android:paddingLeft="@dimen/activity_horizontal_margin" android:paddingTop="@dimen/activity_vertical_margin" android:paddingRight="@dimen/activity_horizontal_margin" android:paddingBottom="0dp" android:layout_width="match_parent" android:layout_height="match_parent">
+    <ScrollView android:layout_width="match_parent" android:layout_height="match_parent" android:layout_marginBottom="50dp">
+        <LinearLayout android:orientation="vertical" android:layout_width="match_parent" android:layout_height="match_parent">
+            <TextView android:textSize="18sp" android:textStyle="bold" android:textColor="#023cd0" android:layout_width="match_parent" android:layout_height="wrap_content" android:text="स्कॅनर चा उपयोग\10" android:textAlignment="center"/>
+            <ImageView android:layout_gravity="center" android:layout_width="match_parent" android:layout_height="150dp" android:src="@drawable/scan"/>
+            <TextView android:textSize="18sp" android:textColor="#000000" android:id="@+id/textView3" android:layout_width="match_parent" android:layout_height="match_parent" android:text="      स्कॅनर हे इनपुट उपकरण विविध प्रकारची डॉक्युमेंट्स, फोटोग्राफ्स इ. कंप्युटरमध्ये साठविण्यासाठी वापरले जाते. स्कॅनरच्या साह्याने आपण आपली कागदपत्रे, फोटोग्राफ्स कंप्युटरमध्ये साठवू शकतो. व नंतर आपल्या आवश्यकतेनुसार ती नंतर वापरू शकतो.\10"/>
+            <ImageView android:layout_gravity="center" android:layout_width="match_parent" android:layout_height="150dp" android:src="@drawable/scanners"/>
+        </LinearLayout>
+    </ScrollView>
+    <com.google.android.gms.ads.AdView android:id="@+id/adView" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_alignParentBottom="true" android:layout_centerHorizontal="true" app:adSize="BANNER" app:adUnitId="ca-app-pub-2393065895339578/1243970239"/>
+</RelativeLayout>

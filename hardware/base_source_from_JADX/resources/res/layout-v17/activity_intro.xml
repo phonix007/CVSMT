@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android" xmlns:app="http://schemas.android.com/apk/res-auto" android:id="@+id/activity_intro" android:paddingLeft="@dimen/activity_horizontal_margin" android:paddingTop="@dimen/activity_vertical_margin" android:paddingRight="@dimen/activity_horizontal_margin" android:paddingBottom="0dp" android:layout_width="match_parent" android:layout_height="match_parent">
+    <ScrollView android:layout_width="match_parent" android:layout_height="match_parent" android:layout_marginBottom="50dp">
+        <LinearLayout android:orientation="vertical" android:layout_width="match_parent" android:layout_height="match_parent">
+            <TextView android:textSize="18sp" android:textStyle="bold" android:textColor="#023cd0" android:layout_width="match_parent" android:layout_height="wrap_content" android:text="Computer Hardware\10" android:textAlignment="center"/>
+            <ImageView android:layout_gravity="center" android:layout_width="match_parent" android:layout_height="200dp" android:src="@drawable/hards"/>
+            <TextView android:textSize="18sp" android:textColor="#000000" android:layout_width="match_parent" android:layout_height="wrap_content" android:text="      When using the computer, we have use various types of devices. How do these devices work when using these devices? What is their use? You need to know this. Also, a device sometimes does not work when using the computer. How can be they repaired? If you know this, you can repair it and reuse it again.\10"/>
+            <TextView android:textSize="18sp" android:textColor="#000000" android:layout_width="match_parent" android:layout_height="wrap_content" android:text="      With the help of this app, you can learn what is the use of various computer devices. And also you can learn how you can use this device.\10"/>
+        </LinearLayout>
+    </ScrollView>
+    <com.google.android.gms.ads.AdView android:id="@+id/adView" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_alignParentBottom="true" android:layout_centerHorizontal="true" app:adSize="BANNER" app:adUnitId="ca-app-pub-2393065895339578/1243970239"/>
+</RelativeLayout>

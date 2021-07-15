@@ -1,0 +1,31 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android" android:id="false" android:paddingLeft="16dp" android:paddingTop="16dp" android:paddingRight="16dp" android:paddingBottom="0dp" android:layout_width="-1" android:layout_height="-1">
+	<ScrollView android:layout_width="-1" android:layout_height="-1" android:layout_marginBottom="50dp">
+		<LinearLayout android:orientation="1" android:layout_width="-1" android:layout_height="-1">
+			<TextView android:textSize="18sp" android:textStyle="0x1" android:textColor="23cd0" android:layout_width="-1" android:layout_height="-2" android:text="की-बोर्ड" android:textAlignment="4" />
+			<ImageView android:layout_gravity="0x11" android:layout_width="250dp" android:layout_height="150dp" android:src="res/drawable/keyboard.png" />
+			<TextView android:textSize="18sp" android:textColor="000" android:id="false" android:layout_width="-1" android:layout_height="-1" android:text="      की-बोर्ड एक महत्वपूर्ण इनपुट उपकरण है। कंप्यूटर में सूचना टाइप करने के लिए की-बोर्ड का उपयोग किया जाता है।
+" />
+			<TextView android:textSize="18sp" android:textStyle="0x1" android:textColor="23cd0" android:layout_width="-1" android:layout_height="-2" android:text="की-बोर्ड कुंजी (Keyboard Buttons):-
+" />
+			<TextView android:textSize="18sp" android:textColor="000" android:layout_width="-1" android:layout_height="-1" android:text="      1. एन्टर बटन(Enter Key):- एन्टर कुंजी का उपयोग टाइप करते समय नीचे की पंक्ति में जाने के लिये होता हैं।
+" />
+			<TextView android:textSize="18sp" android:textColor="000" android:layout_width="-1" android:layout_height="-1" android:text="      2. कॅप्स लॉक (Caps Lock):-  कॅप्स लॉक कुंजी का उपयोग कॅपिटल और स्मॉल लिपी में अक्षर टाइप करने के लिए होता हैं।
+" />
+			<TextView android:textSize="18sp" android:textColor="000" android:layout_width="-1" android:layout_height="-1" android:text="      3. नम लॉक (Num Lock):- नम लॉक कुंजी का उपयोग टाइप करते समय अंक का उपयोग करने के लिए होता हैं।
+" />
+			<TextView android:textSize="18sp" android:textColor="000" android:layout_width="-1" android:layout_height="-1" android:text="      4. स्पेस बटन (Space Button):- स्पेस कुंजी का उपयोग दो अक्षरों के बीच में जगह छोड़ने के लिए होता हैं।
+" />
+			<TextView android:textSize="18sp" android:textColor="000" android:layout_width="-1" android:layout_height="-1" android:text="      5. बॅक स्पेस (Back Space):- बॅक स्पेस का उपयोग टाइप किये हुए अक्षर मिटाने के लिए होता हैं।
+" />
+			<TextView android:textSize="18sp" android:textColor="000" android:layout_width="-1" android:layout_height="-1" android:text="      6. शिफ्ट बटन (Shift Button):- शिफ्ट कुंजी का उपयोग कीबोर्ड कुंजीयों में कुंजी के उपर की तरफ दिया हुआ अक्षर टाइप करने के लिए होता हैं।
+" />
+			<TextView android:textSize="18sp" android:textColor="000" android:layout_width="-1" android:layout_height="-1" android:text="      7. नेव्हिगेशन बटन-(Navigation Key)- नेव्हिगेशन कुंजी का उपयोग टाइप करते समय कर्सर स्थिति बदलने के लिए होता हैं।
+" />
+			<TextView android:textSize="18sp" android:textColor="000" android:layout_width="-1" android:layout_height="-1" android:text="      8. डिलीट बटन (Delete Button):- डिलीट कुंजी का उपयोग टाइप करते समय दाईं ओर के अक्षरों को मिटाने के लिए, या किसी फाईल, फोल्डर इत्यादि को डिलीट करने के लिएं होता हैं।
+" />
+			<ImageView android:layout_gravity="0x11" android:layout_width="-1" android:layout_height="220dp" android:src="res/drawable/buttonkey.png" />
+		</LinearLayout>
+	</ScrollView>
+	<com.google.android.gms.ads.AdView xmlns:ads="http://schemas.android.com/apk/res-auto" android:id="false" android:layout_width="-2" android:layout_height="-2" android:layout_alignParentBottom="true" android:layout_centerHorizontal="true" ads:adSize="BANNER" ads:adUnitId="ca-app-pub-2393065895339578/1243970239" />
+</RelativeLayout>

@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android" android:id="false" android:paddingLeft="16dp" android:paddingTop="16dp" android:paddingRight="16dp" android:paddingBottom="0dp" android:layout_width="-1" android:layout_height="-1">
+	<ScrollView android:layout_width="-1" android:layout_height="-1" android:layout_marginBottom="50dp">
+		<LinearLayout android:orientation="1" android:layout_width="-1" android:layout_height="-1">
+			<TextView android:textSize="18sp" android:textStyle="0x1" android:textColor="23cd0" android:layout_width="-1" android:layout_height="-2" android:text="हार्ड डिस्क
+" />
+			<TextView android:textSize="18sp" android:textColor="000" android:id="false" android:layout_width="-1" android:layout_height="-1" android:text="      कंप्यूटर पर काम करते समय, आपके द्वारा सहेजा गया डेटा हार्ड डिस्क पर सहेजा जाता है। हार्ड डिस्क सेकंडरी स्टोरेज का एक उदाहरण है। इसका अर्थ है कि, हार्ड डिस्क में संग्रहीत जानकारी स्थायी स्वरूप की होती है। हार्ड डिस्क सिस्टम कैबिनेट के अंदर स्थापित होती है।
+" />
+			<ImageView android:layout_gravity="0x11" android:layout_width="-1" android:layout_height="200dp" android:src="res/drawable/disk.png" />
+			<TextView android:textSize="18sp" android:textColor="000" android:layout_width="-1" android:layout_height="-2" android:text="      कंप्यूटर हार्ड डिस्क की क्षमता 500 जीबी या उससे ज्यादा होनी चाहिए। ताकि आप अपने कंप्यूटर पर जादा से जादा डेटा संग्रहीत कर सकें। हार्ड डिस्क को धूल इत्यादि से नुकसान हो सकता है। इसलिये उचित सावधानी बरते।
+" />
+		</LinearLayout>
+	</ScrollView>
+	<com.google.android.gms.ads.AdView xmlns:ads="http://schemas.android.com/apk/res-auto" android:id="false" android:layout_width="-2" android:layout_height="-2" android:layout_alignParentBottom="true" android:layout_centerHorizontal="true" ads:adSize="BANNER" ads:adUnitId="ca-app-pub-2393065895339578/1243970239" />
+</RelativeLayout>

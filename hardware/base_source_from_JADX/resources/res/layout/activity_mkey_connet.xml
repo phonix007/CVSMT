@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android" xmlns:app="http://schemas.android.com/apk/res-auto" android:id="@+id/activity_mkey_connet" android:paddingLeft="@dimen/activity_horizontal_margin" android:paddingTop="@dimen/activity_vertical_margin" android:paddingRight="@dimen/activity_horizontal_margin" android:paddingBottom="0dp" android:layout_width="match_parent" android:layout_height="match_parent">
+    <ScrollView android:layout_width="match_parent" android:layout_height="match_parent" android:layout_marginBottom="50dp">
+        <LinearLayout android:orientation="vertical" android:layout_width="match_parent" android:layout_height="match_parent">
+            <TextView android:textSize="18sp" android:textStyle="bold" android:textColor="#023cd0" android:layout_width="match_parent" android:layout_height="wrap_content" android:text="कंप्युटरला किबोर्ड कनेक्ट करणे\10"/>
+            <ImageView android:layout_gravity="center" android:layout_width="match_parent" android:layout_height="220dp" android:src="@drawable/keyconnect"/>
+            <TextView android:textSize="18sp" android:textColor="#000000" android:id="@+id/textView3" android:layout_width="match_parent" android:layout_height="match_parent" android:text="      किबोर्ड हे PS2 पोर्ट किंवा USB पोर्ट अशा दोन प्रकारे कनेक्ट करता येतात. PS2 किबोर्डला कनेक्ट करतांना काळजी घ्यावी. कारण या किबोर्डमध्ये कनेक्शन पोर्टमध्ये छोटे-छोटे तार असतात. ते PS2 पोर्ट मध्ये योग्य प्रकारे कनेक्ट न केल्यास ही तारे तुटू शकतात. व किबोर्ड निकामी होऊ शकतो.\10"/>
+            <ImageView android:layout_gravity="center" android:layout_width="match_parent" android:layout_height="220dp" android:src="@drawable/usbkeys"/>
+            <TextView android:textSize="18sp" android:textStyle="bold" android:textColor="#000000" android:layout_width="match_parent" android:layout_height="wrap_content" android:text="कंप्युटर वापरतांना किबोर्ड बंद पडल्यास:-\10"/>
+            <TextView android:textSize="18sp" android:textColor="#000000" android:layout_width="match_parent" android:layout_height="match_parent" android:text="      कंप्युटर वापरत असतांना काही वेळा किबोर्ड बंद पडते. अशा वेळेस कंप्युटर रिस्टार्ट करून पाहावे. किंवा कंप्युटर बंद करून किबोर्डची वायर काढून पुन्हा कनेक्ट करून पाहावी. व कंप्युटर पुन्हा सुरु करावे. किबोर्ड पुन्हा सुरु होईल.\10"/>
+        </LinearLayout>
+    </ScrollView>
+    <com.google.android.gms.ads.AdView android:id="@+id/adView" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_alignParentBottom="true" android:layout_centerHorizontal="true" app:adSize="BANNER" app:adUnitId="ca-app-pub-2393065895339578/1243970239"/>
+</RelativeLayout>

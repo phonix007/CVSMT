@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android" xmlns:app="http://schemas.android.com/apk/res-auto" android:id="@+id/activity_back" android:paddingLeft="@dimen/activity_horizontal_margin" android:paddingTop="@dimen/activity_vertical_margin" android:paddingRight="@dimen/activity_horizontal_margin" android:paddingBottom="0dp" android:layout_width="match_parent" android:layout_height="match_parent">
+    <ScrollView android:layout_width="match_parent" android:layout_height="match_parent" android:layout_marginBottom="50dp">
+        <LinearLayout android:orientation="vertical" android:layout_width="match_parent" android:layout_height="match_parent">
+            <TextView android:textSize="18sp" android:textStyle="bold" android:textColor="#023cd0" android:layout_width="match_parent" android:layout_height="wrap_content" android:text="Computer Back Panel\10" android:textAlignment="center"/>
+            <TextView android:textSize="18sp" android:textColor="#000000" android:id="@+id/textView3" android:layout_width="match_parent" android:layout_height="match_parent" android:text="      The information about the various connections in the computer back panel is as follows:-\10"/>
+            <ImageView android:layout_gravity="center" android:layout_width="match_parent" android:layout_height="350dp" android:src="@drawable/backpanel"/>
+            <TextView android:textSize="18sp" android:textColor="#000000" android:layout_width="match_parent" android:layout_height="wrap_content" android:text="      Power Connection :-\10"/>
+            <TextView android:textSize="18sp" android:textColor="#000000" android:layout_width="match_parent" android:layout_height="wrap_content" android:text="      Power connector is used to supply electricity to the computer.\10"/>
+            <TextView android:textSize="18sp" android:textColor="#000000" android:layout_width="match_parent" android:layout_height="wrap_content" android:text="      PS2 Mouse Keyboard Port :- The PS2 port is used to connect the PS2 mouse, keyboard to the computer.\10"/>
+            <TextView android:textSize="18sp" android:textColor="#000000" android:layout_width="match_parent" android:layout_height="wrap_content" android:text="      VGA Port :- The VGA port is used to connect the monitor to the motherboard.\10"/>
+            <TextView android:textSize="18sp" android:textColor="#000000" android:layout_width="match_parent" android:layout_height="wrap_content" android:text="      Parallel Port :- Parallel ports are also called line print terminal port. Parallel printers are connected to this port.\10"/>
+            <TextView android:textSize="18sp" android:textColor="#000000" android:layout_width="match_parent" android:layout_height="wrap_content" android:text="      USB Port :- USB ports are also called Universal Serial Bus. With the help of a USB port, printers, scanners, pen drives, memory cards, mobile phones etc. Equipment is connected to the computer.\10"/>
+            <TextView android:textSize="18sp" android:textColor="#000000" android:layout_width="match_parent" android:layout_height="wrap_content" android:text="      LAN Port :- LAN port is used to connect the computer to the Internet or other network.\10"/>
+            <TextView android:textSize="18sp" android:textColor="#000000" android:layout_width="match_parent" android:layout_height="wrap_content" android:text="      Audio Port :-  Audio port is used to connect Speaker, Mike etc. to the computer.\10"/>
+        </LinearLayout>
+    </ScrollView>
+    <com.google.android.gms.ads.AdView android:id="@+id/adView" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_alignParentBottom="true" android:layout_centerHorizontal="true" app:adSize="BANNER" app:adUnitId="ca-app-pub-2393065895339578/1243970239"/>
+</RelativeLayout>

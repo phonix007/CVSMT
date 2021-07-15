@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android" xmlns:app="http://schemas.android.com/apk/res-auto" android:id="@+id/activity_connect" android:paddingLeft="@dimen/activity_horizontal_margin" android:paddingTop="@dimen/activity_vertical_margin" android:paddingRight="@dimen/activity_horizontal_margin" android:paddingBottom="0dp" android:layout_width="match_parent" android:layout_height="match_parent">
+    <ScrollView android:layout_width="match_parent" android:layout_height="match_parent" android:layout_marginBottom="50dp">
+        <LinearLayout android:orientation="vertical" android:layout_width="match_parent" android:layout_height="match_parent">
+            <TextView android:textSize="18sp" android:textStyle="bold" android:textColor="#023cd0" android:layout_width="match_parent" android:layout_height="wrap_content" android:text="Connect mouse to the computer\10" android:textAlignment="center"/>
+            <ImageView android:layout_gravity="center" android:layout_width="match_parent" android:layout_height="220dp" android:src="@drawable/mwire"/>
+            <TextView android:textSize="18sp" android:textColor="#000000" android:id="@+id/textView3" android:layout_width="match_parent" android:layout_height="match_parent" android:text="      Mouse can be connected to the computer in two ways, such as the PS2 port or the USB port. Use caution when connecting the PS2 mouse. Because there are small pin connectors in the connection wire in this mouse. If they do not connect properly to the PS2 port, then this wire can break. And the mouse can be damage.\10"/>
+            <ImageView android:layout_gravity="center" android:layout_width="match_parent" android:layout_height="220dp" android:src="@drawable/usbmouse"/>
+            <TextView android:textSize="18sp" android:textStyle="bold" android:textColor="#000000" android:layout_width="match_parent" android:layout_height="wrap_content" android:text="If the mouse is not working while using a computer:-\10"/>
+            <TextView android:textSize="18sp" android:textColor="#000000" android:layout_width="match_parent" android:layout_height="match_parent" android:text="      Some times the mouse is not working while using a computer. At that time, try restarting the computer. Or turn off the computer then remove the mouse wire and connect it again. Now start the computer. The mouse will start again."/>
+        </LinearLayout>
+    </ScrollView>
+    <com.google.android.gms.ads.AdView android:id="@+id/adView" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_alignParentBottom="true" android:layout_centerHorizontal="true" app:adSize="BANNER" app:adUnitId="ca-app-pub-2393065895339578/1243970239"/>
+</RelativeLayout>

@@ -1,0 +1,6 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android" android:id="false" android:paddingLeft="16dp" android:paddingTop="16dp" android:paddingRight="16dp" android:paddingBottom="16dp" android:layout_width="-1" android:layout_height="-1">
+	<TextView android:id="false" android:layout_width="250dp" android:layout_height="-2" android:text="नमस्कार मित्रांनो," />
+	<TextView android:id="false" android:layout_width="250dp" android:layout_height="-2" android:text="      या अॅपमध्ये आपण कंप्युटर हार्डवेअर बद्दल माहिती जाणून घेऊ शकता. या अॅप्लिकेशनच्या सहाय्याने आपण विविध कंप्युटर हार्डवेअर भागांबद्दल आपले ज्ञान वाढवू शकता. आणि आपण विविध कंप्युटर हार्डवेअर भागांचा काय उपयोग होतो, हे जाणून घेऊ शकता. ही अॅप निश्चितपणे आपल्याला आपले कंप्युटर ज्ञान वाढविण्यास मदत करेल. आपल्या मित्र आणि नातेवाईकांसोबत ही अॅप शेअर करा. आपल्याला ही अॅप आवडल्यास कृपया या अॅपला 5 स्टार रेटिंग द्या." android:layout_below="false" />
+	<TextView android:layout_width="250dp" android:layout_height="-2" android:text="- Sai Info" android:layout_below="false" />
+</RelativeLayout>

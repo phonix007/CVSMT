@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android" xmlns:app="http://schemas.android.com/apk/res-auto" android:id="@+id/activity_hconnect" android:paddingLeft="@dimen/activity_horizontal_margin" android:paddingTop="@dimen/activity_vertical_margin" android:paddingRight="@dimen/activity_horizontal_margin" android:paddingBottom="0dp" android:layout_width="match_parent" android:layout_height="match_parent">
+    <ScrollView android:layout_width="match_parent" android:layout_height="match_parent" android:layout_marginBottom="50dp">
+        <LinearLayout android:orientation="vertical" android:layout_width="match_parent" android:layout_height="match_parent">
+            <TextView android:textSize="18sp" android:textStyle="bold" android:textColor="#023cd0" android:layout_width="match_parent" android:layout_height="wrap_content" android:text="माउस को कंप्यूटर से कनेक्ट करना\10"/>
+            <ImageView android:layout_gravity="center" android:layout_width="match_parent" android:layout_height="220dp" android:src="@drawable/mwire"/>
+            <TextView android:textSize="18sp" android:textColor="#000000" android:id="@+id/textView3" android:layout_width="match_parent" android:layout_height="match_parent" android:text="      माउस को कंप्युटर से दो तरह जोड़ा जा सकता है, जैसे कि PS2 पोर्ट या यूएसबी (USB) पोर्ट से। PS2 माउस को कनेक्ट करते समय सावधानी बरतें। क्योंकि इस माउस में कनेक्शन वायर में छोटे-छोटे तार होते हैं। अगर वे PS2 पोर्ट में ठीक से कनेक्ट नहीं हुएं, तो यह तार टूट सकते हैं। और माउस खराब हो सकता है।\10"/>
+            <ImageView android:layout_gravity="center" android:layout_width="match_parent" android:layout_height="220dp" android:src="@drawable/usbmouse"/>
+            <TextView android:textSize="18sp" android:textStyle="bold" android:textColor="#000000" android:layout_width="match_parent" android:layout_height="wrap_content" android:text="यदि कंप्यूटर का उपयोग करते समय माउस बंद होता है:-\10"/>
+            <TextView android:textSize="18sp" android:textColor="#000000" android:layout_width="match_parent" android:layout_height="match_parent" android:text="      कंप्यूटर का उपयोग करते समय कुछ समय माउस बंद हो जाता है। उस समय, कंप्यूटर को रिस्टार्ट करके देखें। या कंप्युटर को बंद करके माउस की वायर को निकाल के पुन: जोड के देखें। और कंप्युटर शुरू करके देखें। माउस फिर से शुरू हो जाएगा।\10"/>
+        </LinearLayout>
+    </ScrollView>
+    <com.google.android.gms.ads.AdView android:id="@+id/adView" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_alignParentBottom="true" android:layout_centerHorizontal="true" app:adSize="BANNER" app:adUnitId="ca-app-pub-2393065895339578/1243970239"/>
+</RelativeLayout>

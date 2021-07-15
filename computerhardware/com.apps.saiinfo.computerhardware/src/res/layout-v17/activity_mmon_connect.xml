@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android" android:id="false" android:paddingLeft="16dp" android:paddingTop="16dp" android:paddingRight="16dp" android:paddingBottom="0dp" android:layout_width="-1" android:layout_height="-1">
+	<ScrollView android:layout_width="-1" android:layout_height="-1" android:layout_marginBottom="50dp">
+		<LinearLayout android:orientation="1" android:layout_width="-1" android:layout_height="-1">
+			<TextView android:textSize="18sp" android:textStyle="0x1" android:textColor="23cd0" android:layout_width="-1" android:layout_height="-2" android:text="मॉनिटर कंप्युटरला कनेक्ट करणे
+" android:textAlignment="4" />
+			<TextView android:textSize="18sp" android:textColor="000" android:id="false" android:layout_width="-1" android:layout_height="-1" android:text="      मॉनिटर कंप्युटर शी कनेक्ट करण्यासाठी पॉवर केबल व व्ही.जी.ए. केबल अशा दोन वायर्सची गरज पडते.
+" />
+			<ImageView android:layout_gravity="0x11" android:layout_width="-1" android:layout_height="200dp" android:src="res/drawable/mon.png" />
+			<ImageView android:layout_gravity="0x11" android:layout_width="-1" android:layout_height="150dp" android:src="res/drawable/connect.png" />
+			<TextView android:textSize="18sp" android:textColor="000" android:layout_width="-1" android:layout_height="-2" android:text="      पॉवर केबल ची एक बाजू मॉनिटरच्या मागील बाजूस असलेल्या पॉवर सॉकेटमध्ये कनेक्ट केली जाते. व दुसरी बाजू मेन स्वीच मध्ये कनेक्ट केली जाते. तसेच व्ही.जी.ए. केबल ची एक बाजू मॉनिटरच्या मागील बाजूस असलेल्या व्ही.जी.ए. पोर्टमध्ये कनेक्ट केली जाते. व दुसरी बाजू कंप्युटर सिस्टीम कॅबिनेटच्या मागील बाजूस असलेल्या व्ही.जी.ए. पोर्ट मध्ये कनेक्ट केली जाते.
+" />
+		</LinearLayout>
+	</ScrollView>
+	<com.google.android.gms.ads.AdView xmlns:ads="http://schemas.android.com/apk/res-auto" android:id="false" android:layout_width="-2" android:layout_height="-2" android:layout_alignParentBottom="true" android:layout_centerHorizontal="true" ads:adSize="BANNER" ads:adUnitId="ca-app-pub-2393065895339578/1243970239" />
+</RelativeLayout>

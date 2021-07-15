@@ -1,0 +1,6 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android" xmlns:app="http://schemas.android.com/apk/res-auto" android:id="@+id/activity_habout" android:paddingLeft="@dimen/activity_horizontal_margin" android:paddingTop="@dimen/activity_vertical_margin" android:paddingRight="@dimen/activity_horizontal_margin" android:paddingBottom="@dimen/activity_vertical_margin" android:layout_width="match_parent" android:layout_height="match_parent">
+    <TextView android:id="@+id/one" android:layout_width="250dp" android:layout_height="wrap_content" android:text="नमस्ते दोस्तों,"/>
+    <TextView android:id="@+id/two" android:layout_width="250dp" android:layout_height="wrap_content" android:text="      इस ऐप में आप कंप्यूटर हार्डवेयर के बारे में सिख सकते हैं। इस ऐप की मदद से आप विभिन्न कंप्यूटर हार्डवेयर भागों के बारे में अपना ज्ञान बढ़ा सकते हैं। और आप सीख सकते हैं कि, विभिन्न कंप्यूटर हार्डवेयर भागों का क्या उपयोग होता है। यह ऐप निश्चित रूप से आपको आपके कंप्यूटर ज्ञान को बढ़ाने में मदद करेगा। इस एप्लिकेशन को अपने दोस्तों और रिश्तेदारों के साथ साझा करें। अगर आपको यह ऐप पसंद आये, तो इस ऐप को 5 स्टार रेटिंग करें।" android:layout_below="@+id/one"/>
+    <TextView android:layout_width="250dp" android:layout_height="wrap_content" android:text="- Sai Info" android:layout_below="@+id/two"/>
+</RelativeLayout>

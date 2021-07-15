@@ -1,0 +1,4 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android" android:id="false" android:background="res/drawable/splash.png" android:paddingLeft="16dp" android:paddingTop="16dp" android:paddingRight="16dp" android:paddingBottom="16dp" android:layout_width="-1" android:layout_height="-1">
+	<ProgressBar android:id="false" android:layout_width="-2" android:layout_height="-2" android:layout_marginBottom="43dp" android:layout_alignParentBottom="true" android:layout_centerHorizontal="true" style="?android:attr/progressBarStyle" />
+</RelativeLayout>

@@ -1,0 +1,6 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android" android:id="false" android:paddingLeft="16dp" android:paddingTop="16dp" android:paddingRight="16dp" android:paddingBottom="16dp" android:layout_width="-1" android:layout_height="-1">
+	<TextView android:id="false" android:layout_width="250dp" android:layout_height="-2" android:text="नमस्ते दोस्तों," />
+	<TextView android:id="false" android:layout_width="250dp" android:layout_height="-2" android:text="इस एप्लिकेशन में वैकल्पिक प्रश्नों का अंतर्भाव है। यह एप्लिकेशन आपको कंप्यूटर के बारे में अपने ज्ञान को बढ़ाने में मदद करेगा। इस एप्लिकेशन की मदद से आप विभिन्न प्रतियोगी परीक्षाओं में कंप्यूटर के बारे में पूछे जाने वाले प्रश्नों की तैयारी कर सकते हैं। कृपया अपने दोस्तों के साथ इस एप्लिकेशन को शेअर करें। इस एप्लिकेशन को 5 स्टार रेटिंग दे।" android:layout_below="false" />
+	<TextView android:layout_width="250dp" android:layout_height="-2" android:text="- साई इन्फो" android:layout_below="false" />
+</RelativeLayout>

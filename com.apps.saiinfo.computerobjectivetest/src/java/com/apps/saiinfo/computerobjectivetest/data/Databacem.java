@@ -1,0 +1,109 @@
+/*
+ * Decompiled with CFR 0.0.
+ * 
+ * Could not load the following classes:
+ *  android.content.ContentValues
+ *  android.content.Context
+ *  android.database.Cursor
+ *  android.database.sqlite.SQLiteDatabase
+ *  android.database.sqlite.SQLiteDatabase$CursorFactory
+ *  android.database.sqlite.SQLiteOpenHelper
+ *  java.lang.Object
+ *  java.lang.String
+ *  java.util.ArrayList
+ *  java.util.List
+ */
+package com.apps.saiinfo.computerobjectivetest.data;
+
+import android.content.ContentValues;
+import android.content.Context;
+import android.database.Cursor;
+import android.database.sqlite.SQLiteDatabase;
+import android.database.sqlite.SQLiteOpenHelper;
+import com.apps.saiinfo.computerobjectivetest.source.Questionsm;
+import java.util.ArrayList;
+import java.util.List;
+
+public class Databacem
+extends SQLiteOpenHelper {
+    private static final String DATABASE_NAME = "ObjectiveTest4";
+    private static final int DATABASE_VERSION = 1;
+    private static final String KEY_ANSWER = "answer";
+    private static final String KEY_ID = "id";
+    private static final String KEY_OPTA = "opta";
+    private static final String KEY_OPTB = "optb";
+    private static final String KEY_OPTC = "optc";
+    private static final String KEY_OPTD = "optd";
+    private static final String KEY_QUESION = "question";
+    private static final String TABLE_QUESTION = "question";
+    private SQLiteDatabase myDatabase;
+
+    public Databacem(Context context) {
+        super(context, DATABASE_NAME, null, 1);
+    }
+
+    private void addQuestions() {
+        this.addQuestion(new Questionsm("1. \u092a\u0941\u0922\u0940\u0932\u092a\u0948\u0915\u0940 \u0915\u094b\u0923\u0924\u0947 \u0909\u092a\u0915\u0930\u0923 \u0907\u0928\u092a\u0941\u091f \u0921\u093f\u0935\u094d\u0939\u093e\u0907\u0938 \u0928\u093e\u0939\u0940?", "\u0915\u093f\u092c\u094b\u0930\u094d\u0921", "\u092e\u0949\u0928\u093f\u091f\u0930", "\u092e\u093e\u0909\u0938", "\u0938\u094d\u0915\u0945\u0928\u0930", "\u092e\u0949\u0928\u093f\u091f\u0930"));
+        this.addQuestion(new Questionsm("2. \u092a\u0941\u0922\u0940\u0932\u092a\u0948\u0915\u0940 \u0915\u094b\u0923\u0924\u0947 \u092c\u091f\u0923 \u091f\u0949\u0917\u0932 \u0915\u0940 \u0928\u093e\u0939\u0940?", "\u0915\u0945\u092a\u094d\u0938 \u0932\u0949\u0915", "\u0928\u092e \u0932\u0949\u0915", "\u0915\u0902\u091f\u094d\u0930\u094b\u0932", "\u0938\u094d\u0915\u094d\u0930\u094b\u0932 \u0932\u0949\u0915", "\u0915\u0902\u091f\u094d\u0930\u094b\u0932"));
+        this.addQuestion(new Questionsm("3. \u0915\u093f\u092c\u094b\u0930\u094d\u0921\u0935\u0930\u0940\u0932 \u092c\u093e\u0923 \u0905\u0938\u0932\u0947\u0932\u094d\u092f\u093e \u0915\u0940\u091c\u0928\u093e ______ \u092e\u094d\u0939\u0923\u0924\u093e\u0924.", "\u0928\u094d\u092f\u0942\u092e\u0947\u0930\u093f\u0915 \u0915\u0940\u091c", "\u0928\u0947\u0935\u094d\u0939\u093f\u0917\u0947\u0936\u0928 \u0915\u0940\u091c", "\u092b\u0902\u0928\u094d\u0936\u0928 \u0915\u0940\u091c", "\u091f\u0949\u0917\u0932 \u0915\u0940\u091c", "\u0928\u0947\u0935\u094d\u0939\u093f\u0917\u0947\u0936\u0928 \u0915\u0940\u091c"));
+        this.addQuestion(new Questionsm("4. \u091f\u091a \u0938\u0930\u092b\u0947\u0938 \u0939\u0947 \u090f\u0915 \u092a\u0949\u0907\u091f\u093f\u0902\u0917 \u091f\u093e\u0907\u092a \u0921\u093f\u0935\u094d\u0939\u093e\u0907\u0938 \u0906\u0939\u0947?", "\u092c\u0930\u094b\u092c\u0930", "\u091a\u0942\u0915", "", "", "\u092c\u0930\u094b\u092c\u0930"));
+        this.addQuestion(new Questionsm("5. _____ \u0921\u093f\u0935\u094d\u0939\u093e\u0907\u0938\u0947\u0938 \u0932\u094b\u0915\u093e\u0902\u0928\u093e \u0938\u092e\u091c\u0924\u0947 \u0924\u0947 \u0915\u0902\u092a\u094d\u092f\u0941\u091f\u0930 \u092a\u094d\u0930\u0915\u094d\u0930\u093f\u092f\u093e \u0915\u0930\u0942 \u0936\u0915\u0947\u0932 \u0905\u0936\u093e \u0938\u094d\u0935\u0930\u0941\u092a\u093e\u0924 \u0930\u0941\u092a\u093e\u0902\u0924\u0930 \u0915\u0930\u0924\u093e\u0924.", "\u0907\u0928\u092a\u0941\u091f", "\u0906\u0909\u091f\u092a\u0941\u091f", "\u0939\u093e\u0930\u094d\u0921\u0935\u0947\u0905\u0930", "\u092f\u093e\u092a\u0948\u0915\u0940 \u0928\u093e\u0939\u0940", "\u0907\u0928\u092a\u0941\u091f"));
+        this.addQuestion(new Questionsm("6. ______ \u0939\u0947 \u090f\u0915 \u092a\u094d\u0930\u0915\u093e\u0936 \u0938\u0902\u0935\u0947\u0926\u0928\u0915\u094d\u0937\u092e \u092a\u0947\u0928\u0938\u093e\u0930\u0916\u0947 \u0909\u092a\u0915\u0930\u0923 \u0906\u0939\u0947.", "\u091c\u0949\u092f\u0938\u094d\u091f\u093f\u0915", "\u0938\u094d\u0915\u0945\u0928\u0930", "\u0932\u093e\u0907\u091f\u092a\u0947\u0928", "\u091f\u091a \u0938\u094d\u0915\u094d\u0930\u0940\u0928", "\u0932\u093e\u0907\u091f\u092a\u0947\u0928"));
+        this.addQuestion(new Questionsm("7. F1, F2 \u092f\u093e\u0938\u093e\u0930\u0916\u094d\u092f\u093e \u0915\u0940\u092c\u094b\u0930\u094d\u0921\u0935\u0930\u0940\u0932 \u0915\u093f\u091c\u0928\u093e _____ \u092e\u094d\u0939\u091f\u0932\u0947 \u091c\u093e\u0924\u0947.", "\u091f\u093e\u0907\u092a\u0930\u093e\u092f\u091f\u0930 \u0915\u0940\u091c", "\u0928\u094d\u092f\u0942\u092e\u0947\u0930\u093f\u0915 \u0915\u0940\u091c", "\u0928\u0947\u0935\u094d\u0939\u093f\u0917\u0947\u0936\u0928 \u0915\u0940\u091c", "\u092b\u0902\u0928\u094d\u0936\u0928 \u0915\u0940\u091c", "\u092b\u0902\u0928\u094d\u0936\u0928 \u0915\u0940\u091c"));
+        this.addQuestion(new Questionsm("8. \u090f\u0916\u093e\u0926\u093e \u092e\u093e\u0909\u0938 \u0935 \u091f\u094d\u0930\u0945\u0915\u092c\u0949\u0932 \u092f\u093e\u0902\u091a\u0940 \u0915\u093e\u0930\u094d\u092f \u0935\u0947\u0917\u0935\u0947\u0917\u0933\u0940 \u0906\u0939\u0947\u0924.", "\u092c\u0930\u094b\u092c\u0930", "\u091a\u0942\u0915", "", "", "\u091a\u0942\u0915"));
+        this.addQuestion(new Questionsm("9. \u092a\u094d\u0930\u093f\u0902\u091f\u0930\u091a\u094d\u092f\u093e \u090f\u0916\u093e\u0926\u094d\u092f\u093e \u092a\u094d\u0930\u0924\u093f\u092e\u0947\u091a\u094d\u092f\u093e \u0906\u0909\u091f\u092a\u0941\u091f\u0932\u093e \u0928\u0947\u0939\u092e\u0940 _____ \u092e\u094d\u0939\u0923\u0924\u093e\u0924.", "\u0938\u0949\u092b\u094d\u091f\u0915\u0949\u092a\u0940", "\u0939\u093e\u0930\u094d\u0921\u0915\u0949\u092a\u0940", "\u0938\u094d\u092e\u0949\u0932\u0915\u0949\u092a\u0940", "\u092f\u093e\u092a\u0948\u0915\u0940 \u0928\u093e\u0939\u0940", "\u0939\u093e\u0930\u094d\u0921\u0915\u0949\u092a\u0940"));
+        this.addQuestion(new Questionsm("10. \u090f\u0916\u093e\u0926\u094d\u092f\u093e \u092e\u0949\u0928\u093f\u091f\u0930\u091a\u0947 \u0938\u0930\u094d\u0935\u093e\u0924 \u092e\u0939\u0924\u094d\u0935\u093e\u091a\u0947 \u0935\u0948\u0936\u093f\u0937\u094d\u091f\u094d\u092f \u092e\u094d\u0939\u0923\u091c\u0947 \u0924\u094d\u092f\u093e\u091a\u0940 _____", "\u0921\u0949\u091f \u092a\u093f\u091a", "\u0930\u093f\u091d\u094b\u0932\u094d\u092f\u0941\u0936\u0928", "\u0915\u094d\u0932\u0945\u0930\u093f\u091f\u0940", "\u092a\u093f\u0915\u094d\u0938\u0947\u0932", "\u0915\u094d\u0932\u0945\u0930\u093f\u091f\u0940"));
+        this.addQuestion(new Questionsm("11. \u0915\u093e\u0917\u0926\u093e\u0935\u0930\u0924\u0940 \u0906\u0909\u091f\u092a\u0941\u091f \u0928\u093f\u0930\u094d\u092e\u093e\u0923 \u0915\u0930\u0923\u094d\u092f\u093e\u0938\u093e\u0920\u0940 \u0915\u0902\u092a\u094d\u092f\u0941\u091f\u0930\u094d\u0938\u0928\u093e \u092a\u094d\u0930\u093f\u0902\u091f\u0930 \u091c\u094b\u0921\u0924\u093e \u092f\u0947\u0924\u093e\u0924.", "\u092c\u0930\u094b\u092c\u0930", "\u091a\u0942\u0915", "", "", "\u092c\u0930\u094b\u092c\u0930"));
+        this.addQuestion(new Questionsm("12. \u0907\u0902\u0915\u091c\u0947\u091f, \u0932\u0947\u091c\u0930, \u0925\u0930\u094d\u092e\u0932 \u0939\u0947 ____ \u091a\u0947 \u092a\u094d\u0930\u0915\u093e\u0930 \u0906\u0939\u0947\u0924.", "\u0915\u093f\u092c\u094b\u0930\u094d\u0921", "\u092e\u0949\u0928\u093f\u091f\u0930", "\u091c\u0949\u092f\u0938\u094d\u091f\u093f\u0915", "\u092a\u094d\u0930\u093f\u0902\u091f\u0930", "\u092a\u094d\u0930\u093f\u0902\u091f\u0930"));
+        this.addQuestion(new Questionsm("13. ____ \u0939\u094d\u092f\u093e \u092a\u094d\u0930\u0915\u093e\u0930\u091a\u093e \u092e\u093e\u0909\u0938 \u092a\u094d\u0930\u0915\u093e\u0936 \u0909\u0924\u094d\u092a\u0928\u094d\u0928 \u0915\u0930\u0942\u0928 \u0924\u094d\u092f\u093e\u091a\u0940 \u091c\u093e\u0923\u0940\u0935 \u0920\u0947\u090a\u0928 \u092e\u093e\u0909\u0938\u091a\u094d\u092f\u093e \u0939\u093e\u0932\u091a\u093e\u0932\u0940\u0902\u091a\u093e \u0936\u094b\u0927 \u0918\u0947\u0924\u094b.", "\u092e\u0947\u0915\u0945\u0928\u093f\u0915\u0932", "\u0911\u092a\u094d\u091f\u093f\u0915\u0932", "\u091f\u094d\u0930\u0945\u0915\u092a\u0945\u0921", "\u092a\u0949\u0908\u091f\u093f\u0902\u0917 \u0938\u094d\u091f\u093f\u0915", "\u0911\u092a\u094d\u091f\u093f\u0915\u0932"));
+        this.addQuestion(new Questionsm("14. ____ \u0939\u0940 \u090f\u0915 \u092a\u0947\u0928\u0938\u093e\u0930\u0916\u0940 \u0921\u093f\u0935\u094d\u0939\u093e\u0907\u0938 \u0905\u0938\u0942\u0928 \u0924\u0940 \u091f\u0945\u092c\u094d\u0932\u0947\u091f \u092a\u0940\u0938\u0940 \u0935 \u092a\u0940\u0921\u0940\u090f\u092e\u0927\u094d\u092f\u0947 \u0935\u093e\u092a\u0930\u0932\u0940 \u091c\u093e\u0924\u0947.", "\u091c\u0949\u092f\u0938\u094d\u091f\u093f\u0915", "\u092e\u093e\u0909\u0938", "\u0938\u094d\u091f\u093e\u092f\u0932\u0938", "\u0938\u094d\u0915\u0945\u0928\u0930", "\u0938\u094d\u091f\u093e\u092f\u0932\u0938"));
+        this.addQuestion(new Questionsm("15. \u0935\u093e\u0930\u094d\u092e \u092c\u0942\u091f \u0935 \u0915\u094b\u0932\u094d\u0921 \u092c\u0942\u091f \u0939\u0947 \u0915\u0902\u092a\u094d\u092f\u0941\u091f\u0930 ____ \u0915\u0930\u0923\u094d\u092f\u093e\u091a\u0947 \u0926\u094b\u0928 \u092a\u094d\u0930\u0915\u093e\u0930 \u0906\u0939\u0947\u0924.", "\u0930\u093f\u0938\u094d\u091f\u094b\u0905\u0930", "\u0938\u094d\u091f\u093e\u0930\u094d\u091f \u0938\u0930\u0942 \u0915\u093f\u0902\u0935\u093e \u0930\u093f\u0938\u094d\u091f\u093e\u0930\u094d\u091f", "\u0932\u0949\u0915", "\u0932\u0949\u0917 \u0911\u092b", "\u0938\u094d\u091f\u093e\u0930\u094d\u091f \u0938\u0930\u0942 \u0915\u093f\u0902\u0935\u093e \u0930\u093f\u0938\u094d\u091f\u093e\u0930\u094d\u091f"));
+    }
+
+    public void addQuestion(Questionsm questionsm) {
+        ContentValues contentValues = new ContentValues();
+        contentValues.put("question", questionsm.getQUESTION());
+        contentValues.put(KEY_ANSWER, questionsm.getANSWER());
+        contentValues.put(KEY_OPTA, questionsm.getOptionA());
+        contentValues.put(KEY_OPTB, questionsm.getOptionB());
+        contentValues.put(KEY_OPTC, questionsm.getOptionC());
+        contentValues.put(KEY_OPTD, questionsm.getOptionD());
+        this.myDatabase.insert("question", null, contentValues);
+    }
+
+    public List<Questionsm> getAllQuestions() {
+        ArrayList arrayList = new ArrayList();
+        this.myDatabase = this.getReadableDatabase();
+        Cursor cursor = this.myDatabase.rawQuery("SELECT  * FROM question", null);
+        if (cursor.moveToFirst()) {
+            do {
+                Questionsm questionsm = new Questionsm();
+                questionsm.setId(cursor.getInt(0));
+                questionsm.setQUESTION(cursor.getString(1));
+                questionsm.setANSWER(cursor.getString(2));
+                questionsm.setOptionA(cursor.getString(3));
+                questionsm.setOptionB(cursor.getString(4));
+                questionsm.setOptionC(cursor.getString(5));
+                questionsm.setOptionD(cursor.getString(6));
+                arrayList.add((Object)questionsm);
+            } while (cursor.moveToNext());
+        }
+        return arrayList;
+    }
+
+    public void onCreate(SQLiteDatabase sQLiteDatabase) {
+        this.myDatabase = sQLiteDatabase;
+        sQLiteDatabase.execSQL("CREATE TABLE IF NOT EXISTS question ( id INTEGER PRIMARY KEY AUTOINCREMENT, question TEXT, answer TEXT, opta TEXT, optb TEXT, optc TEXT, optd TEXT)");
+        this.addQuestions();
+    }
+
+    public void onUpgrade(SQLiteDatabase sQLiteDatabase, int n, int n2) {
+        sQLiteDatabase.execSQL("DROP TABLE IF EXISTS question");
+        this.onCreate(sQLiteDatabase);
+    }
+
+    public int rowCount() {
+        return this.getWritableDatabase().rawQuery("SELECT  * FROM question", null).getCount();
+    }
+}
+

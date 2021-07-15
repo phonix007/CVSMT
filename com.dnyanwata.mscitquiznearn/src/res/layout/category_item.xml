@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android" xmlns:app="http://schemas.android.com/apk/res-auto" android:layout_width="-1" android:layout_height="-1">
+	<androidx.cardview.widget.CardView android:layout_width="-1" android:layout_height="0dp" android:layout_margin="5dp" android:layout_marginTop="5dp" android:layout_marginBottom="5dp" app:cardBackgroundColor="dfdede" app:cardCornerRadius="15dp" app:layout_constraintEnd_toEndOf="0" app:layout_constraintTop_toTopOf="0">
+		<LinearLayout android:orientation="1" android:layout_width="-1" android:layout_height="-1" android:layout_margin="5dp">
+			<ImageView android:layout_gravity="0x11" android:id="false" android:layout_width="80dp" android:layout_height="80dp" android:layout_margin="5dp" app:srcCompat="res/drawable/logo.xml" />
+			<TextView android:textColor="ff000" android:gravity="0x11" android:layout_gravity="0x11" android:id="false" android:layout_width="-1" android:layout_height="-2" android:text="Category Name" android:fontFamily="res/font/poppins_medium.xml" />
+		</LinearLayout>
+	</androidx.cardview.widget.CardView>
+</androidx.constraintlayout.widget.ConstraintLayout>

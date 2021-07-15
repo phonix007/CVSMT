@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android" android:id="false" android:paddingLeft="16dp" android:paddingTop="16dp" android:paddingRight="16dp" android:paddingBottom="0dp" android:layout_width="-1" android:layout_height="-1">
+	<ScrollView android:layout_width="-1" android:layout_height="-1" android:layout_marginBottom="50dp">
+		<LinearLayout android:orientation="1" android:layout_width="-1" android:layout_height="-1">
+			<TextView android:textSize="18sp" android:textStyle="0x1" android:textColor="23cd0" android:layout_width="-1" android:layout_height="-2" android:text="Scan documents using scanner
+" android:textAlignment="4" />
+			<TextView android:textSize="18sp" android:textColor="000" android:id="false" android:layout_width="-1" android:layout_height="-1" android:text="      With the help of a scanner, you can store your documents and photographs in the computer. And you can use them later according to your needs. Let&apos;s see how to scan documents with the help of scanner.
+" />
+			<ImageView android:layout_gravity="0x11" android:layout_width="-1" android:layout_height="150dp" android:src="res/drawable/scanners.png" />
+			<TextView android:textSize="18sp" android:textColor="000" android:layout_width="-1" android:layout_height="-2" android:text="      To scan the document with the help of a scanner, first you need to open the window of the scanner. For this, first click the Start button.
+" />
+			<TextView android:textSize="18sp" android:textColor="000" android:layout_width="-1" android:layout_height="-1" android:text="      Click the Devices and Printers option on the right side in the Start menu. The Devices and Printers window will open. The list of devices connected to the computer will be shows in the window. You cab see the name of your scanner. Double click on it. The scan window will open. Now place your document or photo in the scanner that you want to scan.
+" />
+			<TextView android:textSize="18sp" android:textColor="000" android:layout_width="-1" android:layout_height="-2" android:text="      Then click Preview option at the bottom of the scan window. In the window you will see a preview of the document that you want to scan. Then click on the Scan option. Your document will be scanned and stored in the computer.
+" />
+			<TextView android:textSize="18sp" android:textColor="000" android:layout_width="-1" android:layout_height="-2" android:text="       (According to different scanners the options in the scanning window may be different. For more information, you can use the information booklet along with the scanner.)
+" />
+			<WebView android:id="false" android:background="resourceId:0x0" android:layout_width="-1" android:layout_height="-2" />
+		</LinearLayout>
+	</ScrollView>
+	<com.google.android.gms.ads.AdView xmlns:ads="http://schemas.android.com/apk/res-auto" android:id="false" android:layout_width="-2" android:layout_height="-2" android:layout_alignParentBottom="true" android:layout_centerHorizontal="true" ads:adSize="BANNER" ads:adUnitId="ca-app-pub-2393065895339578/1243970239" />
+</RelativeLayout>

@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android" android:id="false" android:paddingLeft="16dp" android:paddingTop="16dp" android:paddingRight="16dp" android:paddingBottom="0dp" android:layout_width="-1" android:layout_height="-1">
+	<ScrollView android:layout_width="-1" android:layout_height="-1" android:layout_marginBottom="50dp">
+		<LinearLayout android:orientation="1" android:layout_width="-1" android:layout_height="-1">
+			<TextView android:textSize="18sp" android:textStyle="0x1" android:textColor="23cd0" android:layout_width="-1" android:layout_height="-2" android:text="माउसचे प्रकार
+" />
+			<TextView android:textSize="18sp" android:textStyle="0x1" android:textColor="000" android:id="false" android:layout_width="-1" android:layout_height="-1" android:text="      माउसचे सामान्यत: तीन प्रकार पुढीलप्रमाणे आहेत." />
+			<TextView android:textSize="18sp" android:textColor="000" android:layout_width="-1" android:layout_height="-2" android:text="      1. ऑप्टिकल माउस :- ऑप्टिकल माउस हा सर्वात जास्त वापरला जाणारा माउसचा प्रकार आहे. या माउसमध्ये खालील बाजूस निघणाऱ्या प्रकाश किरणांद्वारे कंप्युटर स्क्रीन वरील अॅरो पॉइन्टर नियंत्रित केला जातो. 
+" />
+			<ImageView android:layout_gravity="0x11" android:layout_width="-1" android:layout_height="250dp" android:src="res/drawable/light.png" />
+			<TextView android:textSize="18sp" android:textColor="000" android:layout_width="-1" android:layout_height="-1" android:text="      2. मेकॅनिकल माउस :- मेकॅनिकल माउसमध्ये माउसच्या खालील बाजूस असणाऱ्या लहान गोल बॉलद्वारे कंप्युटर स्क्रीन वरील अरो पॉइन्टर नियंत्रित केला जातो. या माउसचा वापर कमी प्रमाणात केला जातो.
+" />
+			<TextView android:textSize="18sp" android:textColor="000" android:layout_width="-1" android:layout_height="-2" android:text="      3. वायरलेस किंवा कॉर्डलेस माउस :- वायरलेस किंवा कॉर्डलेस माउस हा बॅटरी वर चालणारा माउस असतो. तो रेडीओ लहरी किंवा इन्फ्रारेड लहरींद्वारे कंप्युटरशी समन्वय साधतो.  
+" />
+			<WebView android:id="false" android:background="resourceId:0x0" android:layout_width="-1" android:layout_height="-2" />
+		</LinearLayout>
+	</ScrollView>
+	<com.google.android.gms.ads.AdView xmlns:ads="http://schemas.android.com/apk/res-auto" android:id="false" android:layout_width="-2" android:layout_height="-2" android:layout_alignParentBottom="true" android:layout_centerHorizontal="true" ads:adSize="BANNER" ads:adUnitId="ca-app-pub-2393065895339578/1243970239" />
+</RelativeLayout>

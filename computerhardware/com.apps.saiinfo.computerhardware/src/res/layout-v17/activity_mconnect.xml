@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android" android:id="false" android:paddingLeft="16dp" android:paddingTop="16dp" android:paddingRight="16dp" android:paddingBottom="0dp" android:layout_width="-1" android:layout_height="-1">
+	<ScrollView android:layout_width="-1" android:layout_height="-1" android:layout_marginBottom="50dp">
+		<LinearLayout android:orientation="1" android:layout_width="-1" android:layout_height="-1">
+			<TextView android:textSize="18sp" android:textStyle="0x1" android:textColor="23cd0" android:layout_width="-1" android:layout_height="-2" android:text="कंप्युटरला माउस कनेक्ट करणे
+" android:textAlignment="4" />
+			<ImageView android:layout_gravity="0x11" android:layout_width="-1" android:layout_height="220dp" android:src="res/drawable/mwire.png" />
+			<TextView android:textSize="18sp" android:textColor="000" android:id="false" android:layout_width="-1" android:layout_height="-1" android:text="      माउस हे PS2 पोर्ट किंवा USB पोर्ट अशा दोन प्रकारे कनेक्ट करता येतात. PS2 माउसला कनेक्ट करतांना काळजी घ्यावी. कारण या माउसमध्ये कनेक्शन पोर्टमध्ये छोटे-छोटे तार असतात. ते PS2 पोर्ट मध्ये योग्य प्रकारे कनेक्ट न केल्यास ही तारे तुटू शकतात. व माउस निकामी होऊ शकतो.
+" />
+			<ImageView android:layout_gravity="0x11" android:layout_width="-1" android:layout_height="220dp" android:src="res/drawable/usbmouse.png" />
+			<TextView android:textSize="18sp" android:textStyle="0x1" android:textColor="000" android:layout_width="-1" android:layout_height="-2" android:text="कंप्युटर वापरतांना माउस बंद पडल्यास:-
+" />
+			<TextView android:textSize="18sp" android:textColor="000" android:layout_width="-1" android:layout_height="-1" android:text="      कंप्युटर वापरत असतांना काही वेळा माउस बंद पडते. अशा वेळेस कंप्युटर रिस्टार्ट करून पाहावे. किंवा कंप्युटर बंद करून माउसची वायर काढून पुन्हा कनेक्ट करून पाहावी. व कंप्युटर पुन्हा सुरु करावे. माउस पुन्हा सुरु होईल.
+" />
+		</LinearLayout>
+	</ScrollView>
+	<com.google.android.gms.ads.AdView xmlns:ads="http://schemas.android.com/apk/res-auto" android:id="false" android:layout_width="-2" android:layout_height="-2" android:layout_alignParentBottom="true" android:layout_centerHorizontal="true" ads:adSize="BANNER" ads:adUnitId="ca-app-pub-2393065895339578/1243970239" />
+</RelativeLayout>

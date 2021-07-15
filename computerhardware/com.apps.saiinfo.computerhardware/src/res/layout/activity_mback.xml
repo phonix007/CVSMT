@@ -1,0 +1,29 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android" android:id="false" android:paddingLeft="16dp" android:paddingTop="16dp" android:paddingRight="16dp" android:paddingBottom="0dp" android:layout_width="-1" android:layout_height="-1">
+	<ScrollView android:layout_width="-1" android:layout_height="-1" android:layout_marginBottom="50dp">
+		<LinearLayout android:orientation="1" android:layout_width="-1" android:layout_height="-1">
+			<TextView android:textSize="18sp" android:textStyle="0x1" android:textColor="23cd0" android:layout_width="-1" android:layout_height="-2" android:text="कंप्युटर बॅक पॅनल
+" />
+			<TextView android:textSize="18sp" android:textColor="000" android:id="false" android:layout_width="-1" android:layout_height="-1" android:text="      कंप्युटर बॅक पॅनल मध्ये असलेली विविध कनेक्शन्सची माहिती पुढीलप्रमाणे:-
+" />
+			<ImageView android:layout_gravity="0x11" android:layout_width="-1" android:layout_height="350dp" android:src="res/drawable/backpanel.png" />
+			<TextView android:textSize="18sp" android:textColor="000" android:layout_width="-1" android:layout_height="-2" android:text="      पॉवर कनेक्शन(Power Connection):-
+" />
+			<TextView android:textSize="18sp" android:textColor="000" android:layout_width="-1" android:layout_height="-2" android:text="      कंप्युटरला वीजपुरवठा करण्यासाठी पॉवर कनेक्टर चा उपयोग होतो.
+" />
+			<TextView android:textSize="18sp" android:textColor="000" android:layout_width="-1" android:layout_height="-2" android:text="      PS2 माउस किबोर्ड :- PS2 माउस किबोर्ड कनेक्ट करण्यासाठी PS2 पोर्ट कनेक्टर चा उपयोग होतो. 
+" />
+			<TextView android:textSize="18sp" android:textColor="000" android:layout_width="-1" android:layout_height="-2" android:text="      व्ही.जी.ए. पोर्ट :- मॉनिटर ला मदरबोर्ड शी कनेक्ट करण्यासाठी व्ही जी ए पोर्ट चा उपयोग होतो.
+" />
+			<TextView android:textSize="18sp" android:textColor="000" android:layout_width="-1" android:layout_height="-2" android:text="      पॅरॅलल पोर्ट :- पॅरॅलल पोर्ट ला लाइन प्रिंट टर्मिनल पोर्ट असेही म्हणतात. या पोर्टला पॅरॅलल प्रिंटर कनेक्ट करता येतो.
+" />
+			<TextView android:textSize="18sp" android:textColor="000" android:layout_width="-1" android:layout_height="-2" android:text="      यु.एस.बी. पोर्ट :- USB पोर्टला Universal Serial Bus असेही म्हणतात. USB पोर्टच्या साह्याने आपण प्रिंटर, स्कॅनर, पेन ड्राइव्ह, मेमरी कार्ड्स, मोबाईल फोन्स इ. उपकरणे कंप्युटरशी कनेक्ट करू शकतो.
+" />
+			<TextView android:textSize="18sp" android:textColor="000" android:layout_width="-1" android:layout_height="-2" android:text="      लॅन पोर्ट :- कंप्युटरला इंटरनेट किंवा अन्य नेटवर्कशी कनेक्ट करण्यासाठी लॅन पोर्ट चा उपयोग होतो.
+" />
+			<TextView android:textSize="18sp" android:textColor="000" android:layout_width="-1" android:layout_height="-2" android:text="      ऑडीओ पोर्ट :- कंप्युटरला स्पिकर, माइक इ. कनेक्ट करण्यासाठी ऑडीओ पोर्ट चा उपयोग होतो.
+" />
+		</LinearLayout>
+	</ScrollView>
+	<com.google.android.gms.ads.AdView xmlns:ads="http://schemas.android.com/apk/res-auto" android:id="false" android:layout_width="-2" android:layout_height="-2" android:layout_alignParentBottom="true" android:layout_centerHorizontal="true" ads:adSize="BANNER" ads:adUnitId="ca-app-pub-2393065895339578/1243970239" />
+</RelativeLayout>

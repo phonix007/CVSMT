@@ -1,0 +1,131 @@
+<?xml version="1.0" encoding="utf-8"?>
+<manifest xmlns:android="http://schemas.android.com/apk/res/android" android:versionCode="5" android:versionName="1.4" android:compileSdkVersion="28" android:compileSdkVersionCodename="9" package="com.apps.saiinfo.computerhardware" platformBuildVersionCode="5" platformBuildVersionName="1.4">
+    <uses-sdk android:minSdkVersion="16" android:targetSdkVersion="28"/>
+    <uses-permission android:name="android.permission.INTERNET"/>
+    <uses-permission android:name="android.permission.ACCESS_NETWORK_STATE"/>
+    <uses-permission android:name="android.permission.WAKE_LOCK"/>
+    <application android:theme="@style/AppTheme" android:label="@string/app_name" android:icon="@mipmap/ic_launcher" android:allowBackup="true" android:supportsRtl="true" android:appComponentFactory="android.support.v4.app.CoreComponentFactory">
+        <activity android:name="com.apps.saiinfo.computerhardware.MainActivity" android:screenOrientation="portrait"/>
+        <activity android:theme="@style/Theme.AppCompat.NoActionBar" android:name="com.apps.saiinfo.computerhardware.SplashActivity" android:screenOrientation="portrait">
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN"/>
+                <category android:name="android.intent.category.LAUNCHER"/>
+            </intent-filter>
+        </activity>
+        <meta-data android:name="com.google.android.gms.ads.APPLICATION_ID" android:value="ca-app-pub-2393065895339578~2308326819"/>
+        <activity android:label="कंप्युटर हार्डवेअर" android:name="com.apps.saiinfo.computerhardware.MarathiActivity" android:screenOrientation="portrait"/>
+        <activity android:name="com.apps.saiinfo.computerhardware.EnglishActivity" android:screenOrientation="portrait"/>
+        <activity android:label="कंप्युटर हार्डवेअर" android:name="com.apps.saiinfo.computerhardware.HindiActivity" android:screenOrientation="portrait"/>
+        <activity android:theme="@style/Theme.AppCompat.Light.Dialog" android:label="Computer Hardware" android:name="com.apps.saiinfo.computerhardware.AboutActivity" android:screenOrientation="portrait"/>
+        <activity android:theme="@style/Theme.AppCompat.Light.Dialog" android:label="कंप्युटर हार्डवेअर" android:name="com.apps.saiinfo.computerhardware.MAboutActivity" android:screenOrientation="portrait"/>
+        <activity android:theme="@style/Theme.AppCompat.Light.Dialog" android:label="कंप्युटर हार्डवेअर" android:name="com.apps.saiinfo.computerhardware.HAboutActivity" android:screenOrientation="portrait"/>
+        <activity android:label="कंप्युटर हार्डवेअर- किबोर्ड" android:name="com.apps.saiinfo.computerhardware.MKeyActivity" android:screenOrientation="portrait"/>
+        <activity android:label="कंप्युटर हार्डवेअर- की-बोर्ड" android:name="com.apps.saiinfo.computerhardware.HKeyActivity" android:screenOrientation="portrait"/>
+        <activity android:label="Computer Hardware- Keyboard" android:name="com.apps.saiinfo.computerhardware.KeyActivity" android:screenOrientation="portrait"/>
+        <activity android:label="किबोर्डवरील बटणे" android:name="com.apps.saiinfo.computerhardware.MKeysActivity" android:screenOrientation="portrait"/>
+        <activity android:label="की-बोर्ड कुंजीयों का उपयोग" android:name="com.apps.saiinfo.computerhardware.HKeysActivity" android:screenOrientation="portrait"/>
+        <activity android:label="Use of Keyboard Buttons" android:name="com.apps.saiinfo.computerhardware.KeysActivity" android:screenOrientation="portrait"/>
+        <activity android:label="किबोर्डवरील बटणांची नावे" android:name="com.apps.saiinfo.computerhardware.MKeyNameActivity" android:screenOrientation="portrait"/>
+        <activity android:label="की-बोर्ड कुंजियों के नाम" android:name="com.apps.saiinfo.computerhardware.HKeyNameActivity" android:screenOrientation="portrait"/>
+        <activity android:label="Keyboard Button Names" android:name="com.apps.saiinfo.computerhardware.KeyNameActivity" android:screenOrientation="portrait"/>
+        <activity android:label="फंक्शन किज् चा उपयोग" android:name="com.apps.saiinfo.computerhardware.MFunActivity" android:screenOrientation="portrait"/>
+        <activity android:label="फंक्शन कुंजी का उपयोग" android:name="com.apps.saiinfo.computerhardware.HFunActivity" android:screenOrientation="portrait"/>
+        <activity android:label="Keyboard Function Keys" android:name="com.apps.saiinfo.computerhardware.FunActivity" android:screenOrientation="portrait"/>
+        <activity android:label="किबोर्ड कनेक्ट करणे" android:name="com.apps.saiinfo.computerhardware.MKeyConnetActivity" android:screenOrientation="portrait"/>
+        <activity android:label="की-बोर्ड कनेक्ट करना" android:name="com.apps.saiinfo.computerhardware.HKeyConnectActivity" android:screenOrientation="portrait"/>
+        <activity android:label="Connect Keyboard to the Computer" android:name="com.apps.saiinfo.computerhardware.KeyConnectActivity" android:screenOrientation="portrait"/>
+        <activity android:label="कंप्युटर हार्डवेअर- माउस" android:name="com.apps.saiinfo.computerhardware.MMouseActivity" android:screenOrientation="portrait"/>
+        <activity android:label="माउसची ओळख" android:name="com.apps.saiinfo.computerhardware.MMActivity" android:screenOrientation="portrait"/>
+        <activity android:label="माउस का परिचय" android:name="com.apps.saiinfo.computerhardware.HMActivity" android:screenOrientation="portrait"/>
+        <activity android:label="Use of Mouse" android:name="com.apps.saiinfo.computerhardware.MActivity" android:screenOrientation="portrait"/>
+        <activity android:label="माउसचे प्रकार" android:name="com.apps.saiinfo.computerhardware.MTypesActivity" android:screenOrientation="portrait"/>
+        <activity android:label="माउस के प्रकार" android:name="com.apps.saiinfo.computerhardware.HTypesActivity" android:screenOrientation="portrait"/>
+        <activity android:label="Types of Mouse" android:name="com.apps.saiinfo.computerhardware.TypesActivity" android:screenOrientation="portrait"/>
+        <activity android:label="कंप्युटर हार्डवेअर- माउस" android:name="com.apps.saiinfo.computerhardware.HMouseActivity" android:screenOrientation="portrait"/>
+        <activity android:label="Computer Hardware- Mouse" android:name="com.apps.saiinfo.computerhardware.MouseActivity" android:screenOrientation="portrait"/>
+        <activity android:label="माउस कनेक्ट करणे" android:name="com.apps.saiinfo.computerhardware.MConnectActivity" android:screenOrientation="portrait"/>
+        <activity android:label="माउस कनेक्ट करना" android:name="com.apps.saiinfo.computerhardware.HConnectActivity" android:screenOrientation="portrait"/>
+        <activity android:label="Connect Mouse to the Computer" android:name="com.apps.saiinfo.computerhardware.ConnectActivity" android:screenOrientation="portrait"/>
+        <activity android:label="कंप्युटर हार्डवेअर- स्कॅनर" android:name="com.apps.saiinfo.computerhardware.MScannerActivity" android:screenOrientation="portrait"/>
+        <activity android:label="कंप्युटर हार्डवेअर- स्कॅनर" android:name="com.apps.saiinfo.computerhardware.HScannerActivity" android:screenOrientation="portrait"/>
+        <activity android:label="Computer Hardware- Scanner" android:name="com.apps.saiinfo.computerhardware.ScannerActivity" android:screenOrientation="portrait"/>
+        <activity android:label="स्कॅनरचा उपयोग" android:name="com.apps.saiinfo.computerhardware.MScanUseActivity" android:screenOrientation="portrait"/>
+        <activity android:label="स्कॅनर का उपयोग" android:name="com.apps.saiinfo.computerhardware.HScanUseActivity" android:screenOrientation="portrait"/>
+        <activity android:label="Use of Scanner" android:name="com.apps.saiinfo.computerhardware.ScanUseActivity" android:screenOrientation="portrait"/>
+        <activity android:label="स्कॅनर इंस्टाॅल करणे" android:name="com.apps.saiinfo.computerhardware.MScanInActivity" android:screenOrientation="portrait"/>
+        <activity android:label="स्कॅनर इंस्टाॅल करना" android:name="com.apps.saiinfo.computerhardware.HScanInActivity" android:screenOrientation="portrait"/>
+        <activity android:label="Installing Scanner" android:name="com.apps.saiinfo.computerhardware.ScanInActivity" android:screenOrientation="portrait"/>
+        <activity android:label="डॉक्युमेंट स्कॅन करणे" android:name="com.apps.saiinfo.computerhardware.MScanActivity" android:screenOrientation="portrait"/>
+        <activity android:label="डॉक्युमेंट स्कॅन करना" android:name="com.apps.saiinfo.computerhardware.HScanActivity" android:screenOrientation="portrait"/>
+        <activity android:label="Scan documents using scanner" android:name="com.apps.saiinfo.computerhardware.ScanActivity" android:screenOrientation="portrait"/>
+        <activity android:label="कंप्युटर हार्डवेअर- मॉनिटर" android:name="com.apps.saiinfo.computerhardware.MMonitorActivity" android:screenOrientation="portrait"/>
+        <activity android:label="कंप्युटर हार्डवेअर- मॉनिटर" android:name="com.apps.saiinfo.computerhardware.HMonitorActivity" android:screenOrientation="portrait"/>
+        <activity android:label="Computer Hardware- Monitor" android:name="com.apps.saiinfo.computerhardware.MonitorActivity" android:screenOrientation="portrait"/>
+        <activity android:label="मॉनिटर चा उपयोग" android:name="com.apps.saiinfo.computerhardware.MMonActivity" android:screenOrientation="portrait"/>
+        <activity android:label="मॉनिटर का उपयोग" android:name="com.apps.saiinfo.computerhardware.HMonActivity" android:screenOrientation="portrait"/>
+        <activity android:label="Use of Monitor" android:name="com.apps.saiinfo.computerhardware.MonActivity" android:screenOrientation="portrait"/>
+        <activity android:label="मॉनिटर कंप्युटरला कनेक्ट करणे" android:name="com.apps.saiinfo.computerhardware.MMonConnectActivity" android:screenOrientation="portrait"/>
+        <activity android:label="मॉनिटर कंप्युटर से कनेक्ट करना" android:name="com.apps.saiinfo.computerhardware.HMonConnectActivity" android:screenOrientation="portrait"/>
+        <activity android:label="Connect Monitor to the Computer" android:name="com.apps.saiinfo.computerhardware.MonConnectActivity" android:screenOrientation="portrait"/>
+        <activity android:label="कंप्युटर हार्डवेअर- प्रिंटर" android:name="com.apps.saiinfo.computerhardware.MPrinterActivity" android:screenOrientation="portrait"/>
+        <activity android:label="कंप्युटर हार्डवेअर- प्रिंटर" android:name="com.apps.saiinfo.computerhardware.HPrinterActivity" android:screenOrientation="portrait"/>
+        <activity android:label="Computer Hardware- Printer" android:name="com.apps.saiinfo.computerhardware.PrinterActivity" android:screenOrientation="portrait"/>
+        <activity android:label="प्रिंट काढणे" android:name="com.apps.saiinfo.computerhardware.MPrintActivity" android:screenOrientation="portrait"/>
+        <activity android:label="प्रिंट निकालना" android:name="com.apps.saiinfo.computerhardware.HPrintActivity" android:screenOrientation="portrait"/>
+        <activity android:label="Print the document" android:name="com.apps.saiinfo.computerhardware.PrintActivity" android:screenOrientation="portrait"/>
+        <activity android:label="कंप्युटर हार्डवेअर- प्रिंटर" android:name="com.apps.saiinfo.computerhardware.MPrintsActivity" android:screenOrientation="portrait"/>
+        <activity android:label="कंप्युटर हार्डवेअर- प्रिंटर" android:name="com.apps.saiinfo.computerhardware.HPrintsActivity" android:screenOrientation="portrait"/>
+        <activity android:label="Printer" android:name="com.apps.saiinfo.computerhardware.PrintsActivity" android:screenOrientation="portrait"/>
+        <activity android:label="प्रिंटर इंस्टाल करणे" android:name="com.apps.saiinfo.computerhardware.MPrintInActivity" android:screenOrientation="portrait"/>
+        <activity android:label="प्रिंटर इंस्टाल करना" android:name="com.apps.saiinfo.computerhardware.HPrintInActivity" android:screenOrientation="portrait"/>
+        <activity android:label="Installing Printer" android:name="com.apps.saiinfo.computerhardware.PrintInActivity" android:screenOrientation="portrait"/>
+        <activity android:label="कंप्युटर हार्डवेअर- रॅम चिप्स" android:name="com.apps.saiinfo.computerhardware.MRamActivity" android:screenOrientation="portrait"/>
+        <activity android:label="कंप्युटर हार्डवेअर- रॅम चिप्स" android:name="com.apps.saiinfo.computerhardware.HRamActivity" android:screenOrientation="portrait"/>
+        <activity android:label="Computer Hardware- Ram Chips" android:name="com.apps.saiinfo.computerhardware.RamActivity" android:screenOrientation="portrait"/>
+        <activity android:label="रॅम चिप्स" android:name="com.apps.saiinfo.computerhardware.MRamsActivity" android:screenOrientation="portrait"/>
+        <activity android:label="रॅम चिप्स" android:name="com.apps.saiinfo.computerhardware.HRamsActivity" android:screenOrientation="portrait"/>
+        <activity android:label="Ram Chips" android:name="com.apps.saiinfo.computerhardware.RamsActivity" android:screenOrientation="portrait"/>
+        <activity android:label="रॅम चिप्स बसविणे" android:name="com.apps.saiinfo.computerhardware.MRamInActivity" android:screenOrientation="portrait"/>
+        <activity android:label="रॅम चिप्स बिठाना" android:name="com.apps.saiinfo.computerhardware.HRamInActivity" android:screenOrientation="portrait"/>
+        <activity android:label="Installing Ram Chips" android:name="com.apps.saiinfo.computerhardware.RamInActivity" android:screenOrientation="portrait"/>
+        <activity android:label="कंप्युटर हार्डवेअर- हार्ड डिस्क" android:name="com.apps.saiinfo.computerhardware.MHardActivity" android:screenOrientation="portrait"/>
+        <activity android:label="कंप्युटर हार्डवेअर- हार्ड डिस्क" android:name="com.apps.saiinfo.computerhardware.HHardActivity" android:screenOrientation="portrait"/>
+        <activity android:label="Computer Hardware- Hard Disk" android:name="com.apps.saiinfo.computerhardware.HardActivity" android:screenOrientation="portrait"/>
+        <activity android:label="हार्ड डिस्क" android:name="com.apps.saiinfo.computerhardware.MDiskActivity" android:screenOrientation="portrait"/>
+        <activity android:label="हार्ड डिस्क" android:name="com.apps.saiinfo.computerhardware.HDiskActivity" android:screenOrientation="portrait"/>
+        <activity android:label="Hard Disk" android:name="com.apps.saiinfo.computerhardware.DiskActivity" android:screenOrientation="portrait"/>
+        <activity android:label="हार्ड डिस्क बसविणे" android:name="com.apps.saiinfo.computerhardware.MHDActivity" android:screenOrientation="portrait"/>
+        <activity android:label="हार्ड डिस्क बिठाना" android:name="com.apps.saiinfo.computerhardware.HHDActivity" android:screenOrientation="portrait"/>
+        <activity android:label=" Install Hard Disk" android:name="com.apps.saiinfo.computerhardware.HDActivity" android:screenOrientation="portrait"/>
+        <activity android:label="कंप्युटर हार्डवेअर- मदरबोर्ड" android:name="com.apps.saiinfo.computerhardware.MBoardActivity" android:screenOrientation="portrait"/>
+        <activity android:label="कंप्युटर हार्डवेअर- मदरबोर्ड" android:name="com.apps.saiinfo.computerhardware.HBoardActivity" android:screenOrientation="portrait"/>
+        <activity android:label="Motherboard" android:name="com.apps.saiinfo.computerhardware.BoardActivity" android:screenOrientation="portrait"/>
+        <activity android:label="कंप्युटर हार्डवेअर- मदरबोर्डचे भाग" android:name="com.apps.saiinfo.computerhardware.MPartsActivity" android:screenOrientation="portrait"/>
+        <activity android:label="मदरबोर्ड के विभिन्न भाग" android:name="com.apps.saiinfo.computerhardware.HPartsActivity" android:screenOrientation="portrait"/>
+        <activity android:label="Parts of Motherboard" android:name="com.apps.saiinfo.computerhardware.PartsActivity" android:screenOrientation="portrait"/>
+        <activity android:label="पॉवर सप्लाय युनिट" android:name="com.apps.saiinfo.computerhardware.MPowerActivity" android:screenOrientation="portrait"/>
+        <activity android:label="पॉवर सप्लाय युनिट" android:name="com.apps.saiinfo.computerhardware.HPowerActivity" android:screenOrientation="portrait"/>
+        <activity android:label="Power Supply Unit" android:name="com.apps.saiinfo.computerhardware.PowerActivity" android:screenOrientation="portrait"/>
+        <activity android:label="विविध कनेक्शन वायर्स" android:name="com.apps.saiinfo.computerhardware.MWireActivity" android:screenOrientation="portrait"/>
+        <activity android:label="कनेक्शन वायर्स" android:name="com.apps.saiinfo.computerhardware.HWireActivity" android:screenOrientation="portrait"/>
+        <activity android:label="Connection Wires" android:name="com.apps.saiinfo.computerhardware.WireActivity" android:screenOrientation="portrait"/>
+        <activity android:label="कंप्युटर बॅक पॅनल" android:name="com.apps.saiinfo.computerhardware.MBackActivity" android:screenOrientation="portrait"/>
+        <activity android:label="कंप्युटर बॅक पॅनल" android:name="com.apps.saiinfo.computerhardware.HBackActivity" android:screenOrientation="portrait"/>
+        <activity android:label="Computer Back Panel" android:name="com.apps.saiinfo.computerhardware.BackActivity" android:screenOrientation="portrait"/>
+        <activity android:label="कंप्युटर हार्डवेअर- मदरबोर्ड" android:name="com.apps.saiinfo.computerhardware.MMotherActivity" android:screenOrientation="portrait"/>
+        <activity android:label="कंप्युटर हार्डवेअर- मदरबोर्ड" android:name="com.apps.saiinfo.computerhardware.HMotherActivity" android:screenOrientation="portrait"/>
+        <activity android:label="Computer Hardware- Motherboard" android:name="com.apps.saiinfo.computerhardware.MotherActivity" android:screenOrientation="portrait"/>
+        <activity android:label="कंप्युटर हार्डवेअर" android:name="com.apps.saiinfo.computerhardware.MIntroActivity" android:screenOrientation="portrait"/>
+        <activity android:label="कंप्युटर हार्डवेअर" android:name="com.apps.saiinfo.computerhardware.HIntroActivity" android:screenOrientation="portrait"/>
+        <activity android:label="Computer Hardware" android:name="com.apps.saiinfo.computerhardware.IntroActivity" android:screenOrientation="portrait"/>
+        <activity android:name="com.apps.saiinfo.computerhardware.FFormsActivity" android:screenOrientation="portrait"/>
+        <activity android:label="कंप्युटर हार्डवेअर" android:name="com.apps.saiinfo.computerhardware.MMicroActivity" android:screenOrientation="portrait"/>
+        <activity android:label="कंप्युटर हार्डवेअर" android:name="com.apps.saiinfo.computerhardware.HMicroActivity" android:screenOrientation="portrait"/>
+        <activity android:name="com.apps.saiinfo.computerhardware.MicroActivity" android:screenOrientation="portrait"/>
+        <activity android:name="com.apps.saiinfo.computerhardware.AppsActivity" android:screenOrientation="portrait"/>
+        <activity android:theme="@style/Theme.Translucent" android:name="com.google.android.gms.ads.AdActivity" android:exported="false" android:configChanges="keyboard|keyboardHidden|orientation|screenLayout|uiMode|screenSize|smallestScreenSize"/>
+        <provider android:name="com.google.android.gms.ads.MobileAdsInitProvider" android:exported="false" android:authorities="com.apps.saiinfo.computerhardware.mobileadsinitprovider" android:initOrder="100"/>
+        <meta-data android:name="com.google.android.gms.version" android:value="@integer/google_play_services_version"/>
+        <meta-data android:name="com.android.vending.derived.apk.id" android:value="1"/>
+    </application>
+</manifest>

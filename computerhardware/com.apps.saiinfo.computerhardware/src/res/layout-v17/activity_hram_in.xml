@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android" android:id="false" android:paddingLeft="16dp" android:paddingTop="16dp" android:paddingRight="16dp" android:paddingBottom="0dp" android:layout_width="-1" android:layout_height="-1">
+	<ScrollView android:layout_width="-1" android:layout_height="-1" android:layout_marginBottom="50dp">
+		<LinearLayout android:orientation="1" android:layout_width="-1" android:layout_height="-1">
+			<TextView android:textSize="18sp" android:textStyle="0x1" android:textColor="23cd0" android:layout_width="-1" android:layout_height="-2" android:text="कंप्युटर में रॅम चिप्स बिठाना
+" android:textAlignment="4" />
+			<ImageView android:layout_gravity="0x11" android:layout_width="-1" android:layout_height="150dp" android:src="res/drawable/rams.png" />
+			<TextView android:textSize="18sp" android:textColor="000" android:id="false" android:layout_width="-1" android:layout_height="-1" android:text="      रॅम चिप्स सिस्टिम युनिट के अंदर स्थापित होती हैं। कंप्यूटर की सिस्टिम कैबिनेट खोलने पर रॅम चिप्स लगाने के लिए मदरबोर्ड पर एक स्लॉट होता है। इस स्लॉट में, आप रॅम चिप्स लगा सकते हैं। रॅम चिप्स को स्थापित करते समय, स्लॉट के दोनों तरफ नाजुक लॉक होते हैं। फिटिंग के दौरान उनपर ज्यादा दबाव नहीं देना चाहिए अन्यथा लॉक टूट सकता है।
+" />
+			<TextView android:textSize="18sp" android:textColor="000" android:layout_width="-1" android:layout_height="-2" android:text="      कभी-कभी कंप्यूटर शुरू करने पर मॉनिटर की स्क्रीन शुरू नहीं होती हैं या सिस्टम कैबिनेट से बीप की आवाज आती हैं। यह तब हो सकता है यदि रॅम चिप्स ठीक से न बिठाई गई हो या रॅम चिप्स स्लॉट में धूल इत्यादी जमा हो गई हो। ऐसी स्थिति में, रॅम चिप्स निकालकर फिर से लगाने पर  यह समस्या हल हो सकती हैं।
+" />
+			<WebView android:id="false" android:background="resourceId:0x0" android:layout_width="-1" android:layout_height="-2" />
+		</LinearLayout>
+	</ScrollView>
+	<com.google.android.gms.ads.AdView xmlns:ads="http://schemas.android.com/apk/res-auto" android:id="false" android:layout_width="-2" android:layout_height="-2" android:layout_alignParentBottom="true" android:layout_centerHorizontal="true" ads:adSize="BANNER" ads:adUnitId="ca-app-pub-2393065895339578/1243970239" />
+</RelativeLayout>

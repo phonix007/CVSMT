@@ -1,0 +1,7 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android">
+	<item android:icon="res/drawable/ic_home.xml" android:title="होम" />
+	<item android:icon="res/drawable/ic_trend.xml" android:title="टॉपर" />
+	<item android:icon="res/drawable/ic_coin.xml" android:title="वॉलेट" />
+	<item android:icon="res/drawable/ic_user.xml" android:title="प्रोफाइल" />
+</menu>

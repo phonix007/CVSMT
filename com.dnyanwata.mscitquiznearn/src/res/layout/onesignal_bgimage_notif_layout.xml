@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android" android:layout_width="-2" android:layout_height="64dp">
+	<RelativeLayout android:id="false" android:paddingLeft="0dp" android:paddingRight="-2000dp" android:layout_width="-2" android:layout_height="64dp">
+		<ImageView android:id="false" android:layout_width="-1" android:layout_height="64dp" android:scaleType="2" android:adjustViewBounds="false" android:cropToPadding="false" />
+		<ImageView android:id="false" android:visibility="2" android:layout_width="-1" android:layout_height="64dp" android:scaleType="4" android:adjustViewBounds="false" android:cropToPadding="false" />
+	</RelativeLayout>
+	<LinearLayout android:orientation="1" android:layout_width="-1" android:layout_height="64dp" android:layout_marginStart="resourceId:0x1050005">
+		<TextView android:textAppearance="@android:style/TextAppearance.StatusBar.EventContent.Title" android:ellipsize="4" android:id="false" android:paddingLeft="4dp" android:paddingTop="8dp" android:layout_width="-1" android:layout_height="-2" android:text="Medium Text" android:singleLine="true" />
+		<TextView android:textAppearance="@android:style/TextAppearance.StatusBar.EventContent" android:ellipsize="4" android:id="false" android:paddingLeft="4dp" android:fadingEdge="0x1000" android:layout_width="-1" android:layout_height="0dp" android:text="Small Text" android:singleLine="true" android:layout_weight="{4:1065353216}" />
+	</LinearLayout>
+</RelativeLayout>

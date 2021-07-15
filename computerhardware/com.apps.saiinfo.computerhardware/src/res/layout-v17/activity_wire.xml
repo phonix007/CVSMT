@@ -1,0 +1,42 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android" android:id="false" android:paddingLeft="16dp" android:paddingTop="16dp" android:paddingRight="16dp" android:paddingBottom="0dp" android:layout_width="-1" android:layout_height="-1">
+	<ScrollView android:layout_width="-1" android:layout_height="-1" android:layout_marginBottom="50dp">
+		<LinearLayout android:orientation="1" android:layout_width="-1" android:layout_height="-1">
+			<TextView android:textSize="18sp" android:textStyle="0x1" android:textColor="23cd0" android:layout_width="-1" android:layout_height="-2" android:text="Computer Connection Wires
+" android:textAlignment="4" />
+			<TextView android:textSize="18sp" android:textColor="000" android:id="false" android:layout_width="-1" android:layout_height="-1" android:text="      Different connection wires are used to connect different parts of the computer. The information about connection wires required for the connection of different devices is as follows.
+" />
+			<TextView android:textSize="18sp" android:textStyle="0x1" android:textColor="000" android:layout_width="-1" android:layout_height="-2" android:text="      Power Cable:-
+" />
+			<ImageView android:layout_gravity="0x11" android:layout_width="-1" android:layout_height="250dp" android:src="res/drawable/cable.png" />
+			<TextView android:textSize="18sp" android:textColor="000" android:layout_width="-1" android:layout_height="-2" android:text="      Power cable is used to supply electricity to the computer. One part of the power cable is connected to the main switch. And the other part is connected to the power supply unit.
+" />
+			<TextView android:textSize="18sp" android:textStyle="0x1" android:textColor="000" android:layout_width="-1" android:layout_height="-2" android:text="      VGA Cable :-
+" />
+			<ImageView android:layout_gravity="0x11" android:layout_width="-1" android:layout_height="250dp" android:src="res/drawable/vgacable.png" />
+			<TextView android:textSize="18sp" android:textColor="000" android:layout_width="-1" android:layout_height="-2" android:text="      VGA Cable is used to connect the monitor to the system board. So you can see information on the monitor in the visual form.
+" />
+			<TextView android:textSize="18sp" android:textStyle="0x1" android:textColor="000" android:layout_width="-1" android:layout_height="-2" android:text="      IDE Cable :-
+" />
+			<ImageView android:layout_gravity="0x11" android:layout_width="-1" android:layout_height="250dp" android:src="res/drawable/idecbl.png" />
+			<TextView android:textSize="18sp" android:textColor="000" android:layout_width="-1" android:layout_height="-2" android:text="      IDE cable is used to connect IDE hard disk or IDE DVD writer to the motherboard.
+" />
+			<TextView android:textSize="18sp" android:textStyle="0x1" android:textColor="000" android:layout_width="-1" android:layout_height="-2" android:text="      SATA Cable :-
+" />
+			<ImageView android:layout_gravity="0x11" android:layout_width="-1" android:layout_height="250dp" android:src="res/drawable/satacable.png" />
+			<TextView android:textSize="18sp" android:textColor="000" android:layout_width="-1" android:layout_height="-2" android:text="      SATA cable is used to connect SATA hard disk or DVD writer to motherboard.
+" />
+			<TextView android:textSize="18sp" android:textStyle="0x1" android:textColor="000" android:layout_width="-1" android:layout_height="-2" android:text="      USB Cable :-
+" />
+			<ImageView android:layout_gravity="0x11" android:layout_width="-1" android:layout_height="250dp" android:src="res/drawable/printcable.png" />
+			<TextView android:textSize="18sp" android:textColor="000" android:layout_width="-1" android:layout_height="-2" android:text="      USB cable is used to connect printer, scanner, mobile, camera, etc. to the computer.
+" />
+			<TextView android:textSize="18sp" android:textStyle="0x1" android:textColor="000" android:layout_width="-1" android:layout_height="-2" android:text="      Ethernet Cable :-
+" />
+			<ImageView android:layout_gravity="0x11" android:layout_width="-1" android:layout_height="250dp" android:src="res/drawable/lancable.png" />
+			<TextView android:textSize="18sp" android:textColor="000" android:layout_width="-1" android:layout_height="-2" android:text="      The Ethernet cable is also called the LAN cable. Ethernet cable is used to connect multiple computers to each other or to connect the computer to the internet.
+" />
+		</LinearLayout>
+	</ScrollView>
+	<com.google.android.gms.ads.AdView xmlns:ads="http://schemas.android.com/apk/res-auto" android:id="false" android:layout_width="-2" android:layout_height="-2" android:layout_alignParentBottom="true" android:layout_centerHorizontal="true" ads:adSize="BANNER" ads:adUnitId="ca-app-pub-2393065895339578/1243970239" />
+</RelativeLayout>

@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android" android:orientation="1" android:layout_width="-1" android:layout_height="-1">
+	<android.support.v7.widget.CardView xmlns:android="http://schemas.android.com/apk/res/android" android:id="false" android:layout_width="-1" android:layout_height="-2" android:layout_marginLeft="15dp" android:layout_marginTop="15dp" android:layout_marginRight="15dp">
+		<RelativeLayout android:id="false" android:padding="10dp" android:layout_width="-1" android:layout_height="-2" android:layout_marginLeft="10dp" android:layout_marginTop="2dp" android:layout_marginRight="10dp" android:layout_marginBottom="5dp">
+			<TextView android:textSize="20sp" android:textStyle="0x1" android:textColor="311b92" android:gravity="0x11" android:id="false" android:layout_width="-1" android:layout_height="-2" android:layout_marginTop="0dp" android:text="Hardware Software" android:fontFamily="serif" />
+			<TextView android:textSize="12sp" android:textStyle="0x1" android:textColor="455a64" android:gravity="0x800005" android:id="false" android:layout_width="-1" android:layout_height="-2" android:layout_marginTop="0dp" android:text="Test questions" android:fontFamily="serif" />
+			<TextView android:textColor="cfd8dc" android:layout_width="-1" android:layout_height="-2" android:layout_marginLeft="5dp" android:text="_________________________________________" android:layout_below="false" />
+			<TextView android:textSize="18sp" android:textStyle="0x0" android:textColor="000" android:id="false" android:layout_width="-1" android:layout_height="-2" android:layout_marginTop="30dp" android:text="Test questions" android:layout_below="false" android:fontFamily="serif" />
+			<TextView android:textColor="cfd8dc" android:layout_width="-1" android:layout_height="-2" android:layout_marginLeft="5dp" android:text="_________________________________________" android:layout_below="false" />
+			<RadioGroup android:id="false" android:layout_width="-1" android:layout_height="-2" android:layout_marginTop="20dp" android:layout_below="false">
+				<RadioButton android:id="false" android:layout_width="-1" android:layout_height="-2" android:text="RadioButton" android:fontFamily="serif" />
+				<RadioButton android:id="false" android:layout_width="-1" android:layout_height="-2" android:text="RadioButton" android:fontFamily="serif" />
+				<RadioButton android:id="false" android:layout_width="-1" android:layout_height="-2" android:text="RadioButton" android:fontFamily="serif" />
+				<RadioButton android:id="false" android:layout_width="-1" android:layout_height="-2" android:text="RadioButton" android:fontFamily="serif" />
+			</RadioGroup>
+			<TextView android:textColor="cfd8dc" android:layout_width="-1" android:layout_height="-2" android:layout_marginLeft="5dp" android:text="_________________________________________" android:layout_below="false" />
+			<Button android:textColor="000" android:id="false" android:background="res/drawable/btncolor.xml" android:layout_width="-2" android:layout_height="-2" android:layout_marginLeft="5dp" android:layout_marginTop="25dp" android:text="Submit" android:layout_below="false" android:layout_alignParentLeft="true" />
+		</RelativeLayout>
+	</android.support.v7.widget.CardView>
+	<com.google.android.gms.ads.AdView xmlns:ads="http://schemas.android.com/apk/res-auto" android:id="false" android:layout_width="-2" android:layout_height="-2" android:layout_alignParentBottom="true" android:layout_centerHorizontal="true" ads:adSize="BANNER" ads:adUnitId="ca-app-pub-2393065895339578/5586324014" />
+</RelativeLayout>

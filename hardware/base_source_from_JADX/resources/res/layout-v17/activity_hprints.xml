@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android" xmlns:app="http://schemas.android.com/apk/res-auto" android:id="@+id/activity_hprints" android:paddingLeft="@dimen/activity_horizontal_margin" android:paddingTop="@dimen/activity_vertical_margin" android:paddingRight="@dimen/activity_horizontal_margin" android:paddingBottom="0dp" android:layout_width="match_parent" android:layout_height="match_parent">
+    <ScrollView android:layout_width="match_parent" android:layout_height="match_parent">
+        <LinearLayout android:orientation="vertical" android:layout_width="match_parent" android:layout_height="match_parent">
+            <TextView android:textSize="18sp" android:textStyle="bold" android:textColor="#023cd0" android:layout_width="match_parent" android:layout_height="wrap_content" android:text="प्रिंटर\10" android:textAlignment="center"/>
+            <TextView android:textSize="18sp" android:textColor="#000000" android:id="@+id/textView3" android:layout_width="match_parent" android:layout_height="match_parent" android:text="      प्रिंटर एक महत्वपूर्ण आउटपुट डिवाइस है। प्रिंटर का इस्तेमाल कंप्यूटर में टाइप किए गए सूचना को प्रिंट करने के लिए किया जाता है।\10"/>
+            <ImageView android:layout_gravity="center" android:layout_width="match_parent" android:layout_height="150dp" android:src="@drawable/printers"/>
+            <TextView android:textSize="18sp" android:textColor="#000000" android:layout_width="match_parent" android:layout_height="wrap_content" android:text="      प्रिंटर की आउटपुट को हार्डकॉपी कहा जाता है।\10"/>
+            <TextView android:textSize="18sp" android:textColor="#000000" android:layout_width="match_parent" android:layout_height="wrap_content" android:text="      प्रिंटर का रिझोल्यूशन dpi (डी.पी.आय) डॉटस् पर इंच में मापा जाता है।\10"/>
+            <TextView android:textSize="18sp" android:textColor="#000000" android:layout_width="match_parent" android:layout_height="wrap_content" android:text="      प्रिंटर के कुछ प्रकार निम्नलिखित हैं:\10"/>
+            <TextView android:textSize="18sp" android:textColor="#000000" android:layout_width="match_parent" android:layout_height="wrap_content" android:text="      1. इंकजेट प्रिंटर\10"/>
+            <TextView android:textSize="18sp" android:textColor="#000000" android:layout_width="match_parent" android:layout_height="wrap_content" android:text="      2. लेजर प्रिंटर\10"/>
+            <TextView android:textSize="18sp" android:textColor="#000000" android:layout_width="match_parent" android:layout_height="wrap_content" android:text="      3. थर्मल प्रिंटर\10"/>
+            <TextView android:textSize="18sp" android:textColor="#000000" android:layout_width="match_parent" android:layout_height="wrap_content" android:text="      4. 3 डी प्रिंटर\10"/>
+            <TextView android:textSize="18sp" android:textColor="#000000" android:layout_width="match_parent" android:layout_height="wrap_content" android:layout_marginBottom="60dp" android:text="      5. प्लॉटर्स\10"/>
+        </LinearLayout>
+    </ScrollView>
+    <com.google.android.gms.ads.AdView android:id="@+id/adView" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_alignParentBottom="true" android:layout_centerHorizontal="true" app:adSize="BANNER" app:adUnitId="ca-app-pub-2393065895339578/1243970239"/>
+</RelativeLayout>

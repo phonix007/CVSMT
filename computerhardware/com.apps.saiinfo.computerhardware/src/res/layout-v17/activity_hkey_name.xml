@@ -1,0 +1,51 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android" android:id="false" android:paddingLeft="16dp" android:paddingTop="16dp" android:paddingRight="16dp" android:paddingBottom="0dp" android:layout_width="-1" android:layout_height="-1">
+	<ScrollView android:layout_width="-1" android:layout_height="-1" android:layout_marginBottom="50dp">
+		<LinearLayout android:orientation="1" android:layout_width="-1" android:layout_height="-1">
+			<TextView android:textSize="18sp" android:textStyle="0x1" android:textColor="23cd0" android:layout_width="-1" android:layout_height="-2" android:text="की-बोर्ड कुंजीयों के उपयोगानुसार नाम
+" android:textAlignment="4" />
+			<TextView android:textSize="18sp" android:textColor="000" android:id="false" android:layout_width="-1" android:layout_height="-1" android:text="      की-बोर्ड का उपयोग करते समय, आप कीबोर्ड की विभिन्न कुंजीयों का उपयोग करते हैं। इन कुंजीयों के उपयोग के अनुसार कुछ नाम हैं। की-बोर्ड की कुंजीयों के उपयोगानुसार नाम इस प्रकार हैं।
+" />
+			<TextView android:textSize="18sp" android:textStyle="0x1" android:textColor="000" android:layout_width="-1" android:layout_height="-2" android:text="टाईपरायटर किज् :-
+" />
+			<TextView android:textSize="18sp" android:textColor="000" android:layout_width="-1" android:layout_height="-1" android:text="      कुंजीपटल में टाइपराइटर कुंजीयों को जानकारी टाइप करने के लिए उपयोग किया जाता है। इन कुंजीयों पर A से Z अक्षर, और 0 से 9 अंक शामिल होते है।
+" />
+			<TextView android:textSize="18sp" android:textStyle="0x1" android:textColor="000" android:layout_width="-1" android:layout_height="-2" android:text="टॉगल किज्:-
+" />
+			<TextView android:textSize="18sp" android:textColor="000" android:layout_width="-1" android:layout_height="-1" android:text="      कैप्स लॉक, नम लॉक और स्क्रॉल लॉक कुंजीयों को टॉगल किज कहते हैं। इन किज में ऑन-ऑफ फंक्शन का उपयोग होता है। अर्थात् इन कुंजीयों का उपयोग करते समय किबोर्ड पर स्थित लाइट ऑन-ऑफ होती है।
+" />
+			<TextView android:textSize="18sp" android:textStyle="0x1" android:textColor="000" android:layout_width="-1" android:layout_height="-2" android:text="फंक्शन किज्:-
+" />
+			<TextView android:textSize="18sp" android:textColor="000" android:layout_width="-1" android:layout_height="-1" android:text="      की-बोर्ड पर F1 से F12 तक के कुंजीयों को फ़ंक्शन किज् कहा जाता है। फंक्शन किज का उपयोग कंप्यूटर्स में शॉर्टकट कामों के लिए होता है।
+" />
+			<TextView android:textSize="18sp" android:textStyle="0x1" android:textColor="000" android:layout_width="-1" android:layout_height="-2" android:text="नेव्हिगेशन किज्:-
+" />
+			<TextView android:textSize="18sp" android:textColor="000" android:layout_width="-1" android:layout_height="-1" android:text="      नेव्हिगेशन किज् का उपयोग किसी फ़ाइल में पृष्ठ को उपर-नीचे नेविगेट करने के लिए किया जाता है। या पृष्ठ में कर्सर का स्थान बदलने के लिएं होता है।
+" />
+			<TextView android:textSize="18sp" android:textStyle="0x1" android:textColor="000" android:layout_width="-1" android:layout_height="-2" android:text="न्यूमेरिक किज्:-
+" />
+			<TextView android:textSize="18sp" android:textColor="000" android:layout_width="-1" android:layout_height="-1" android:text="      टाईप करते समय अंको का उपयोग करने के लिएं न्यूमेरिक किज् इस्तेमाल होती है।
+" />
+			<TextView android:textSize="18sp" android:textStyle="0x1" android:textColor="000" android:layout_width="-1" android:layout_height="-2" android:text="कॉम्बिनेशन किज्:-
+" />
+			<TextView android:textSize="18sp" android:textColor="000" android:layout_width="-1" android:layout_height="-1" android:text="      कंप्युटरपर काम करते समय कुछ वक्त आप एक से अधिक कुंजीयों का उपयोग करते हैं। कॉम्बिनेशन किज यह अन्य कुंजीयों के साथ मिलकर काम करते हैं। इनमें कंट्रोल, अल्ट, शिफ्ट, और डिलीट कुंजीयां शामिल होती हैं।
+" />
+			<TextView android:textSize="18sp" android:textStyle="0x1" android:textColor="000" android:layout_width="-1" android:layout_height="-2" android:text="स्पेशल पर्पोस किज्:-
+" />
+			<TextView android:textSize="18sp" android:textColor="000" android:layout_width="-1" android:layout_height="-1" android:text="      स्पेशल पर्पस कीज़ कम्प्यूटर में विशेष कार्य के लिए उपयोग की जाती है।
+" />
+			<TextView android:textSize="18sp" android:textColor="000" android:layout_width="-1" android:layout_height="-1" android:text="      होम किज् :- होम कुंजी का उपयोग किसी फाइल में टाइप करते वक्त कर्सर को पंक्ती के शुरुआत में लाने के लिए होता हैं।
+" />
+			<TextView android:textSize="18sp" android:textColor="000" android:layout_width="-1" android:layout_height="-1" android:text="      एन्ड किज् :- एन्ड कुंजी का उपयोग किसी फाइल में टाइप करते वक्त कर्सर को पंक्ती के आखिर में ले जाने के लिए होता हैं।
+" />
+			<TextView android:textSize="18sp" android:textColor="000" android:layout_width="-1" android:layout_height="-1" android:text="      पेज-अप किज् :- पेज-अप कुंजी का उपयोग किसी फाइल में टाइप करते वक्त कर्सर को पेज के शुरुआत में यानि उपर के तरफ लाने के लिए होता हैं।
+" />
+			<TextView android:textSize="18sp" android:textColor="000" android:layout_width="-1" android:layout_height="-1" android:text="      पेज-डाऊन किज् :- पेज-डाऊन कुंजी का उपयोग किसी फाइल में टाइप करते वक्त कर्सर को पेज के आखिर में यानि नीचे के तरफ लाने के लिए होता हैं।
+" />
+			<TextView android:textSize="18sp" android:textColor="000" android:layout_width="-1" android:layout_height="-1" android:text="      प्रिंट-स्क्रीन किज् :- प्रिंट-स्क्रीन कुंजी का उपयोग कंप्युटर स्क्रीन कॅप्चर करने के लिएं होता हैं। कंप्यूटर पर काम करते समय कोई जानकारी प्रिंट-स्क्रीन कुंजी द्वारा कैप्चर करके उसे पेंट, वर्ड, इत्यादि में पेस्ट किया जा सकता है।
+" />
+			<ImageView android:layout_gravity="0x11" android:layout_width="-1" android:layout_height="220dp" android:src="res/drawable/keysname.png" />
+		</LinearLayout>
+	</ScrollView>
+	<com.google.android.gms.ads.AdView xmlns:ads="http://schemas.android.com/apk/res-auto" android:id="false" android:layout_width="-2" android:layout_height="-2" android:layout_alignParentBottom="true" android:layout_centerHorizontal="true" ads:adSize="BANNER" ads:adUnitId="ca-app-pub-2393065895339578/1243970239" />
+</RelativeLayout>

@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android" xmlns:app="http://schemas.android.com/apk/res-auto" android:id="@+id/activity_mon" android:paddingLeft="@dimen/activity_horizontal_margin" android:paddingTop="@dimen/activity_vertical_margin" android:paddingRight="@dimen/activity_horizontal_margin" android:paddingBottom="0dp" android:layout_width="match_parent" android:layout_height="match_parent">
+    <ScrollView android:layout_width="match_parent" android:layout_height="match_parent" android:layout_marginBottom="50dp">
+        <LinearLayout android:orientation="vertical" android:layout_width="match_parent" android:layout_height="match_parent">
+            <TextView android:textSize="18sp" android:textStyle="bold" android:textColor="#023cd0" android:layout_width="match_parent" android:layout_height="wrap_content" android:text="Monitor\10"/>
+            <TextView android:textSize="18sp" android:textColor="#000000" android:id="@+id/textView3" android:layout_width="match_parent" android:layout_height="match_parent" android:text="      Monitor is an important output device. The monitor is used to display information. The output on the monitor screen is called softcopy. Because you can only see the information displayed on the monitor, actually can not handle it.\10"/>
+            <TextView android:textSize="18sp" android:textStyle="bold" android:textColor="#000000" android:layout_width="match_parent" android:layout_height="wrap_content" android:text="      The typical types of monitors are as follows.\10"/>
+            <TextView android:textSize="18sp" android:textColor="#000000" android:layout_width="match_parent" android:layout_height="match_parent" android:text="      CRT Monitor:-\10"/>
+            <ImageView android:layout_gravity="center" android:layout_width="match_parent" android:layout_height="150dp" android:src="@drawable/crt"/>
+            <TextView android:textSize="18sp" android:textColor="#000000" android:layout_width="match_parent" android:layout_height="wrap_content" android:text="      CRT (cathode ray tube) monitors were used earlier. These were old televisions size monitors. There was a need for more space to keep these monitors. Compared to other monitors, electricity was also used more.\10"/>
+            <TextView android:textSize="18sp" android:textColor="#000000" android:layout_width="match_parent" android:layout_height="match_parent" android:text="      LCD Monitor:-\10"/>
+            <ImageView android:layout_gravity="center" android:layout_width="match_parent" android:layout_height="150dp" android:src="@drawable/computer"/>
+            <TextView android:textSize="18sp" android:textColor="#000000" android:layout_width="match_parent" android:layout_height="match_parent" android:text="      LCD Monitor (liquid crystal display) monitor. These monitors are most useful than the CRT monitors. And these monitors need less power than the CRT monitor. These monitors take up less space. So it is convenient to use.\10"/>
+            <TextView android:textSize="18sp" android:textColor="#000000" android:layout_width="match_parent" android:layout_height="match_parent" android:text="      LED Monitor:-\10"/>
+            <ImageView android:layout_gravity="center" android:layout_width="match_parent" android:layout_height="150dp" android:src="@drawable/led"/>
+            <TextView android:textSize="18sp" android:textColor="#000000" android:layout_width="match_parent" android:layout_height="match_parent" android:layout_marginBottom="10dp" android:text="      LED (light-emitting diode) monitor is a flat-panel monitor. These monitors are used extensively today. Also LEDs Save more energy than other monitor."/>
+        </LinearLayout>
+    </ScrollView>
+    <com.google.android.gms.ads.AdView android:id="@+id/adView" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_alignParentBottom="true" android:layout_centerHorizontal="true" app:adSize="BANNER" app:adUnitId="ca-app-pub-2393065895339578/1243970239"/>
+</RelativeLayout>

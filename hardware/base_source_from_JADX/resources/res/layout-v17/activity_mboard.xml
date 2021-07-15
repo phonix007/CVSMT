@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android" xmlns:app="http://schemas.android.com/apk/res-auto" android:id="@+id/activity_mboard" android:paddingLeft="@dimen/activity_horizontal_margin" android:paddingTop="@dimen/activity_vertical_margin" android:paddingRight="@dimen/activity_horizontal_margin" android:paddingBottom="0dp" android:layout_width="match_parent" android:layout_height="match_parent">
+    <ScrollView android:layout_width="match_parent" android:layout_height="match_parent" android:layout_marginBottom="50dp">
+        <LinearLayout android:orientation="vertical" android:layout_width="match_parent" android:layout_height="match_parent">
+            <TextView android:textSize="18sp" android:textStyle="bold" android:textColor="#023cd0" android:layout_width="match_parent" android:layout_height="wrap_content" android:text="मदरबोर्ड\10" android:textAlignment="center"/>
+            <ImageView android:layout_gravity="center" android:layout_width="match_parent" android:layout_height="180dp" android:src="@drawable/mboard"/>
+            <TextView android:textSize="18sp" android:textColor="#000000" android:id="@+id/textView3" android:layout_width="match_parent" android:layout_height="match_parent" android:text="      मदरबोर्ड हा कंप्युटर सिस्टिमचा महत्वाचा भाग आहे. मदरबोर्डला सिस्टिम बोर्ड किंवा मेनबोर्ड असेही म्हणतात. मदरबोर्डच्या साह्याने कंप्युटरचे विविध भाग एकमेकांशी संवाद साधतात. मदरबोर्ड हा स्लॉट, सॉकेटस्, पोर्टस् अशा विभिन्न भागांनी मिळून बनलेला असतो. थोडक्यात मदरबोर्ड हा कंप्युटरच्या विविध घटकांना नियंत्रित करण्याचे कार्य करतो.\10"/>
+            <ImageView android:layout_gravity="center" android:layout_width="match_parent" android:layout_height="250dp" android:src="@drawable/in"/>
+        </LinearLayout>
+    </ScrollView>
+    <com.google.android.gms.ads.AdView android:id="@+id/adView" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_alignParentBottom="true" android:layout_centerHorizontal="true" app:adSize="BANNER" app:adUnitId="ca-app-pub-2393065895339578/1243970239"/>
+</RelativeLayout>

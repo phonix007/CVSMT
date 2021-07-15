@@ -1,0 +1,51 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android" android:id="false" android:paddingLeft="16dp" android:paddingTop="16dp" android:paddingRight="16dp" android:paddingBottom="0dp" android:layout_width="-1" android:layout_height="-1">
+	<ScrollView android:layout_width="-1" android:layout_height="-1" android:layout_marginBottom="50dp">
+		<LinearLayout android:orientation="1" android:layout_width="-1" android:layout_height="-1">
+			<TextView android:textSize="18sp" android:textStyle="0x1" android:textColor="23cd0" android:layout_width="-1" android:layout_height="-2" android:text="किबोर्ड वरील बटणांची त्यांच्या उपयोगानुसार नावे
+" />
+			<TextView android:textSize="18sp" android:textColor="000" android:id="false" android:layout_width="-1" android:layout_height="-1" android:text="      किबोर्डचा वापर करतांना आपण किबोर्डवरील विविध बटणांचा उपयोग करतो. या बटणांना त्यांच्या उपयोगानुसार काही नावे आहेत. किबोर्ड वरील बटणांची त्यांच्या उपयोगानुसार नावे पुढीलप्रमाणे आहेत.
+" />
+			<TextView android:textSize="18sp" android:textStyle="0x1" android:textColor="000" android:layout_width="-1" android:layout_height="-2" android:text="टाईपरायटर किज् :-
+" />
+			<TextView android:textSize="18sp" android:textColor="000" android:layout_width="-1" android:layout_height="-1" android:text="      टाईपरायटर किज् चा उपयोग कंप्युटरमध्ये माहिती टाईप करण्यासाठी होतो. या कीजवर A ते Z ही अक्षरे, 0 ते 9 पर्यत अंक तसेच वेगवेगळी चिन्हे दिलेली असतात.
+" />
+			<TextView android:textSize="18sp" android:textStyle="0x1" android:textColor="000" android:layout_width="-1" android:layout_height="-2" android:text="टॉगल किज्:-
+" />
+			<TextView android:textSize="18sp" android:textColor="000" android:layout_width="-1" android:layout_height="-1" android:text="      कॅप्स लॉक, नम लॉक व स्क्रॉल लॉक या किज् ना टॉगल किज् असे म्हणतात. या किज् मध्ये ऑन-ऑफ फंक्शनचा वापर होतो. म्हणजेच या बटणांचा वापर करतांना किबोर्डवरील लाईट ऑन-ऑफ होत असते.
+" />
+			<TextView android:textSize="18sp" android:textStyle="0x1" android:textColor="000" android:layout_width="-1" android:layout_height="-2" android:text="फंक्शन किज्:-
+" />
+			<TextView android:textSize="18sp" android:textColor="000" android:layout_width="-1" android:layout_height="-1" android:text="      किबोर्डवरील F1 ते F12 पर्यंत असलेल्या बटणांना फंक्शन किज् असे म्हणतात. फंक्शन किज् चा वापर कंप्युटरमध्ये शॉर्टकट कामांसाठी होतो.
+" />
+			<TextView android:textSize="18sp" android:textStyle="0x1" android:textColor="000" android:layout_width="-1" android:layout_height="-2" android:text="नेव्हिगेशन किज्:-
+" />
+			<TextView android:textSize="18sp" android:textColor="000" android:layout_width="-1" android:layout_height="-1" android:text="      नेव्हिगेशन किज् चा वापर एखाद्या फाईलमध्ये पेज वर-खाली नेव्हिगेट करण्यासाठी होतो. किंवा पेजमधील कर्सरची जागा बदलण्यासाठी होतो.
+" />
+			<TextView android:textSize="18sp" android:textStyle="0x1" android:textColor="000" android:layout_width="-1" android:layout_height="-2" android:text="न्यूमेरिक किज्:-
+" />
+			<TextView android:textSize="18sp" android:textColor="000" android:layout_width="-1" android:layout_height="-1" android:text="      टाईप करतांना अंकांचा वापर करण्यासाठी न्यूमेरिक किज् चा उपयोग होतो.
+" />
+			<TextView android:textSize="18sp" android:textStyle="0x1" android:textColor="000" android:layout_width="-1" android:layout_height="-2" android:text="कॉम्बिनेशन किज्:-
+" />
+			<TextView android:textSize="18sp" android:textColor="000" android:layout_width="-1" android:layout_height="-1" android:text="      कंप्युटरवर काम करत असतांना काही वेळेस आपणास एकापेक्षा जास्त बटणांचा वापर करावा लागतो. कॉम्बिनेशन किज् हे इतर बटणांसोबत एकत्र येऊन कृती करतात. यात कंट्रोल, अल्ट, शिफ्ट, डिलीट या बटणांचा समावेश होतो.
+" />
+			<TextView android:textSize="18sp" android:textStyle="0x1" android:textColor="000" android:layout_width="-1" android:layout_height="-2" android:text="स्पेशल पर्पोस किज्:-
+" />
+			<TextView android:textSize="18sp" android:textColor="000" android:layout_width="-1" android:layout_height="-1" android:text="      स्पेशल पर्पोस किज् या कंप्युटरमध्ये विशेष कामांसाठी वापरल्या जातात.
+" />
+			<TextView android:textSize="18sp" android:textColor="000" android:layout_width="-1" android:layout_height="-1" android:text="      होम किज् :- होम बटणाचा उपयोग एखाद्या फाईलमध्ये टाईप करत असतांना कर्सर ओळीच्या सुरवातीला आणण्यासाठी होतो.
+" />
+			<TextView android:textSize="18sp" android:textColor="000" android:layout_width="-1" android:layout_height="-1" android:text="      एन्ड किज् :- एन्ड किज् चा उपयोग एखाद्या फाईलमध्ये टाईप करत असतांना कर्सर ओळीच्या शेवटी नेण्यासाठी होतो.
+" />
+			<TextView android:textSize="18sp" android:textColor="000" android:layout_width="-1" android:layout_height="-1" android:text="      पेज-अप किज् :- पेज-अप किज् चा उपयोग एखाद्या फाईलमध्ये टाईप करत असतांना कर्सर पेजच्या वरील बाजूस नेण्यासाठी होतो.
+" />
+			<TextView android:textSize="18sp" android:textColor="000" android:layout_width="-1" android:layout_height="-1" android:text="      पेज-डाऊन किज् :- पेज-डाऊन किज् चा उपयोग एखाद्या फाईलमध्ये टाईप करत असतांना कर्सर पेजच्या खालील बाजूस नेण्यासाठी होतो.
+" />
+			<TextView android:textSize="18sp" android:textColor="000" android:layout_width="-1" android:layout_height="-1" android:text="      प्रिंट-स्क्रीन किज् :- प्रिंट-स्क्रीन बटणाचा उपयोग कंप्युटर स्क्रीन कॅप्चर करण्यासाठी होतो. कंप्युटरवर काम करत असतांना एखादी माहिती प्रिंट-स्क्रीन बटणाद्वारे कॅप्चर करून ती आपण पेंट, वर्ड, इत्यादीमध्ये पेस्ट करू शकतो.
+" />
+			<ImageView android:layout_gravity="0x11" android:layout_width="-1" android:layout_height="220dp" android:src="res/drawable/keysname.png" />
+		</LinearLayout>
+	</ScrollView>
+	<com.google.android.gms.ads.AdView xmlns:ads="http://schemas.android.com/apk/res-auto" android:id="false" android:layout_width="-2" android:layout_height="-2" android:layout_alignParentBottom="true" android:layout_centerHorizontal="true" ads:adSize="BANNER" ads:adUnitId="ca-app-pub-2393065895339578/1243970239" />
+</RelativeLayout>

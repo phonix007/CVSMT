@@ -1,0 +1,42 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android" android:id="false" android:paddingLeft="16dp" android:paddingTop="16dp" android:paddingRight="16dp" android:paddingBottom="0dp" android:layout_width="-1" android:layout_height="-1">
+	<ScrollView android:layout_width="-1" android:layout_height="-1" android:layout_marginBottom="50dp">
+		<LinearLayout android:orientation="1" android:layout_width="-1" android:layout_height="-1">
+			<TextView android:textSize="18sp" android:textStyle="0x1" android:textColor="23cd0" android:layout_width="-1" android:layout_height="-2" android:text="कंप्युटर कनेक्शन वायर्स
+" />
+			<TextView android:textSize="18sp" android:textColor="000" android:id="false" android:layout_width="-1" android:layout_height="-1" android:text="      कंप्युटरचे विविध भाग जोडणीसाठी वेगवेगळ्या कनेक्शन वायर्सचा उपयोग होतो. वेगवेगळी उपकरणे जोडणीसाठी लागणारी कनेक्शन वायर्सची माहिती पुढीलप्रमाणे आहे.
+" />
+			<TextView android:textSize="18sp" android:textStyle="0x1" android:textColor="000" android:layout_width="-1" android:layout_height="-2" android:text="      पॉवर केबल (Power Cable):-
+" />
+			<ImageView android:layout_gravity="0x11" android:layout_width="-1" android:layout_height="250dp" android:src="res/drawable/cable.png" />
+			<TextView android:textSize="18sp" android:textColor="000" android:layout_width="-1" android:layout_height="-2" android:text="      कंप्युटरला वीजपुरवठा करण्यासाठी पॉवर केबलचा उपयोग होतो. पॉवर केबलचा एक भाग मेन स्वीच मध्ये कनेक्ट केला जातो. व दुसरा भाग हा पावर सप्लाय युनिटशी जोडला जातो.
+" />
+			<TextView android:textSize="18sp" android:textStyle="0x1" android:textColor="000" android:layout_width="-1" android:layout_height="-2" android:text="      व्ही.जी.ए. केबल (VGA Cable) :-
+" />
+			<ImageView android:layout_gravity="0x11" android:layout_width="-1" android:layout_height="250dp" android:src="res/drawable/vgacable.png" />
+			<TextView android:textSize="18sp" android:textColor="000" android:layout_width="-1" android:layout_height="-2" android:text="      व्ही.जी.ए. केबल ही सिस्टिम बोर्डचे कनेक्शन मॉनिटरला देण्यासाठी वापरली जाते. ज्यामुळे आपणास मॉनिटरवर माहिती दृश्यस्वरुपात दिसण्यास मदत होते. व्ही.जी.ए. केबलचे एक कनेक्शन मॉनिटरशी व दुसरे पीसी शी कनेक्ट करता येते.
+" />
+			<TextView android:textSize="18sp" android:textStyle="0x1" android:textColor="000" android:layout_width="-1" android:layout_height="-2" android:text="      आय.डी.इ. केबल (IDE Cable) :-
+" />
+			<ImageView android:layout_gravity="0x11" android:layout_width="-1" android:layout_height="250dp" android:src="res/drawable/idecbl.png" />
+			<TextView android:textSize="18sp" android:textColor="000" android:layout_width="-1" android:layout_height="-2" android:text="      आय.डी.इ. केबलचा उपयोग IDE हार्ड डिस्क किंवा IDE डी व्ही डी रायटरला मदरबोर्डशी कनेक्ट करण्यासाठी होतो.
+" />
+			<TextView android:textSize="18sp" android:textStyle="0x1" android:textColor="000" android:layout_width="-1" android:layout_height="-2" android:text="      साटा केबल (SATA Cable) :-
+" />
+			<ImageView android:layout_gravity="0x11" android:layout_width="-1" android:layout_height="250dp" android:src="res/drawable/satacable.png" />
+			<TextView android:textSize="18sp" android:textColor="000" android:layout_width="-1" android:layout_height="-2" android:text="      साटा केबलचा उपयोग SATA हार्ड डिस्क किंवा डी व्ही डी रायटरला मदरबोर्डशी कनेक्ट करण्यासाठी होतो.
+" />
+			<TextView android:textSize="18sp" android:textStyle="0x1" android:textColor="000" android:layout_width="-1" android:layout_height="-2" android:text="      यु.एस.बी. केबल (USB Cable) :-
+" />
+			<ImageView android:layout_gravity="0x11" android:layout_width="-1" android:layout_height="250dp" android:src="res/drawable/printcable.png" />
+			<TextView android:textSize="18sp" android:textColor="000" android:layout_width="-1" android:layout_height="-2" android:text="      यु.एस.बी. केबलचा उपयोग प्रिंटर, स्कॅनर, मोबाईल, कॅमेरा, यासारखी उपकरणे कंप्युटरशी कनेक्ट करण्यासाठी होतो.
+" />
+			<TextView android:textSize="18sp" android:textStyle="0x1" android:textColor="000" android:layout_width="-1" android:layout_height="-2" android:text="      इथरनेट केबल (Ethernet Cable):-
+" />
+			<ImageView android:layout_gravity="0x11" android:layout_width="-1" android:layout_height="250dp" android:src="res/drawable/lancable.png" />
+			<TextView android:textSize="18sp" android:textColor="000" android:layout_width="-1" android:layout_height="-2" android:text="      इथरनेट केबलला लॅन केबल असेही म्हणतात.  इथरनेट केबलचा उपयोग अनेक कंप्युटर्स एकमेकांशी कनेक्ट करण्यासाठी किंवा कंप्युटरला इंटरनेट कनेक्शन जोडण्यासाठी केला जातो. 
+" />
+		</LinearLayout>
+	</ScrollView>
+	<com.google.android.gms.ads.AdView xmlns:ads="http://schemas.android.com/apk/res-auto" android:id="false" android:layout_width="-2" android:layout_height="-2" android:layout_alignParentBottom="true" android:layout_centerHorizontal="true" ads:adSize="BANNER" ads:adUnitId="ca-app-pub-2393065895339578/1243970239" />
+</RelativeLayout>

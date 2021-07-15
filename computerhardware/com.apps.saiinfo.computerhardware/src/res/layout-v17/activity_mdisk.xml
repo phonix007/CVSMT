@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android" android:id="false" android:paddingLeft="16dp" android:paddingTop="16dp" android:paddingRight="16dp" android:paddingBottom="0dp" android:layout_width="-1" android:layout_height="-1">
+	<ScrollView android:layout_width="-1" android:layout_height="-1" android:layout_marginBottom="50dp">
+		<LinearLayout android:orientation="1" android:layout_width="-1" android:layout_height="-1">
+			<TextView android:textSize="18sp" android:textStyle="0x1" android:textColor="23cd0" android:layout_width="-1" android:layout_height="-2" android:text="हार्ड डिस्क
+" android:textAlignment="4" />
+			<TextView android:textSize="18sp" android:textColor="000" android:id="false" android:layout_width="-1" android:layout_height="-1" android:text="      कंप्युटरवर काम करत असताना आपण सेव्ह केलेला डेटा हा हार्ड डिस्क मध्ये सेव्ह होत असतो. हार्ड डिस्क हे सेकंडरी स्टोरेजचे उदाहरण आहे. म्हणजेच हार्ड डिस्कमध्ये साठविलेली माहिती कायमस्वरूपी स्वरुपाची असते. हार्ड डिस्क ही सिस्टिम कॅबिनेटच्या आत बसविलेली असते.
+" />
+			<ImageView android:layout_gravity="0x11" android:layout_width="-1" android:layout_height="200dp" android:src="res/drawable/disk.png" />
+			<TextView android:textSize="18sp" android:textColor="000" android:layout_width="-1" android:layout_height="-2" android:text="      कंप्युटरमध्ये हार्ड डिस्क ही 500 GB किंवा त्यापेक्षा अधिक क्षमता असलेली असावी. ज्यामुळे आपणास कंप्युटरमध्ये जास्तीत जास्त डेटा साठविता येतो. हार्ड डिस्कला हाताळतांना योग्य काळजी घ्यावी. कारण धुळीमुळे किंवा अन्य कारणांमुळे हार्ड डिस्क खराब होऊ शकते. त्यामुळे हार्ड डिस्कला हाताळतांना योग्य ती दक्षता घ्यावी.
+" />
+		</LinearLayout>
+	</ScrollView>
+	<com.google.android.gms.ads.AdView xmlns:ads="http://schemas.android.com/apk/res-auto" android:id="false" android:layout_width="-2" android:layout_height="-2" android:layout_alignParentBottom="true" android:layout_centerHorizontal="true" ads:adSize="BANNER" ads:adUnitId="ca-app-pub-2393065895339578/1243970239" />
+</RelativeLayout>

@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android" android:id="false" android:paddingLeft="16dp" android:paddingTop="16dp" android:paddingRight="16dp" android:paddingBottom="0dp" android:layout_width="-1" android:layout_height="-1">
+	<ScrollView android:layout_width="-1" android:layout_height="-1" android:layout_marginBottom="50dp">
+		<LinearLayout android:orientation="1" android:layout_width="-1" android:layout_height="-1">
+			<TextView android:textSize="18sp" android:textStyle="0x1" android:textColor="23cd0" android:layout_width="-1" android:layout_height="-2" android:text="की-बोर्ड को कंप्यूटर से कनेक्ट करना
+" android:textAlignment="4" />
+			<ImageView android:layout_gravity="0x11" android:layout_width="-1" android:layout_height="220dp" android:src="res/drawable/keyconnect.png" />
+			<TextView android:textSize="18sp" android:textColor="000" android:id="false" android:layout_width="-1" android:layout_height="-1" android:text="      की-बोर्ड को कंप्युटर से दो तरह जोड़ा जा सकता है, जैसे कि PS2 पोर्ट या यूएसबी (USB) पोर्ट से। PS2 कुंजीपटल को कनेक्ट करते समय सावधानी बरतें। क्योंकि इस कीबोर्ड में कनेक्शन वायर में छोटे-छोटे तार होते हैं। अगर वे PS2 पोर्ट में ठीक से कनेक्ट नहीं हुएं, तो यह तार टूट सकते हैं। और कीबोर्ड खराब हो सकता है।
+" />
+			<ImageView android:layout_gravity="0x11" android:layout_width="-1" android:layout_height="220dp" android:src="res/drawable/usbkeys.png" />
+			<TextView android:textSize="18sp" android:textStyle="0x1" android:textColor="000" android:layout_width="-1" android:layout_height="-2" android:text="यदि कंप्यूटर का उपयोग करते समय की-बोर्ड बंद होता है:-
+" />
+			<TextView android:textSize="18sp" android:textColor="000" android:layout_width="-1" android:layout_height="-1" android:text="      कंप्यूटर का उपयोग करते समय कुछ समय की-बोर्ड बंद हो जाता है। उस समय, कंप्यूटर को रिस्टार्ट करके देखें। या कंप्युटर को बंद करके कीबोर्ड की वायर को निकाल के पुन: जोड के देखें। और कंप्युटर शुरू करके देखें। कीबोर्ड फिर से शुरू हो जाएगा।
+" />
+		</LinearLayout>
+	</ScrollView>
+	<com.google.android.gms.ads.AdView xmlns:ads="http://schemas.android.com/apk/res-auto" android:id="false" android:layout_width="-2" android:layout_height="-2" android:layout_alignParentBottom="true" android:layout_centerHorizontal="true" ads:adSize="BANNER" ads:adUnitId="ca-app-pub-2393065895339578/1243970239" />
+</RelativeLayout>

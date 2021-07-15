@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android" android:id="false" android:paddingLeft="16dp" android:paddingTop="16dp" android:paddingRight="16dp" android:paddingBottom="0dp" android:layout_width="-1" android:layout_height="-1">
+	<ScrollView android:layout_width="-1" android:layout_height="-1" android:layout_marginBottom="50dp">
+		<LinearLayout android:orientation="1" android:layout_width="-1" android:layout_height="-1">
+			<TextView android:textSize="18sp" android:textStyle="0x1" android:textColor="23cd0" android:layout_width="-1" android:layout_height="-2" android:text="कंप्युटर हार्डवेअर
+" />
+			<ImageView android:layout_gravity="0x11" android:layout_width="-1" android:layout_height="200dp" android:src="res/drawable/hards.png" />
+			<TextView android:textSize="18sp" android:textColor="000" android:layout_width="-1" android:layout_height="-2" android:text="      कंप्युटरचा वापर करतांना आपण विविध उपकरणांचा वापर करत असतो. या उपकरणांचा वापर करतांना ही उपकरणे कशा प्रकारे काम करतात. त्यांचा काय उपयोग असतो. हे आपणास माहित असणे आवश्यक आहे. तसेच कंप्युटरचा वापर करतांना काही वेळेस एखादे उपकरण कार्य करत नाही. अशा वेळेस ते कसे दुरुस्त करता येईल. याची माहिती आपणास असल्यास आपण ते दुरुस्त करून पुन्हा वापरू शकतो.
+" />
+			<TextView android:textSize="18sp" android:textColor="000" android:layout_width="-1" android:layout_height="-2" android:text="      या अॅप च्या साह्याने आपणास कंप्युटरच्या विविध उपकरणांची माहिती होईल. तसेच त्यांचे कार्य व उपयोग कसा करावा हे आपण शिकाल.
+" />
+		</LinearLayout>
+	</ScrollView>
+	<com.google.android.gms.ads.AdView xmlns:ads="http://schemas.android.com/apk/res-auto" android:id="false" android:layout_width="-2" android:layout_height="-2" android:layout_alignParentBottom="true" android:layout_centerHorizontal="true" ads:adSize="BANNER" ads:adUnitId="ca-app-pub-2393065895339578/1243970239" />
+</RelativeLayout>

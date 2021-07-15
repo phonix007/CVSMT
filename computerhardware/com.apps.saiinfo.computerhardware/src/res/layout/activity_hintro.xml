@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android" android:id="false" android:paddingLeft="16dp" android:paddingTop="16dp" android:paddingRight="16dp" android:paddingBottom="0dp" android:layout_width="-1" android:layout_height="-1">
+	<ScrollView android:layout_width="-1" android:layout_height="-1" android:layout_marginBottom="50dp">
+		<LinearLayout android:orientation="1" android:layout_width="-1" android:layout_height="-1">
+			<TextView android:textSize="18sp" android:textStyle="0x1" android:textColor="23cd0" android:layout_width="-1" android:layout_height="-2" android:text="कंप्युटर हार्डवेअर
+" />
+			<ImageView android:layout_gravity="0x11" android:layout_width="-1" android:layout_height="200dp" android:src="res/drawable/hards.png" />
+			<TextView android:textSize="18sp" android:textColor="000" android:layout_width="-1" android:layout_height="-2" android:text="      कंप्यूटर का उपयोग करते समय, हम विभिन्न उपकरणों का उपयोग करते है। इन उपकरणों का उपयोग करते समय यह उपकरण किस प्रकार काम करते हैं? उनका क्या उपयोग होता है? यह हमें पता होना चहिए। साथ ही, कंप्यूटर का उपयोग करते समय कुछ डिव्हाइस कभी-कभी काम नहीं करते। उन्हें कैसे ठीक किया जा सकता है? अगर यह हमें पता हो, तो हम उन्हे ठीक कर पुनः इस्तेमाल कर सकते हैं।
+" />
+			<TextView android:textSize="18sp" android:textColor="000" android:layout_width="-1" android:layout_height="-2" android:text="      इस ऐप में कंप्युटर के विभिन्न उपकरणो की जानकारी दी गई हैं। जिसकी सहायता से आप कंप्युटर के विभिन्न उपकरणो की जानकारी प्राप्त कर सकते हैं। और उनका उपयोग करना सिख सकते हैं।
+" />
+		</LinearLayout>
+	</ScrollView>
+	<com.google.android.gms.ads.AdView xmlns:ads="http://schemas.android.com/apk/res-auto" android:id="false" android:layout_width="-2" android:layout_height="-2" android:layout_alignParentBottom="true" android:layout_centerHorizontal="true" ads:adSize="BANNER" ads:adUnitId="ca-app-pub-2393065895339578/1243970239" />
+</RelativeLayout>

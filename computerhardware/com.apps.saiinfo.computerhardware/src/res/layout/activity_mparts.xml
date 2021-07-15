@@ -1,0 +1,89 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android" android:id="false" android:paddingLeft="16dp" android:paddingTop="16dp" android:paddingRight="16dp" android:paddingBottom="0dp" android:layout_width="-1" android:layout_height="-1">
+	<ScrollView android:layout_width="-1" android:layout_height="-1" android:layout_marginBottom="50dp">
+		<LinearLayout android:orientation="1" android:layout_width="-1" android:layout_height="-1">
+			<TextView android:textSize="18sp" android:textStyle="0x1" android:textColor="23cd0" android:layout_width="-1" android:layout_height="-2" android:text="मदरबोर्डचे विविध भाग
+" />
+			<ImageView android:layout_gravity="0x11" android:layout_width="-1" android:layout_height="180dp" android:src="res/drawable/mboard.png" />
+			<TextView android:textSize="18sp" android:textColor="000" android:id="false" android:layout_width="-1" android:layout_height="-1" android:text="      मदरबोर्ड हा कंप्युटर सिस्टिमचा महत्वाचा भाग आहे. मदरबोर्डच्या साह्याने कंप्युटरचे विविध भाग एकमेकांशी संवाद साधतात. मदरबोर्ड हा स्लॉट, सॉकेटस्, पोर्टस् अशा विभिन्न भागांनी मिळून बनलेला असतो.
+" />
+			<TextView android:textSize="18sp" android:textStyle="0x1" android:textColor="000" android:layout_width="-1" android:layout_height="-2" android:text="      मदरबोर्डवरील विविध भागांची माहिती:- 
+" />
+			<TextView android:textSize="18sp" android:textStyle="0x1" android:textColor="000" android:layout_width="-1" android:layout_height="-2" android:text="      सीपीयु:-
+" />
+			<ImageView android:layout_gravity="0x11" android:layout_width="-1" android:layout_height="180dp" android:src="res/drawable/cpu.png" />
+			<TextView android:textSize="18sp" android:textColor="000" android:layout_width="-1" android:layout_height="-2" android:text="      सीपीयु म्हणजेच सेन्ट्रल प्रोसेसिंग युनिट होय. हा कंप्युटरचा मेंदू असतो. तो प्रत्येक कंप्युटरचा एक महत्वाचा भाग असतो. सीपीयु हा सिस्टिम कॅबिनेटमध्ये मदरबोर्डवर स्थित असतो.
+" />
+			<TextView android:textSize="18sp" android:textStyle="0x1" android:textColor="000" android:layout_width="-1" android:layout_height="-2" android:text="      स्लॉट:-
+" />
+			<TextView android:textSize="18sp" android:textColor="000" android:layout_width="-1" android:layout_height="-2" android:text="      स्लॉट्स हे विशिष्ट कार्ड्स सिस्टिम बोर्डला जोडण्यासाठी वापरले जाते.
+" />
+			<TextView android:textSize="18sp" android:textStyle="0x1" android:textColor="000" android:layout_width="-1" android:layout_height="-2" android:text="      रॅम स्लॉट:-
+" />
+			<ImageView android:layout_gravity="0x11" android:layout_width="-1" android:layout_height="180dp" android:src="res/drawable/rslot.png" />
+			<TextView android:textSize="18sp" android:textColor="000" android:layout_width="-1" android:layout_height="-2" android:text="      रॅम चिप्स जोडण्यासाठी रॅम स्लॉट चा उपयोग होतो.
+" />
+			<TextView android:textSize="18sp" android:textStyle="0x1" android:textColor="000" android:layout_width="-1" android:layout_height="-2" android:text="      पी.सी.आय. स्लॉट:-
+" />
+			<ImageView android:layout_gravity="0x11" android:layout_width="-1" android:layout_height="250dp" android:src="res/drawable/pci.png" />
+			<TextView android:textSize="18sp" android:textColor="000" android:layout_width="-1" android:layout_height="-2" android:text="      पी.सी.आय. स्लॉट च्या साह्याने साउंड कार्ड, डिस्प्ले कार्ड, व्हिडिओ कार्ड, इ. कनेक्ट करता येतात.
+" />
+			<TextView android:textSize="18sp" android:textStyle="0x1" android:textColor="000" android:layout_width="-1" android:layout_height="-2" android:text="      सी पी यु सॉकेट :-
+" />
+			<ImageView android:layout_gravity="0x11" android:layout_width="-1" android:layout_height="250dp" android:src="res/drawable/cpusock.png" />
+			<TextView android:textSize="18sp" android:textColor="000" android:layout_width="-1" android:layout_height="-2" android:text="      मदरबोर्डवर सी पी यु बसविण्यासाठी सी पी यु सॉकेटचा उपयोग होतो.
+" />
+			<TextView android:textSize="18sp" android:textStyle="0x1" android:textColor="000" android:layout_width="-1" android:layout_height="-2" android:text="      सी पी यु पंखा:-
+" />
+			<ImageView android:layout_gravity="0x11" android:layout_width="-1" android:layout_height="250dp" android:src="res/drawable/fan.png" />
+			<TextView android:textSize="18sp" android:textColor="000" android:layout_width="-1" android:layout_height="-2" android:text="      मदरबोर्ड वरील विविध कांपोननट्स पासून होणाऱ्या उष्णतेपासून सी पी यु चे तापमान नियंत्रित करण्यासाठी सी पी यु फॅन चा उपयोग होतो.
+" />
+			<TextView android:textSize="18sp" android:textStyle="0x1" android:textColor="000" android:layout_width="-1" android:layout_height="-2" android:text="      आयडीई पोर्ट :-
+" />
+			<ImageView android:layout_gravity="0x11" android:layout_width="-1" android:layout_height="250dp" android:src="res/drawable/ide.png" />
+			<TextView android:textSize="18sp" android:textColor="000" android:layout_width="-1" android:layout_height="-2" android:text="      आयडीई पोर्ट चा उपयोग करून IDE हार्ड डिस्क तसेच DVD Writer मदरबोर्ड शी कनेक्ट केले जाते.
+" />
+			<TextView android:textSize="18sp" android:textStyle="0x1" android:textColor="000" android:layout_width="-1" android:layout_height="-2" android:text="      साटा पोर्ट :-
+" />
+			<ImageView android:layout_gravity="0x11" android:layout_width="-1" android:layout_height="250dp" android:src="res/drawable/sata.png" />
+			<TextView android:textSize="18sp" android:textColor="000" android:layout_width="-1" android:layout_height="-2" android:text="      SATA हार्ड डिस्क किंवा DVD Writer मदरबोर्डशी कनेक्ट करण्यासाठी साटा पोर्ट चा उपयोग होतो.
+" />
+			<TextView android:textSize="18sp" android:textStyle="0x1" android:textColor="000" android:layout_width="-1" android:layout_height="-2" android:text="      बॅटरी:-
+" />
+			<ImageView android:layout_gravity="0x11" android:layout_width="-1" android:layout_height="250dp" android:src="res/drawable/battery.png" />
+			<TextView android:textSize="18sp" android:textColor="000" android:layout_width="-1" android:layout_height="-2" android:text="      CMOS बॅटरी चा उपयोग कंप्युटरमध्ये डेट, टाइम, इ. सेटिंग्ज स्टोर करण्यासाठी होतो. ही बॅटरी खराब झाल्यास डिफॉल्ट डेट, टाइम, सेटिंग्ज सेट केली जाते.
+" />
+			<TextView android:textSize="18sp" android:textStyle="0x1" android:textColor="000" android:layout_width="-1" android:layout_height="-2" android:text="      PS2 माउस किबोर्ड पोर्ट :-
+" />
+			<ImageView android:layout_gravity="0x11" android:layout_width="-1" android:layout_height="250dp" android:src="res/drawable/ps.png" />
+			<TextView android:textSize="18sp" android:textColor="000" android:layout_width="-1" android:layout_height="-2" android:text="      PS2 माउस किबोर्ड कनेक्ट करण्यासाठी PS2 पोर्ट कनेक्टर चा उपयोग होतो. 
+" />
+			<TextView android:textSize="18sp" android:textStyle="0x1" android:textColor="000" android:layout_width="-1" android:layout_height="-2" android:text="      व्ही. जी. ए. पोर्ट :-
+" />
+			<ImageView android:layout_gravity="0x11" android:layout_width="-1" android:layout_height="250dp" android:src="res/drawable/vga.png" />
+			<TextView android:textSize="18sp" android:textColor="000" android:layout_width="-1" android:layout_height="-2" android:text="      मॉनिटर ला मदरबोर्ड शी कनेक्ट करण्यासाठी व्ही. जी. ए. पोर्ट चा उपयोग होतो.
+" />
+			<TextView android:textSize="18sp" android:textStyle="0x1" android:textColor="000" android:layout_width="-1" android:layout_height="-2" android:text="      यु. एस. बी. पोर्ट :-
+" />
+			<ImageView android:layout_gravity="0x11" android:layout_width="-1" android:layout_height="250dp" android:src="res/drawable/usb.png" />
+			<TextView android:textSize="18sp" android:textColor="000" android:layout_width="-1" android:layout_height="-2" android:text="      USB पोर्टला Universal Serial Bus असेही म्हणतात. USB पोर्टच्या साह्याने आपण प्रिंटर, स्कॅनर, पेन ड्राइव्ह, मेमरी कार्ड्स, मोबाईल फोन्स इ. उपकरणे कंप्युटरशी कनेक्ट करू शकतो.
+" />
+			<TextView android:textSize="18sp" android:textStyle="0x1" android:textColor="000" android:layout_width="-1" android:layout_height="-2" android:text="      लॅन पोर्ट :-
+" />
+			<ImageView android:layout_gravity="0x11" android:layout_width="-1" android:layout_height="250dp" android:src="res/drawable/lan.png" />
+			<TextView android:textSize="18sp" android:textColor="000" android:layout_width="-1" android:layout_height="-2" android:text="      कंप्युटरला इंटरनेट किंवा अन्य नेटवर्कशी कनेक्ट करण्यासाठी लॅन पोर्ट चा उपयोग होतो.
+" />
+			<TextView android:textSize="18sp" android:textStyle="0x1" android:textColor="000" android:layout_width="-1" android:layout_height="-2" android:text="      ऑडीओ पोर्ट :-
+" />
+			<ImageView android:layout_gravity="0x11" android:layout_width="-1" android:layout_height="250dp" android:src="res/drawable/audio.png" />
+			<TextView android:textSize="18sp" android:textColor="000" android:layout_width="-1" android:layout_height="-2" android:text="      कंप्युटरला स्पिकर, माइक इ. कनेक्ट करण्यासाठी ऑडीओ पोर्ट चा उपयोग होतो.
+" />
+			<TextView android:textSize="18sp" android:textStyle="0x1" android:textColor="000" android:layout_width="-1" android:layout_height="-2" android:text="      लॅन कार्ड :-
+" />
+			<ImageView android:layout_gravity="0x11" android:layout_width="-1" android:layout_height="250dp" android:src="res/drawable/lcard.png" />
+			<TextView android:textSize="18sp" android:textColor="000" android:layout_width="-1" android:layout_height="-2" android:text="      कंप्युटरला इंटरनेट किंवा अन्य नेटवर्कशी कनेक्ट करण्यासाठी लॅन कार्डचा उपयोग होतो.
+" />
+		</LinearLayout>
+	</ScrollView>
+	<com.google.android.gms.ads.AdView xmlns:ads="http://schemas.android.com/apk/res-auto" android:id="false" android:layout_width="-2" android:layout_height="-2" android:layout_alignParentBottom="true" android:layout_centerHorizontal="true" ads:adSize="BANNER" ads:adUnitId="ca-app-pub-2393065895339578/1243970239" />
+</RelativeLayout>

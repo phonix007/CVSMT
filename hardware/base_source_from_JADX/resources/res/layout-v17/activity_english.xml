@@ -1,0 +1,92 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android" xmlns:app="http://schemas.android.com/apk/res-auto" android:id="@+id/activity_english" android:paddingLeft="@dimen/activity_horizontal_margin" android:paddingTop="@dimen/activity_vertical_margin" android:paddingRight="@dimen/activity_horizontal_margin" android:paddingBottom="0dp" android:layout_width="match_parent" android:layout_height="match_parent">
+    <ScrollView android:layout_width="match_parent" android:layout_height="match_parent" android:layout_marginBottom="50dp">
+        <LinearLayout android:orientation="vertical" android:layout_width="match_parent" android:layout_height="wrap_content" android:layout_marginTop="10dp">
+            <android.support.p003v7.widget.CardView android:id="@+id/intro" android:layout_width="match_parent" android:layout_height="100dp">
+                <RelativeLayout android:layout_width="match_parent" android:layout_height="match_parent">
+                    <ImageView android:id="@+id/ic" android:layout_width="wrap_content" android:layout_height="match_parent" android:src="@drawable/icon"/>
+                    <TextView android:textSize="20sp" android:textStyle="bold" android:textColor="@color/cardview_dark_background" android:layout_gravity="start" android:layout_width="match_parent" android:layout_height="wrap_content" android:layout_marginLeft="85dp" android:text="Computer Hardware" android:layout_centerVertical="true" android:fontFamily="serif" android:textAlignment="textStart" android:layout_marginStart="85dp"/>
+                </RelativeLayout>
+            </android.support.p003v7.widget.CardView>
+            <android.support.p003v7.widget.CardView android:id="@+id/key" android:layout_width="match_parent" android:layout_height="100dp" android:layout_marginTop="15dp">
+                <RelativeLayout android:layout_width="match_parent" android:layout_height="match_parent">
+                    <ImageView android:id="@+id/image1" android:layout_width="wrap_content" android:layout_height="match_parent" android:src="@drawable/keys"/>
+                    <TextView android:textSize="20sp" android:textStyle="bold" android:textColor="@color/cardview_dark_background" android:layout_gravity="start" android:layout_width="match_parent" android:layout_height="wrap_content" android:layout_marginLeft="85dp" android:text="Keyboard Information" android:layout_alignParentRight="true" android:layout_centerVertical="true" android:fontFamily="serif" android:textAlignment="textStart" android:layout_marginStart="85dp" android:layout_alignParentEnd="true"/>
+                </RelativeLayout>
+            </android.support.p003v7.widget.CardView>
+            <android.support.p003v7.widget.CardView android:id="@+id/mouse" android:layout_width="match_parent" android:layout_height="100dp" android:layout_marginTop="15dp">
+                <RelativeLayout android:layout_width="match_parent" android:layout_height="match_parent">
+                    <ImageView android:id="@+id/image2" android:layout_width="wrap_content" android:layout_height="match_parent" android:src="@drawable/mouse"/>
+                    <TextView android:textSize="20sp" android:textStyle="bold" android:textColor="@color/cardview_dark_background" android:layout_gravity="start" android:layout_width="match_parent" android:layout_height="wrap_content" android:layout_marginLeft="85dp" android:text="Mouse Information" android:layout_centerVertical="true" android:fontFamily="serif" android:textAlignment="textStart" android:layout_marginStart="85dp"/>
+                </RelativeLayout>
+            </android.support.p003v7.widget.CardView>
+            <android.support.p003v7.widget.CardView android:id="@+id/scan" android:layout_width="match_parent" android:layout_height="100dp" android:layout_marginTop="15dp">
+                <RelativeLayout android:layout_width="match_parent" android:layout_height="match_parent">
+                    <ImageView android:id="@+id/image3" android:layout_width="wrap_content" android:layout_height="match_parent" android:src="@drawable/scanner"/>
+                    <TextView android:textSize="20sp" android:textStyle="bold" android:textColor="@color/cardview_dark_background" android:layout_gravity="start" android:layout_width="match_parent" android:layout_height="wrap_content" android:layout_marginLeft="85dp" android:text="Scanner Information" android:layout_centerVertical="true" android:fontFamily="serif" android:textAlignment="textStart" android:layout_marginStart="85dp"/>
+                </RelativeLayout>
+            </android.support.p003v7.widget.CardView>
+            <android.support.p003v7.widget.CardView android:id="@+id/mon" android:layout_width="match_parent" android:layout_height="100dp" android:layout_marginTop="15dp">
+                <RelativeLayout android:layout_width="match_parent" android:layout_height="match_parent">
+                    <ImageView android:id="@+id/image5" android:layout_width="wrap_content" android:layout_height="match_parent" android:src="@drawable/monitor"/>
+                    <TextView android:textSize="20sp" android:textStyle="bold" android:textColor="@color/cardview_dark_background" android:layout_gravity="start" android:layout_width="match_parent" android:layout_height="wrap_content" android:layout_marginLeft="85dp" android:text="Monitor Information" android:layout_centerVertical="true" android:fontFamily="serif" android:textAlignment="textStart" android:layout_marginStart="85dp"/>
+                </RelativeLayout>
+            </android.support.p003v7.widget.CardView>
+            <android.support.p003v7.widget.CardView android:id="@+id/printer" android:layout_width="match_parent" android:layout_height="100dp" android:layout_marginTop="15dp">
+                <RelativeLayout android:layout_width="match_parent" android:layout_height="match_parent">
+                    <ImageView android:id="@+id/image6" android:layout_width="wrap_content" android:layout_height="match_parent" android:src="@drawable/printer"/>
+                    <TextView android:textSize="20sp" android:textStyle="bold" android:textColor="@color/cardview_dark_background" android:layout_gravity="start" android:layout_width="match_parent" android:layout_height="wrap_content" android:layout_marginLeft="85dp" android:text="Printer Information" android:layout_centerVertical="true" android:fontFamily="serif" android:textAlignment="textStart" android:layout_marginStart="85dp"/>
+                </RelativeLayout>
+            </android.support.p003v7.widget.CardView>
+            <android.support.p003v7.widget.CardView android:id="@+id/ram" android:layout_width="match_parent" android:layout_height="100dp" android:layout_marginTop="15dp">
+                <RelativeLayout android:layout_width="match_parent" android:layout_height="match_parent">
+                    <ImageView android:id="@+id/image7" android:layout_width="wrap_content" android:layout_height="match_parent" android:src="@drawable/ram"/>
+                    <TextView android:textSize="20sp" android:textStyle="bold" android:textColor="@color/cardview_dark_background" android:layout_gravity="start" android:layout_width="match_parent" android:layout_height="wrap_content" android:layout_marginLeft="85dp" android:text="Ram Chips Information" android:layout_centerVertical="true" android:fontFamily="serif" android:textAlignment="textStart" android:layout_marginStart="85dp"/>
+                </RelativeLayout>
+            </android.support.p003v7.widget.CardView>
+            <android.support.p003v7.widget.CardView android:id="@+id/hard" android:layout_width="match_parent" android:layout_height="100dp" android:layout_marginTop="15dp">
+                <RelativeLayout android:layout_width="match_parent" android:layout_height="match_parent">
+                    <ImageView android:id="@+id/image8" android:layout_width="wrap_content" android:layout_height="match_parent" android:src="@drawable/hard"/>
+                    <TextView android:textSize="20sp" android:textStyle="bold" android:textColor="@color/cardview_dark_background" android:layout_gravity="start" android:layout_width="match_parent" android:layout_height="wrap_content" android:layout_marginLeft="85dp" android:text="Hard Disk Information" android:layout_centerVertical="true" android:fontFamily="serif" android:textAlignment="textStart" android:layout_marginStart="85dp"/>
+                </RelativeLayout>
+            </android.support.p003v7.widget.CardView>
+            <android.support.p003v7.widget.CardView android:id="@+id/board" android:layout_width="match_parent" android:layout_height="100dp" android:layout_marginTop="15dp">
+                <RelativeLayout android:layout_width="match_parent" android:layout_height="match_parent">
+                    <ImageView android:id="@+id/image9" android:layout_width="wrap_content" android:layout_height="match_parent" android:src="@drawable/board"/>
+                    <TextView android:textSize="20sp" android:textStyle="bold" android:textColor="@color/cardview_dark_background" android:layout_gravity="start" android:layout_width="match_parent" android:layout_height="wrap_content" android:layout_marginLeft="85dp" android:text="Motherboard Information" android:layout_centerVertical="true" android:fontFamily="serif" android:textAlignment="textStart" android:layout_marginStart="85dp"/>
+                </RelativeLayout>
+            </android.support.p003v7.widget.CardView>
+            <android.support.p003v7.widget.CardView android:id="@+id/smps" android:layout_width="match_parent" android:layout_height="100dp" android:layout_marginTop="15dp">
+                <RelativeLayout android:layout_width="match_parent" android:layout_height="match_parent">
+                    <ImageView android:id="@+id/image10" android:layout_width="wrap_content" android:layout_height="match_parent" android:src="@drawable/power"/>
+                    <TextView android:textSize="20sp" android:textStyle="bold" android:textColor="@color/cardview_dark_background" android:layout_gravity="start" android:layout_width="match_parent" android:layout_height="wrap_content" android:layout_marginLeft="85dp" android:text="Power Supply Unit (SMPS)" android:layout_centerVertical="true" android:fontFamily="serif" android:textAlignment="textStart" android:layout_marginStart="85dp"/>
+                </RelativeLayout>
+            </android.support.p003v7.widget.CardView>
+            <android.support.p003v7.widget.CardView android:id="@+id/back" android:layout_width="match_parent" android:layout_height="100dp" android:layout_marginTop="15dp">
+                <RelativeLayout android:layout_width="match_parent" android:layout_height="match_parent">
+                    <ImageView android:id="@+id/image11" android:layout_width="wrap_content" android:layout_height="match_parent" android:src="@drawable/back"/>
+                    <TextView android:textSize="20sp" android:textStyle="bold" android:textColor="@color/cardview_dark_background" android:layout_gravity="start" android:layout_width="match_parent" android:layout_height="wrap_content" android:layout_marginLeft="85dp" android:text="Computer Back Panel" android:layout_centerVertical="true" android:fontFamily="serif" android:textAlignment="textStart" android:layout_marginStart="85dp"/>
+                </RelativeLayout>
+            </android.support.p003v7.widget.CardView>
+            <android.support.p003v7.widget.CardView android:id="@+id/micro" android:layout_width="match_parent" android:layout_height="100dp" android:layout_marginTop="15dp">
+                <RelativeLayout android:layout_width="match_parent" android:layout_height="match_parent">
+                    <ImageView android:id="@+id/image4" android:layout_width="wrap_content" android:layout_height="match_parent" android:src="@drawable/micro"/>
+                    <TextView android:textSize="20sp" android:textStyle="bold" android:textColor="@color/cardview_dark_background" android:layout_gravity="start" android:layout_width="match_parent" android:layout_height="wrap_content" android:layout_marginLeft="85dp" android:text="Microphone, Speaker, Optical Drive" android:layout_centerVertical="true" android:fontFamily="serif" android:textAlignment="textStart" android:layout_marginStart="85dp"/>
+                </RelativeLayout>
+            </android.support.p003v7.widget.CardView>
+            <android.support.p003v7.widget.CardView android:id="@+id/wire" android:layout_width="match_parent" android:layout_height="100dp" android:layout_marginTop="15dp">
+                <RelativeLayout android:layout_width="match_parent" android:layout_height="match_parent">
+                    <ImageView android:id="@+id/image12" android:layout_width="wrap_content" android:layout_height="match_parent" android:src="@drawable/wire"/>
+                    <TextView android:textSize="20sp" android:textStyle="bold" android:textColor="@color/cardview_dark_background" android:layout_gravity="start" android:layout_width="match_parent" android:layout_height="wrap_content" android:layout_marginLeft="85dp" android:text="Different Connection Wires" android:layout_centerVertical="true" android:fontFamily="serif" android:textAlignment="textStart" android:layout_marginStart="85dp"/>
+                </RelativeLayout>
+            </android.support.p003v7.widget.CardView>
+            <android.support.p003v7.widget.CardView android:id="@+id/forms" android:layout_width="match_parent" android:layout_height="100dp" android:layout_marginTop="15dp" android:layout_marginBottom="25dp">
+                <RelativeLayout android:layout_width="match_parent" android:layout_height="match_parent">
+                    <ImageView android:id="@+id/image13" android:layout_width="wrap_content" android:layout_height="match_parent" android:src="@drawable/full"/>
+                    <TextView android:textSize="20sp" android:textStyle="bold" android:textColor="@color/cardview_dark_background" android:layout_gravity="start" android:layout_width="match_parent" android:layout_height="wrap_content" android:layout_marginLeft="85dp" android:text="Computer Related Full Forms" android:layout_centerVertical="true" android:fontFamily="serif" android:textAlignment="textStart" android:layout_marginStart="85dp"/>
+                </RelativeLayout>
+            </android.support.p003v7.widget.CardView>
+        </LinearLayout>
+    </ScrollView>
+    <com.google.android.gms.ads.AdView android:id="@+id/adView" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_alignParentBottom="true" android:layout_centerHorizontal="true" app:adSize="BANNER" app:adUnitId="ca-app-pub-2393065895339578/1243970239"/>
+</RelativeLayout>

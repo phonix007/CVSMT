@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android" android:id="false" android:paddingLeft="16dp" android:paddingTop="16dp" android:paddingRight="16dp" android:paddingBottom="0dp" android:layout_width="-1" android:layout_height="-1">
+	<ScrollView android:layout_width="-1" android:layout_height="-1" android:layout_marginBottom="50dp">
+		<LinearLayout android:orientation="1" android:layout_width="-1" android:layout_height="-1">
+			<TextView android:textSize="18sp" android:textStyle="0x1" android:textColor="23cd0" android:layout_width="-1" android:layout_height="-2" android:text="रॅम चिप्स
+" android:textAlignment="4" />
+			<TextView android:textSize="18sp" android:textColor="000" android:id="false" android:layout_width="-1" android:layout_height="-1" android:text="      कंप्युटरमध्ये रॅम चिप्स ही महत्वाची असते. रॅम चिप्स ही 4 GB किंवा त्यापेक्षा अधिक असावी. ज्यामुळे कंप्युटर मधील विविध अॅप्लिकेशन्स न अडखळता चालण्यास मदत होते.
+" />
+			<ImageView android:layout_gravity="0x11" android:layout_width="-1" android:layout_height="150dp" android:src="res/drawable/ramchip.png" />
+			<TextView android:textSize="18sp" android:textColor="000" android:layout_width="-1" android:layout_height="-2" android:text="      रॅम हे प्रायमरी स्टोरेजचे उदाहरण आहे. रॅम चिप्स ही सिस्टिम युनिटच्या आत बसविलेली असते. रॅममध्ये साठविलेली माहिती ही तात्पुरत्या स्वरुपाची असते. उदा. कंप्युटरवर काम करत असताना अचानक कंप्युटर बंद झाल्यास पुन्हा कंप्युटर सुरु केल्यावर आपण टाईप केलेला डेटा पुन्हा मिळत नाही. कारण तो डेटा रॅममध्ये साठविलेला असतो. व कंप्युटर बंद झाल्यास तो डेटा नष्ट होतो. कारण रॅम हे तात्पुरत्या स्वरूपात माहिती साठवते. म्हणून कंप्युटरवर काम करत असताना आपला डेटा वेळोवेळी सेव्ह केला पाहिजे.
+" />
+		</LinearLayout>
+	</ScrollView>
+	<com.google.android.gms.ads.AdView xmlns:ads="http://schemas.android.com/apk/res-auto" android:id="false" android:layout_width="-2" android:layout_height="-2" android:layout_alignParentBottom="true" android:layout_centerHorizontal="true" ads:adSize="BANNER" ads:adUnitId="ca-app-pub-2393065895339578/1243970239" />
+</RelativeLayout>

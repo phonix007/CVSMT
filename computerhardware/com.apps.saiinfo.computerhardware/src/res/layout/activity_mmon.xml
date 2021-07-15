@@ -1,0 +1,29 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android" android:id="false" android:paddingLeft="16dp" android:paddingTop="16dp" android:paddingRight="16dp" android:paddingBottom="0dp" android:layout_width="-1" android:layout_height="-1">
+	<ScrollView android:layout_width="-1" android:layout_height="-1" android:layout_marginBottom="50dp">
+		<LinearLayout android:orientation="1" android:layout_width="-1" android:layout_height="-1">
+			<TextView android:textSize="18sp" android:textStyle="0x1" android:textColor="23cd0" android:layout_width="-1" android:layout_height="-2" android:text="मॉनिटर
+" />
+			<TextView android:textSize="18sp" android:textColor="000" android:id="false" android:layout_width="-1" android:layout_height="-1" android:text="      मॉनिटर हे एक महत्वाचे आउटपुट उपकरण आहे. मॉनिटरचा उपयोग माहिती प्रदर्शित करण्यासाठी होतो. मॉनिटरच्या स्क्रीनवरील आउटपुटला सॉफ्टकॉपी असे म्हणतात. कारण मॉनिटरवरील प्रदर्शित होणारी माहिती ही आपण फक्त पाहू शकतो, प्रत्यक्षात हाताळू शकत नाही.
+" />
+			<TextView android:textSize="18sp" android:textStyle="0x1" android:textColor="000" android:layout_width="-1" android:layout_height="-2" android:text="      मॉनिटरचे सामान्यतः प्रकार पुढीलप्रमाणे आहेत.
+" />
+			<TextView android:textSize="18sp" android:textColor="000" android:layout_width="-1" android:layout_height="-1" android:text="      CRT(कॅथोड रे ट्यूब) मॉनिटर:-
+" />
+			<ImageView android:layout_gravity="0x11" android:layout_width="-1" android:layout_height="150dp" android:src="res/drawable/crt.png" />
+			<TextView android:textSize="18sp" android:textColor="000" android:layout_width="-1" android:layout_height="-2" android:text="      CRT(कॅथोड रे ट्यूब) मॉनिटर हे आधीच्या काळात वापरले जात असत. हे जुन्या टी. व्ही. च्या आकाराचे मॉनिटर होते. या मॉनिटर्स ना जागा जास्त लागते. तसेच इतर मॉनिटरच्या तुलनेत वीजही जास्त लागते.
+" />
+			<TextView android:textSize="18sp" android:textColor="000" android:layout_width="-1" android:layout_height="-1" android:text="      LCD (लिक्विड क्रिस्टल डिस्प्ले)मॉनिटर:-
+" />
+			<ImageView android:layout_gravity="0x11" android:layout_width="-1" android:layout_height="150dp" android:src="res/drawable/computer.png" />
+			<TextView android:textSize="18sp" android:textColor="000" android:layout_width="-1" android:layout_height="-1" android:text="      एल.सी.डी. मॉनिटर म्हणजेच (लिक्विड क्रिस्टल डिस्प्ले)मॉनिटर. हे मॉनिटर CRT मॉनिटरपेक्षा अधिक चांगले मॉनिटर असतात. व या मॉनिटर्स ना वीजही CRT मॉनिटरच्या तुलनेत कमी लागते. हे मॉनिटर्स कमी जागा व्यापतात. त्यामुळे वापरण्यास सोयीस्कर असतात.
+" />
+			<TextView android:textSize="18sp" android:textColor="000" android:layout_width="-1" android:layout_height="-1" android:text="      LED(लाइट-एमिटिंग डायोड) मॉनिटर:-
+" />
+			<ImageView android:layout_gravity="0x11" android:layout_width="-1" android:layout_height="150dp" android:src="res/drawable/led.png" />
+			<TextView android:textSize="18sp" android:textColor="000" android:layout_width="-1" android:layout_height="-1" android:text="      LED(लाइट-एमिटिंग डायोड) मॉनिटर हे चापट्या आकाराचे मॉनिटर असतात. आजच्या काळात हे मॉनिटर्स जास्त प्रमाणात वापरले जातात. तसेच अन्य मॉनिटरपेक्षा जास्त उर्जेची बचत करतात.
+" />
+		</LinearLayout>
+	</ScrollView>
+	<com.google.android.gms.ads.AdView xmlns:ads="http://schemas.android.com/apk/res-auto" android:id="false" android:layout_width="-2" android:layout_height="-2" android:layout_alignParentBottom="true" android:layout_centerHorizontal="true" ads:adSize="BANNER" ads:adUnitId="ca-app-pub-2393065895339578/1243970239" />
+</RelativeLayout>

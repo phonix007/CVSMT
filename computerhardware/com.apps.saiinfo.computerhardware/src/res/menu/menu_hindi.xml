@@ -1,0 +1,7 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android" xmlns:app="http://schemas.android.com/apk/res-auto">
+	<item android:id="false" android:orderInCategory="100" android:title="रेटिंग दें" app:showAsAction="0x0" />
+	<item android:id="false" android:orderInCategory="101" android:title="अधिक अॅप्स" app:showAsAction="0x0" />
+	<item android:id="false" android:orderInCategory="102" android:title="शेअर करें" app:showAsAction="0x0" />
+	<item android:id="false" android:orderInCategory="103" android:title="अॅप के बारें में" app:showAsAction="0x0" />
+</menu>

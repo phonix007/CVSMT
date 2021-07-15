@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android" android:id="false" android:paddingLeft="16dp" android:paddingTop="16dp" android:paddingRight="16dp" android:paddingBottom="0dp" android:layout_width="-1" android:layout_height="-1">
+	<ScrollView android:layout_width="-1" android:layout_height="-1" android:layout_marginBottom="50dp">
+		<LinearLayout android:orientation="1" android:layout_width="-1" android:layout_height="-1">
+			<TextView android:textSize="18sp" android:textStyle="0x1" android:textColor="23cd0" android:layout_width="-1" android:layout_height="-2" android:text="मदरबोर्ड
+" />
+			<ImageView android:layout_gravity="0x11" android:layout_width="-1" android:layout_height="180dp" android:src="res/drawable/mboard.png" />
+			<TextView android:textSize="18sp" android:textColor="000" android:id="false" android:layout_width="-1" android:layout_height="-1" android:text="      मदरबोर्ड कंप्यूटर सिस्टम का एक महत्वपूर्ण हिस्सा है। मदरबोर्ड को सिस्टम बोर्ड या मेनबोर्ड भी कहा जाता है। कंप्यूटर के विभिन्न हिस्सों में एक दूसरे के साथ मदरबोर्ड के माध्यम से संचार होता है। मदरबोर्ड अलग-अलग हिस्सों से बना होता है। जैसे कि स्लॉट, सॉकेट्स, पोर्टस् इत्यादी। संक्षेप में, मदरबोर्ड कंप्यूटर के विभिन्न घटकों को नियंत्रित करने का काम करता है।
+" />
+			<ImageView android:layout_gravity="0x11" android:layout_width="-1" android:layout_height="250dp" android:src="res/drawable/in.png" />
+		</LinearLayout>
+	</ScrollView>
+	<com.google.android.gms.ads.AdView xmlns:ads="http://schemas.android.com/apk/res-auto" android:id="false" android:layout_width="-2" android:layout_height="-2" android:layout_alignParentBottom="true" android:layout_centerHorizontal="true" ads:adSize="BANNER" ads:adUnitId="ca-app-pub-2393065895339578/1243970239" />
+</RelativeLayout>

@@ -1,0 +1,6 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android" android:id="false" android:paddingLeft="16dp" android:paddingTop="16dp" android:paddingRight="16dp" android:paddingBottom="16dp" android:layout_width="-1" android:layout_height="-1">
+	<TextView android:id="false" android:layout_width="250dp" android:layout_height="-2" android:text="Hello Friends," />
+	<TextView android:id="false" android:layout_width="250dp" android:layout_height="-2" android:text="This app includes objective questions about the computer. With the help of this app, you will surely be able to increase your knowledge of computer. Share this app with your friends. Please rate this app 5 stars." android:layout_below="false" />
+	<TextView android:layout_width="250dp" android:layout_height="-2" android:text="- Sai Info" android:layout_below="false" />
+</RelativeLayout>

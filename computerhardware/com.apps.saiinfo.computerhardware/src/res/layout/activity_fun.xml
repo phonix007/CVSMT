@@ -1,0 +1,38 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android" android:id="false" android:paddingLeft="16dp" android:paddingTop="16dp" android:paddingRight="16dp" android:paddingBottom="0dp" android:layout_width="-1" android:layout_height="-1">
+	<ScrollView android:layout_width="-1" android:layout_height="-1" android:layout_marginBottom="50dp">
+		<LinearLayout android:orientation="1" android:layout_width="-1" android:layout_height="-1">
+			<TextView android:textSize="18sp" android:textStyle="0x1" android:textColor="23cd0" android:layout_width="-1" android:layout_height="-2" android:text="Use of Function Keys
+" />
+			<TextView android:textSize="18sp" android:textColor="000" android:id="false" android:layout_width="-1" android:layout_height="-1" android:text="      Function keys on the keyboard are used for shortcut work on the computer. With the help of Function Keys, we can do some tasks quickly in the computer. And save our time." />
+			<ImageView android:layout_gravity="0x11" android:layout_width="-1" android:layout_height="90dp" android:src="res/drawable/fun.png" />
+			<TextView android:textSize="18sp" android:textStyle="0x1" android:textColor="000" android:layout_width="-1" android:layout_height="-2" android:text="      The use of Keyboard function keys is as follows.
+" />
+			<TextView android:textSize="18sp" android:textColor="000" android:layout_width="-1" android:layout_height="-1" android:text="      F1 :- The F1 key is used to get help in a file or program.
+" />
+			<TextView android:textSize="18sp" android:textColor="000" android:layout_width="-1" android:layout_height="-2" android:text="      F2  :- The F2 key is used to rename the selected file. Also, in Word, Excel, print command can be opened by pressing Ctrl + F2. On most computers, the F2 key is used to open the boot window.
+" />
+			<TextView android:textSize="18sp" android:textColor="000" android:layout_width="-1" android:layout_height="-1" android:text="      F3  :- The F3 key is used to open a search feature in a program. for example. Windows Explorer, Google Chrome, Firefox etc.
+" />
+			<TextView android:textSize="18sp" android:textColor="000" android:layout_width="-1" android:layout_height="-2" android:text="      F4  :- The F4 key is used to open the address bar in Windows Explorer.
+" />
+			<TextView android:textSize="18sp" android:textColor="000" android:layout_width="-1" android:layout_height="-1" android:text="      F5  :- F5 key is used to refresh. In MS Word, it is used to open the Find Replace window. And in PowerPoint it is used to view the presentation in fullscreen mode.
+" />
+			<TextView android:textSize="18sp" android:textColor="000" android:layout_width="-1" android:layout_height="-2" android:text="      F6  :- Typically the F6 key is used to move cursor to the address bar in a browser.
+" />
+			<TextView android:textSize="18sp" android:textColor="000" android:layout_width="-1" android:layout_height="-1" android:text="      F7  :- The F7 key is used to open a spelling and grammar window in MS Word.
+" />
+			<TextView android:textSize="18sp" android:textColor="000" android:layout_width="-1" android:layout_height="-2" android:text="      F8  :- The F8 key is used to open the computer in Safe Mode in the Windows operating system. Also, it is used to select the information typed in MS Word. for example. A word is selected when pressing F8 key twice. Pressing F8 key three times a sentence is selected. The paragraph is selected when pressing F8 key four times. Pressing F8 key five times, the whole information is selected.
+" />
+			<TextView android:textSize="18sp" android:textColor="000" android:layout_width="-1" android:layout_height="-1" android:text="      F9  :- Ctrl + F9 key is used to insert { } symbol in MS Word. And also helps minimize the file in MS Excel.
+" />
+			<TextView android:textSize="18sp" android:textColor="000" android:layout_width="-1" android:layout_height="-2" android:text="      F10  :- The F10 key is used to show the menu bar in Windows Explorer as well as in Internet Explorer. Ctrl + F10 key is used to restore or maximize the Word, Excel file.
+" />
+			<TextView android:textSize="18sp" android:textColor="000" android:layout_width="-1" android:layout_height="-1" android:text="      F11  :- The F11 key is used to view Windows Explorer and Internet browsers in fullscreen mode.
+" />
+			<TextView android:textSize="18sp" android:textColor="000" android:layout_width="-1" android:layout_height="-2" android:text="      F12  :- The F12 key is used to save Word, Excel, PowerPoint files. Also, the Ctrl + F12 key is used to open Word, Excel, PowerPoint files.
+" />
+		</LinearLayout>
+	</ScrollView>
+	<com.google.android.gms.ads.AdView xmlns:ads="http://schemas.android.com/apk/res-auto" android:id="false" android:layout_width="-2" android:layout_height="-2" android:layout_alignParentBottom="true" android:layout_centerHorizontal="true" ads:adSize="BANNER" ads:adUnitId="ca-app-pub-2393065895339578/1243970239" />
+</RelativeLayout>

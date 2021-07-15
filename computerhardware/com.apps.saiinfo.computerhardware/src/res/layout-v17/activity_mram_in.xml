@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android" android:id="false" android:paddingLeft="16dp" android:paddingTop="16dp" android:paddingRight="16dp" android:paddingBottom="0dp" android:layout_width="-1" android:layout_height="-1">
+	<ScrollView android:layout_width="-1" android:layout_height="-1" android:layout_marginBottom="50dp">
+		<LinearLayout android:orientation="1" android:layout_width="-1" android:layout_height="-1">
+			<TextView android:textSize="18sp" android:textStyle="0x1" android:textColor="23cd0" android:layout_width="-1" android:layout_height="-2" android:text="कंप्युटरमध्ये रॅम चिप्स बसविणे
+" android:textAlignment="4" />
+			<ImageView android:layout_gravity="0x11" android:layout_width="-1" android:layout_height="150dp" android:src="res/drawable/rams.png" />
+			<TextView android:textSize="18sp" android:textColor="000" android:id="false" android:layout_width="-1" android:layout_height="-1" android:text="      रॅम चिप्स ही सिस्टिम युनिटच्या आत बसविलेली असते. कंप्युटरचे सिस्टिम कॅबिनेट उघडल्यावर मदरबोर्डवर आपणास रॅम चिप्स बसविण्यासाठी स्लॉट दिलेला असतो. या स्लॉटमध्ये आपण रॅम चिप्स बसवू शकतो. रॅम चिप्स बसवताना स्लॉटच्या दोन्ही कडेला नाजूक लॉक असतात. ते फिट करतांना जास्त दाब देऊ नये. अन्यथा लॉक्स तुटू शकतात.
+" />
+			<TextView android:textSize="18sp" android:textColor="000" android:layout_width="-1" android:layout_height="-2" android:text="      काही वेळा कंप्युटर सुरु केल्यावर मॉनिटर स्क्रीन सुरु होत नाही. किंवा सिस्टिम कॅबिनेटमधून बीपचा आवाज ऐकू येतो. रॅम चिप्स स्लॉटमध्ये धूळ गेल्यास किंवा अन्य कारणाने असे होऊ शकते. अशा वेळेस रॅम चिप्स काढून पुन्हा लावल्यास हा प्रॉब्लेम सुटू शकतो.
+" />
+			<WebView android:id="false" android:background="resourceId:0x0" android:layout_width="-1" android:layout_height="-2" />
+		</LinearLayout>
+	</ScrollView>
+	<com.google.android.gms.ads.AdView xmlns:ads="http://schemas.android.com/apk/res-auto" android:id="false" android:layout_width="-2" android:layout_height="-2" android:layout_alignParentBottom="true" android:layout_centerHorizontal="true" ads:adSize="BANNER" ads:adUnitId="ca-app-pub-2393065895339578/1243970239" />
+</RelativeLayout>

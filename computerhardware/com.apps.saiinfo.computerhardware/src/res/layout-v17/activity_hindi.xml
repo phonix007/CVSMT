@@ -1,0 +1,92 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android" android:id="false" android:paddingLeft="16dp" android:paddingTop="16dp" android:paddingRight="16dp" android:paddingBottom="0dp" android:layout_width="-1" android:layout_height="-1">
+	<ScrollView android:layout_width="-1" android:layout_height="-1" android:layout_marginBottom="50dp">
+		<LinearLayout android:orientation="1" android:layout_width="-1" android:layout_height="-2" android:layout_marginTop="10dp">
+			<android.support.v7.widget.CardView xmlns:android="http://schemas.android.com/apk/res/android" android:id="false" android:layout_width="-1" android:layout_height="100dp">
+				<RelativeLayout android:layout_width="-1" android:layout_height="-1">
+					<ImageView android:id="false" android:layout_width="-2" android:layout_height="-1" android:src="res/drawable/icon.png" />
+					<TextView android:textSize="20sp" android:textStyle="0x1" android:textColor="ff424242" android:layout_gravity="0x800003" android:layout_width="-1" android:layout_height="-2" android:layout_marginLeft="85dp" android:text="कंप्युटर हार्डवेअर" android:layout_centerVertical="true" android:fontFamily="serif" android:textAlignment="2" android:layout_marginStart="85dp" />
+				</RelativeLayout>
+			</android.support.v7.widget.CardView>
+			<android.support.v7.widget.CardView xmlns:android="http://schemas.android.com/apk/res/android" android:id="false" android:layout_width="-1" android:layout_height="100dp" android:layout_marginTop="15dp">
+				<RelativeLayout android:layout_width="-1" android:layout_height="-1">
+					<ImageView android:id="false" android:layout_width="-2" android:layout_height="-1" android:src="res/drawable/keys.png" />
+					<TextView android:textSize="20sp" android:textStyle="0x1" android:textColor="ff424242" android:layout_gravity="0x800003" android:layout_width="-1" android:layout_height="-2" android:layout_marginLeft="85dp" android:text="की-बोर्ड की जानकारी" android:layout_alignParentRight="true" android:layout_centerVertical="true" android:fontFamily="serif" android:textAlignment="2" android:layout_marginStart="85dp" android:layout_alignParentEnd="true" />
+				</RelativeLayout>
+			</android.support.v7.widget.CardView>
+			<android.support.v7.widget.CardView xmlns:android="http://schemas.android.com/apk/res/android" android:id="false" android:layout_width="-1" android:layout_height="100dp" android:layout_marginTop="15dp">
+				<RelativeLayout android:layout_width="-1" android:layout_height="-1">
+					<ImageView android:id="false" android:layout_width="-2" android:layout_height="-1" android:src="res/drawable/mouse.png" />
+					<TextView android:textSize="20sp" android:textStyle="0x1" android:textColor="ff424242" android:layout_gravity="0x800003" android:layout_width="-1" android:layout_height="-2" android:layout_marginLeft="85dp" android:text="माउस की जानकारी" android:layout_centerVertical="true" android:fontFamily="serif" android:textAlignment="2" android:layout_marginStart="85dp" />
+				</RelativeLayout>
+			</android.support.v7.widget.CardView>
+			<android.support.v7.widget.CardView xmlns:android="http://schemas.android.com/apk/res/android" android:id="false" android:layout_width="-1" android:layout_height="100dp" android:layout_marginTop="15dp">
+				<RelativeLayout android:layout_width="-1" android:layout_height="-1">
+					<ImageView android:id="false" android:layout_width="-2" android:layout_height="-1" android:src="res/drawable/scanner.png" />
+					<TextView android:textSize="20sp" android:textStyle="0x1" android:textColor="ff424242" android:layout_gravity="0x800003" android:layout_width="-1" android:layout_height="-2" android:layout_marginLeft="85dp" android:text="स्कॅनर की जानकारी" android:layout_centerVertical="true" android:fontFamily="serif" android:textAlignment="2" android:layout_marginStart="85dp" />
+				</RelativeLayout>
+			</android.support.v7.widget.CardView>
+			<android.support.v7.widget.CardView xmlns:android="http://schemas.android.com/apk/res/android" android:id="false" android:layout_width="-1" android:layout_height="100dp" android:layout_marginTop="15dp">
+				<RelativeLayout android:layout_width="-1" android:layout_height="-1">
+					<ImageView android:id="false" android:layout_width="-2" android:layout_height="-1" android:src="res/drawable/monitor.png" />
+					<TextView android:textSize="20sp" android:textStyle="0x1" android:textColor="ff424242" android:layout_gravity="0x800003" android:layout_width="-1" android:layout_height="-2" android:layout_marginLeft="85dp" android:text="मॉनिटर की जानकारी" android:layout_centerVertical="true" android:fontFamily="serif" android:textAlignment="2" android:layout_marginStart="85dp" />
+				</RelativeLayout>
+			</android.support.v7.widget.CardView>
+			<android.support.v7.widget.CardView xmlns:android="http://schemas.android.com/apk/res/android" android:id="false" android:layout_width="-1" android:layout_height="100dp" android:layout_marginTop="15dp">
+				<RelativeLayout android:layout_width="-1" android:layout_height="-1">
+					<ImageView android:id="false" android:layout_width="-2" android:layout_height="-1" android:src="res/drawable/printer.png" />
+					<TextView android:textSize="20sp" android:textStyle="0x1" android:textColor="ff424242" android:layout_gravity="0x800003" android:layout_width="-1" android:layout_height="-2" android:layout_marginLeft="85dp" android:text="प्रिंटर की जानकारी" android:layout_centerVertical="true" android:fontFamily="serif" android:textAlignment="2" android:layout_marginStart="85dp" />
+				</RelativeLayout>
+			</android.support.v7.widget.CardView>
+			<android.support.v7.widget.CardView xmlns:android="http://schemas.android.com/apk/res/android" android:id="false" android:layout_width="-1" android:layout_height="100dp" android:layout_marginTop="15dp">
+				<RelativeLayout android:layout_width="-1" android:layout_height="-1">
+					<ImageView android:id="false" android:layout_width="-2" android:layout_height="-1" android:src="res/drawable/ram.png" />
+					<TextView android:textSize="20sp" android:textStyle="0x1" android:textColor="ff424242" android:layout_gravity="0x800003" android:layout_width="-1" android:layout_height="-2" android:layout_marginLeft="85dp" android:text="रॅम चिप्स की जानकारी" android:layout_centerVertical="true" android:fontFamily="serif" android:textAlignment="2" android:layout_marginStart="85dp" />
+				</RelativeLayout>
+			</android.support.v7.widget.CardView>
+			<android.support.v7.widget.CardView xmlns:android="http://schemas.android.com/apk/res/android" android:id="false" android:layout_width="-1" android:layout_height="100dp" android:layout_marginTop="15dp">
+				<RelativeLayout android:layout_width="-1" android:layout_height="-1">
+					<ImageView android:id="false" android:layout_width="-2" android:layout_height="-1" android:src="res/drawable/hard.png" />
+					<TextView android:textSize="20sp" android:textStyle="0x1" android:textColor="ff424242" android:layout_gravity="0x800003" android:layout_width="-1" android:layout_height="-2" android:layout_marginLeft="85dp" android:text="हार्ड डिस्क की जानकारी" android:layout_centerVertical="true" android:fontFamily="serif" android:textAlignment="2" android:layout_marginStart="85dp" />
+				</RelativeLayout>
+			</android.support.v7.widget.CardView>
+			<android.support.v7.widget.CardView xmlns:android="http://schemas.android.com/apk/res/android" android:id="false" android:layout_width="-1" android:layout_height="100dp" android:layout_marginTop="15dp">
+				<RelativeLayout android:layout_width="-1" android:layout_height="-1">
+					<ImageView android:id="false" android:layout_width="-2" android:layout_height="-1" android:src="res/drawable/board.png" />
+					<TextView android:textSize="20sp" android:textStyle="0x1" android:textColor="ff424242" android:layout_gravity="0x800003" android:layout_width="-1" android:layout_height="-2" android:layout_marginLeft="85dp" android:text="मदरबोर्ड की जानकारी" android:layout_centerVertical="true" android:fontFamily="serif" android:textAlignment="2" android:layout_marginStart="85dp" />
+				</RelativeLayout>
+			</android.support.v7.widget.CardView>
+			<android.support.v7.widget.CardView xmlns:android="http://schemas.android.com/apk/res/android" android:id="false" android:layout_width="-1" android:layout_height="100dp" android:layout_marginTop="15dp">
+				<RelativeLayout android:layout_width="-1" android:layout_height="-1">
+					<ImageView android:id="false" android:layout_width="-2" android:layout_height="-1" android:src="res/drawable/power.png" />
+					<TextView android:textSize="20sp" android:textStyle="0x1" android:textColor="ff424242" android:layout_gravity="0x800003" android:layout_width="-1" android:layout_height="-2" android:layout_marginLeft="85dp" android:text="पॉवर सप्लाय युनिट (SMPS)" android:layout_centerVertical="true" android:fontFamily="serif" android:textAlignment="2" android:layout_marginStart="85dp" />
+				</RelativeLayout>
+			</android.support.v7.widget.CardView>
+			<android.support.v7.widget.CardView xmlns:android="http://schemas.android.com/apk/res/android" android:id="false" android:layout_width="-1" android:layout_height="100dp" android:layout_marginTop="15dp">
+				<RelativeLayout android:layout_width="-1" android:layout_height="-1">
+					<ImageView android:id="false" android:layout_width="-2" android:layout_height="-1" android:src="res/drawable/back.png" />
+					<TextView android:textSize="20sp" android:textStyle="0x1" android:textColor="ff424242" android:layout_gravity="0x800003" android:layout_width="-1" android:layout_height="-2" android:layout_marginLeft="85dp" android:text="कंप्युटर बॅक पॅनल" android:layout_centerVertical="true" android:fontFamily="serif" android:textAlignment="2" android:layout_marginStart="85dp" />
+				</RelativeLayout>
+			</android.support.v7.widget.CardView>
+			<android.support.v7.widget.CardView xmlns:android="http://schemas.android.com/apk/res/android" android:id="false" android:layout_width="-1" android:layout_height="100dp" android:layout_marginTop="15dp">
+				<RelativeLayout android:layout_width="-1" android:layout_height="-1">
+					<ImageView android:id="false" android:layout_width="-2" android:layout_height="-1" android:src="res/drawable/micro.png" />
+					<TextView android:textSize="20sp" android:textStyle="0x1" android:textColor="ff424242" android:layout_gravity="0x800003" android:layout_width="-1" android:layout_height="-2" android:layout_marginLeft="85dp" android:text="मायक्रोफोन, स्पिकर, डी.व्ही.डी. ड्राइव्ह" android:layout_centerVertical="true" android:fontFamily="serif" android:textAlignment="2" android:layout_marginStart="85dp" />
+				</RelativeLayout>
+			</android.support.v7.widget.CardView>
+			<android.support.v7.widget.CardView xmlns:android="http://schemas.android.com/apk/res/android" android:id="false" android:layout_width="-1" android:layout_height="100dp" android:layout_marginTop="15dp">
+				<RelativeLayout android:layout_width="-1" android:layout_height="-1">
+					<ImageView android:id="false" android:layout_width="-2" android:layout_height="-1" android:src="res/drawable/wire.png" />
+					<TextView android:textSize="20sp" android:textStyle="0x1" android:textColor="ff424242" android:layout_gravity="0x800003" android:layout_width="-1" android:layout_height="-2" android:layout_marginLeft="85dp" android:text="कंप्युटर कनेक्शन वायर्स" android:layout_centerVertical="true" android:fontFamily="serif" android:textAlignment="2" android:layout_marginStart="85dp" />
+				</RelativeLayout>
+			</android.support.v7.widget.CardView>
+			<android.support.v7.widget.CardView xmlns:android="http://schemas.android.com/apk/res/android" android:id="false" android:layout_width="-1" android:layout_height="100dp" android:layout_marginTop="15dp" android:layout_marginBottom="25dp">
+				<RelativeLayout android:layout_width="-1" android:layout_height="-1">
+					<ImageView android:id="false" android:layout_width="-2" android:layout_height="-1" android:src="res/drawable/full.png" />
+					<TextView android:textSize="20sp" android:textStyle="0x1" android:textColor="ff424242" android:layout_gravity="0x800003" android:layout_width="-1" android:layout_height="-2" android:layout_marginLeft="85dp" android:text="कंप्युटर संबंधी फुल फॉर्म" android:layout_centerVertical="true" android:fontFamily="serif" android:textAlignment="2" android:layout_marginStart="85dp" />
+				</RelativeLayout>
+			</android.support.v7.widget.CardView>
+		</LinearLayout>
+	</ScrollView>
+	<com.google.android.gms.ads.AdView xmlns:ads="http://schemas.android.com/apk/res-auto" android:id="false" android:layout_width="-2" android:layout_height="-2" android:layout_alignParentBottom="true" android:layout_centerHorizontal="true" ads:adSize="BANNER" ads:adUnitId="ca-app-pub-2393065895339578/1243970239" />
+</RelativeLayout>

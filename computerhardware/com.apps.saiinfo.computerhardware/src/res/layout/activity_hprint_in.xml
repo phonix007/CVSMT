@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android" android:id="false" android:paddingLeft="16dp" android:paddingTop="16dp" android:paddingRight="16dp" android:paddingBottom="0dp" android:layout_width="-1" android:layout_height="-1">
+	<ScrollView android:layout_width="-1" android:layout_height="-1" android:layout_marginBottom="50dp">
+		<LinearLayout android:orientation="1" android:layout_width="-1" android:layout_height="-1">
+			<TextView android:textSize="18sp" android:textStyle="0x1" android:textColor="23cd0" android:layout_width="-1" android:layout_height="-2" android:text="प्रिंटर इंस्टाॅल करना
+" />
+			<TextView android:textSize="18sp" android:textColor="000" android:id="false" android:layout_width="-1" android:layout_height="-1" android:text="      प्रिंटर का उपयोग करने के लिए आपको पहले कंप्यूटर में प्रिंटर के ड्रायव्हर्स इंस्टाल करने होंगे। उसके बाद ही आप प्रिंटर का उपयोग कर सकते हैं।
+" />
+			<ImageView android:layout_gravity="0x11" android:layout_width="-1" android:layout_height="150dp" android:src="res/drawable/printers.png" />
+			<TextView android:textSize="18sp" android:textColor="000" android:layout_width="-1" android:layout_height="-2" android:text="      प्रिंटर का उपयोग करने के लिए आपको पहले प्रिंटर के ड्रायव्हर्स इंस्टाल करने होंगे। इसके लिए प्रिंटर के साथ मिली सी डी द्वारा आप प्रिंटर के ड्रायव्हर्स इंस्टाल कर सकते हैं। या जिस कंपनी का प्रिंटर आपके पास हो, उस कंपनी की वेबसाइट पर जाकर प्रिंटर के ड्रायव्हर्स इंस्टाल कर सकते हैं, और प्रिंटर का उपयोग कर सकते हैं।
+" />
+			<TextView android:textSize="18sp" android:textColor="000" android:layout_width="-1" android:layout_height="-1" android:text="      प्रिंटर के साथ मिली सी डी द्वारा प्रिंटर के ड्रायव्हर्स इंस्टाल करने के लिए पहले सी. डी. कंप्युटर की डी.व्ही.डी. ड्राइव में इन्सर्ट करें। उसके बाद सी. डी. में स्थित सेटअप फाइल को रन करें। सेटअप विंडो ओपन हो जाएगा। आगे में दिए गए निर्देशों का पालन करे और प्रिंटर के ड्रायव्हर्स इंस्टाल करें।
+" />
+			<TextView android:textSize="18sp" android:textColor="000" android:layout_width="-1" android:layout_height="-2" android:text="      प्रिंटर के ड्रायव्हर्स सफलतापूर्वक इंस्टाल होने के बाद आप प्रिंटर का उपयोग के सकते हैं।
+" />
+		</LinearLayout>
+	</ScrollView>
+	<com.google.android.gms.ads.AdView xmlns:ads="http://schemas.android.com/apk/res-auto" android:id="false" android:layout_width="-2" android:layout_height="-2" android:layout_alignParentBottom="true" android:layout_centerHorizontal="true" ads:adSize="BANNER" ads:adUnitId="ca-app-pub-2393065895339578/1243970239" />
+</RelativeLayout>

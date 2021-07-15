@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android" xmlns:app="http://schemas.android.com/apk/res-auto" android:id="@+id/activity_mprint" android:paddingLeft="@dimen/activity_horizontal_margin" android:paddingTop="@dimen/activity_vertical_margin" android:paddingRight="@dimen/activity_horizontal_margin" android:paddingBottom="0dp" android:layout_width="match_parent" android:layout_height="match_parent">
+    <ScrollView android:layout_width="match_parent" android:layout_height="match_parent" android:layout_marginBottom="50dp">
+        <LinearLayout android:orientation="vertical" android:layout_width="match_parent" android:layout_height="match_parent">
+            <TextView android:textSize="18sp" android:textStyle="bold" android:textColor="#023cd0" android:layout_width="match_parent" android:layout_height="wrap_content" android:text="कंप्युटरमध्ये टाईप केलेल्या माहितीची प्रिंट काढणे\10" android:textAlignment="center"/>
+            <TextView android:textSize="18sp" android:textColor="#000000" android:id="@+id/textView3" android:layout_width="match_parent" android:layout_height="match_parent" android:text="      तुम्ही कंप्युटरमध्ये टाईप केलेल्या माहितीची प्रिंटरच्या साह्याने कागदावर प्रिंट काढू शकता. त्यासाठी एखाद्या डॉक्युमेंटमधील प्रिंट पर्यायाचा उपयोग होतो. प्रिंट विंडो विविध पर्यायांचा वापर कसा होतो. तसेच प्रिंट कशा पद्धतीने काढली जाते याची आपणास माहिती असणे आवश्यक आहे.\10"/>
+            <ImageView android:layout_gravity="center" android:layout_width="match_parent" android:layout_height="180dp" android:src="@drawable/prints"/>
+            <TextView android:textSize="18sp" android:textColor="#000000" android:layout_width="match_parent" android:layout_height="wrap_content" android:text="      एम. एस. वर्ड मध्ये टाईप केलेल्या माहितीची प्रिंट कशा पद्धतीने काढावी हे आपण पाहू.\10"/>
+            <TextView android:textSize="18sp" android:textColor="#000000" android:layout_width="match_parent" android:layout_height="wrap_content" android:text="      प्रथम तुम्हाला ज्या माहितीची प्रिंट काढायची आहे, ती फाईल ओपन करा. त्यानंतर वरील डाव्या बाजूस फाईल टॅबवर क्लिक करा. त्यात खालील बाजूस प्रिंट पर्यायावर क्लिक करा. किंवा किबोर्डमध्ये Ctrl + P बटण प्रेस करा. प्रिंट विंडो ओपन होईल.\10"/>
+            <TextView android:textSize="18sp" android:textColor="#000000" android:layout_width="match_parent" android:layout_height="wrap_content" android:text="      प्रिंट विंडोत प्रिंट बटणावर क्लिक करा. तुम्ही तयार केलेल्या डॉक्युमेंटची प्रिंट काढली जाईल.\10"/>
+            <WebView android:id="@+id/webView" android:background="@null" android:layout_width="match_parent" android:layout_height="wrap_content"/>
+        </LinearLayout>
+    </ScrollView>
+    <com.google.android.gms.ads.AdView android:id="@+id/adView" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_alignParentBottom="true" android:layout_centerHorizontal="true" app:adSize="BANNER" app:adUnitId="ca-app-pub-2393065895339578/1243970239"/>
+</RelativeLayout>

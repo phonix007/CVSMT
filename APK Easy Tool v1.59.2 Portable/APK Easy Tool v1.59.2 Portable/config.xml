@@ -1,0 +1,77 @@
+<?xml version="1.0" encoding="utf-8"?>
+<APKEasyTool xmlns:xsd="http://www.w3.org/2001/XMLSchema" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
+  <SelectedPathMain>D:\mod\MSBTE.apk</SelectedPathMain>
+  <SelectedDexOdexOat />
+  <SelectedSmali />
+  <PathDec>D:\mod\APK Easy Tool v1.59.2 Portable\APK Easy Tool v1.59.2 Portable\1-Decompiled APKs</PathDec>
+  <PathCom>D:\mod\APK Easy Tool v1.59.2 Portable\APK Easy Tool v1.59.2 Portable\2-Recompiled APKs</PathCom>
+  <PathExt>D:\mod\APK Easy Tool v1.59.2 Portable\APK Easy Tool v1.59.2 Portable\3-Extracted APKs</PathExt>
+  <PathZip>D:\mod\APK Easy Tool v1.59.2 Portable\APK Easy Tool v1.59.2 Portable\4-Zipped APKs</PathZip>
+  <PathBaksmali>D:\mod\APK Easy Tool v1.59.2 Portable\APK Easy Tool v1.59.2 Portable\5-Baksmali</PathBaksmali>
+  <PathSmali>D:\mod\APK Easy Tool v1.59.2 Portable\APK Easy Tool v1.59.2 Portable\6-Smali</PathSmali>
+  <PathPem>D:\mod\APK Easy Tool v1.59.2 Portable\APK Easy Tool v1.59.2 Portable\Resources\apkeasytool.pem</PathPem>
+  <PathPk8>D:\mod\APK Easy Tool v1.59.2 Portable\APK Easy Tool v1.59.2 Portable\Resources\apkeasytool.pk8</PathPk8>
+  <PathJksFile />
+  <PathTempDec />
+  <PathTempFw />
+  <PathTempFw2 />
+  <PathFw />
+  <PathJava />
+  <FileNameDec>MSBTE</FileNameDec>
+  <FileNameCom>MSBTE</FileNameCom>
+  <FileNameDexOdexOat />
+  <FileNameSmali />
+  <DropDownApkTool>apktool_2.5.0.jar</DropDownApkTool>
+  <DwordX>192</DwordX>
+  <DwordY>192</DwordY>
+  <DwordXmx>1024</DwordXmx>
+  <CheckBoxDecB>false</CheckBoxDecB>
+  <CheckBoxDecF>true</CheckBoxDecF>
+  <CheckBoxDecK>false</CheckBoxDecK>
+  <CheckBoxDecM>false</CheckBoxDecM>
+  <CheckBoxDecR>false</CheckBoxDecR>
+  <CheckBoxDecS>false</CheckBoxDecS>
+  <CheckBoxDecNC>false</CheckBoxDecNC>
+  <CheckBoxDecOMC>true</CheckBoxDecOMC>
+  <CheckBoxComC>false</CheckBoxComC>
+  <CheckBoxComD>false</CheckBoxComD>
+  <CheckBoxComF>true</CheckBoxComF>
+  <CheckBoxComNC>false</CheckBoxComNC>
+  <CheckBoxComAapt2>false</CheckBoxComAapt2>
+  <CheckBoxZipF>false</CheckBoxZipF>
+  <CheckBoxZipP>true</CheckBoxZipP>
+  <CheckBoxZipZ>false</CheckBoxZipZ>
+  <CheckBoxZipV>false</CheckBoxZipV>
+  <CheckBoxShellExt>false</CheckBoxShellExt>
+  <CheckBoxEnaLog>false</CheckBoxEnaLog>
+  <CheckBoxUseJks>false</CheckBoxUseJks>
+  <CheckBoxSignApk>true</CheckBoxSignApk>
+  <CheckBoxInstallApk>false</CheckBoxInstallApk>
+  <CheckBoxOverApk>false</CheckBoxOverApk>
+  <CheckBoxZipAfterSign>true</CheckBoxZipAfterSign>
+  <CheckBoxToolTips>false</CheckBoxToolTips>
+  <CheckBoxChkUpdate>true</CheckBoxChkUpdate>
+  <CheckBoxWinPos>false</CheckBoxWinPos>
+  <CheckBoxRememberPass>false</CheckBoxRememberPass>
+  <CheckBoxDisHistory>false</CheckBoxDisHistory>
+  <CheckBoxDisComMsgBox>false</CheckBoxDisComMsgBox>
+  <CheckBoxUseExtJava>false</CheckBoxUseExtJava>
+  <CheckBoxReadApk>false</CheckBoxReadApk>
+  <CheckBoxReplaceSpace>false</CheckBoxReplaceSpace>
+  <AskToSetupDir>false</AskToSetupDir>
+  <isSidedLogOpened>true</isSidedLogOpened>
+  <isReset>false</isReset>
+  <DecApiLvl />
+  <ComApiLvl />
+  <ReplaceWithSpace>false</ReplaceWithSpace>
+  <CheckBoxTaskBar>true</CheckBoxTaskBar>
+  <v2SigningEnabled>Default</v2SigningEnabled>
+  <v3SigningEnabled>Default</v3SigningEnabled>
+  <v4SigningEnabled>False</v4SigningEnabled>
+  <Language>English (Default)</Language>
+  <CheckBoxCodePage>false</CheckBoxCodePage>
+  <CodePage>0</CodePage>
+  <CheckBoxAapt>false</CheckBoxAapt>
+  <CheckBoxUseJavaXmx>false</CheckBoxUseJavaXmx>
+  <TextBoxAapt />
+</APKEasyTool>

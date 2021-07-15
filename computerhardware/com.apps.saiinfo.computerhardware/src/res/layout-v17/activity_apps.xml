@@ -1,0 +1,36 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android" android:id="false" android:paddingLeft="16dp" android:paddingTop="16dp" android:paddingRight="16dp" android:paddingBottom="16dp" android:layout_width="-1" android:layout_height="-1">
+	<android.support.v7.widget.CardView xmlns:android="http://schemas.android.com/apk/res/android" android:id="false" android:layout_width="-1" android:layout_height="60dp">
+		<RelativeLayout android:layout_width="-1" android:layout_height="-1">
+			<TextView android:textSize="18sp" android:textStyle="0x1" android:textColor="000" android:gravity="0x10" android:layout_gravity="0x11" android:layout_width="-1" android:layout_height="50dp" android:text="Learn More about Computer Download the Apps Now!" android:layout_centerVertical="true" android:textAlignment="4" />
+		</RelativeLayout>
+	</android.support.v7.widget.CardView>
+	<ScrollView android:layout_width="-1" android:layout_height="-1" android:layout_marginBottom="50dp" android:layout_below="false">
+		<LinearLayout android:orientation="1" android:layout_width="-1" android:layout_height="-2" android:layout_marginTop="10dp">
+			<android.support.v7.widget.CardView xmlns:android="http://schemas.android.com/apk/res/android" android:id="false" android:layout_width="-1" android:layout_height="60dp">
+				<RelativeLayout android:layout_width="-1" android:layout_height="-1">
+					<ImageView android:id="false" android:layout_width="-2" android:layout_height="-1" android:src="res/drawable-mdpi-v4/com_ic.png" />
+					<TextView android:textSize="18sp" android:textColor="000" android:gravity="0x10" android:layout_gravity="0x800003" android:layout_width="-1" android:layout_height="50dp" android:layout_marginLeft="75dp" android:text="All About Computer" android:layout_centerVertical="true" android:layout_marginStart="75dp" />
+				</RelativeLayout>
+			</android.support.v7.widget.CardView>
+			<android.support.v7.widget.CardView xmlns:android="http://schemas.android.com/apk/res/android" android:id="false" android:layout_width="-1" android:layout_height="60dp" android:layout_marginTop="15dp">
+				<RelativeLayout android:layout_width="-1" android:layout_height="-1">
+					<ImageView android:id="false" android:layout_width="-2" android:layout_height="-1" android:src="res/drawable-mdpi-v4/ic_short.png" />
+					<TextView android:textSize="18sp" android:textColor="000" android:gravity="0x10" android:layout_gravity="0x800003" android:layout_width="-1" android:layout_height="50dp" android:layout_marginLeft="75dp" android:text="Computer Shortcut Keys" android:layout_centerVertical="true" android:layout_marginStart="75dp" />
+				</RelativeLayout>
+			</android.support.v7.widget.CardView>
+			<android.support.v7.widget.CardView xmlns:android="http://schemas.android.com/apk/res/android" android:id="false" android:layout_width="-1" android:layout_height="60dp" android:layout_marginTop="15dp">
+				<RelativeLayout android:layout_width="-1" android:layout_height="-1">
+					<ImageView android:id="false" android:layout_width="-2" android:layout_height="-1" android:src="res/drawable-mdpi-v4/word.png" />
+					<TextView android:textSize="18sp" android:textColor="000" android:gravity="0x10" android:layout_gravity="0x800003" android:layout_width="-1" android:layout_height="50dp" android:layout_marginLeft="75dp" android:text="Learn MS Word" android:layout_centerVertical="true" android:layout_marginStart="75dp" />
+				</RelativeLayout>
+			</android.support.v7.widget.CardView>
+			<android.support.v7.widget.CardView xmlns:android="http://schemas.android.com/apk/res/android" android:id="false" android:layout_width="-1" android:layout_height="60dp" android:layout_marginTop="15dp">
+				<RelativeLayout android:layout_width="-1" android:layout_height="-1">
+					<ImageView android:id="false" android:layout_width="-2" android:layout_height="-1" android:src="res/drawable/ppt.png" />
+					<TextView android:textSize="18sp" android:textColor="000" android:gravity="0x10" android:layout_gravity="0x800003" android:layout_width="-1" android:layout_height="50dp" android:layout_marginLeft="75dp" android:text="Learn MS PowerPoint" android:layout_centerVertical="true" android:layout_marginStart="75dp" />
+				</RelativeLayout>
+			</android.support.v7.widget.CardView>
+		</LinearLayout>
+	</ScrollView>
+</RelativeLayout>

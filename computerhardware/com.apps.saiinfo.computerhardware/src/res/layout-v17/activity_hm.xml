@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android" android:id="false" android:paddingLeft="16dp" android:paddingTop="16dp" android:paddingRight="16dp" android:paddingBottom="0dp" android:layout_width="-1" android:layout_height="-1">
+	<ScrollView android:layout_width="-1" android:layout_height="-1" android:layout_marginBottom="50dp">
+		<LinearLayout android:orientation="1" android:layout_width="-1" android:layout_height="-1">
+			<TextView android:textSize="18sp" android:textStyle="0x1" android:textColor="23cd0" android:layout_width="-1" android:layout_height="-2" android:text="माउस का उपयोग
+" android:textAlignment="4" />
+			<TextView android:textSize="18sp" android:textColor="000" android:id="false" android:layout_width="-1" android:layout_height="-1" android:text="      माउस एक महत्वपूर्ण इनपुट उपकरण है। माउस का उपयोग कंप्यूटर में किसी जानकारी का चयन करना, उसका स्थान बदलना इत्यादि के लिएं प्रयोग किया जाता है।" />
+			<ImageView android:layout_gravity="0x11" android:layout_width="-1" android:layout_height="150dp" android:src="res/drawable/mouseimg.png" />
+			<TextView android:textSize="18sp" android:textStyle="0x1" android:textColor="000" android:layout_width="-1" android:layout_height="-2" android:text="      माउस को सामान्यत: तीन बटन होते हैं।
+" />
+			<TextView android:textSize="18sp" android:textColor="000" android:layout_width="-1" android:layout_height="-1" android:text="      1. लेफ्ट क्लिक -(Left Click) कंप्यूटर पर किसी जानकारी को सिलेक्ट करने के लिएं लेफ्ट क्लिक का उपयोग किया जाता हैं।
+" />
+			<TextView android:textSize="18sp" android:textColor="000" android:layout_width="-1" android:layout_height="-2" android:text="      2. राइट क्लिक -(Right Click)-  राइट क्लिक का उपयोग किसी फाईल या फोल्डर से संबधित विभिन्न विकल्पो की सूची प्राप्त करने के लिएं होता हैं।
+" />
+			<TextView android:textSize="18sp" android:textColor="000" android:layout_width="-1" android:layout_height="-1" android:text="      3. स्क्रोल - (Scroll)- स्क्रोल का उपयोग किसी फाईल में पेज उपर-नीचे नेव्हिगेट करने के लिएं होता हैं।" />
+		</LinearLayout>
+	</ScrollView>
+	<com.google.android.gms.ads.AdView xmlns:ads="http://schemas.android.com/apk/res-auto" android:id="false" android:layout_width="-2" android:layout_height="-2" android:layout_alignParentBottom="true" android:layout_centerHorizontal="true" ads:adSize="BANNER" ads:adUnitId="ca-app-pub-2393065895339578/1243970239" />
+</RelativeLayout>

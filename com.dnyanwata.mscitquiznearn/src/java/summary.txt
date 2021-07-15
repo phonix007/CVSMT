@@ -1,0 +1,76 @@
+Summary for /storage/emulated/0/show-java/sources/com.dnyanwata.mscitquiznearn/jar-files/4.jar
+Decompiled with CFR 0.0
+
+
+com.onesignal.ADMMessageHandler
+----------------------------
+
+<init>()
+  Exception : org.benf.cfr.reader.util.ConfusedCFRException: Invalid stack depths @ lbl12 : ILOAD_1 : trying to set 1 previously set to 0
+
+
+com.onesignal.GenerateNotification
+----------------------------
+
+createSummaryNotification(com.onesignal.OSNotificationGenerationJob com.onesignal.GenerateNotification$OneSignalNotificationBuilder )
+  Exception : org.benf.cfr.reader.util.ConfusedCFRException: Invalid stack depths @ lbl419.1 : ILOAD : trying to set 1 previously set to 0
+getAccentColor(org.json.JSONObject )
+  Exception : org.benf.cfr.reader.util.ConfusedCFRException: Invalid stack depths @ lbl30.1 : ACONST_NULL : trying to set 1 previously set to 0
+getBaseOneSignalNotificationBuilder(com.onesignal.OSNotificationGenerationJob )
+  Exception : org.benf.cfr.reader.util.ConfusedCFRException: Underrun type stack
+getBitmapFromAssetsOrResourceName(java.lang.String )
+  Exception : org.benf.cfr.reader.util.ConfusedCFRException: Invalid stack depths @ lbl68.1 : ALOAD_1 : trying to set 1 previously set to 0
+resizeBitmapForLargeIconArea(android.graphics.Bitmap )
+  Exception : org.benf.cfr.reader.util.ConfusedCFRException: Underrun type stack
+safeGetColorFromHex(org.json.JSONObject java.lang.String )
+  Exception : org.benf.cfr.reader.util.ConfusedCFRException: Invalid stack depths @ lbl19.1 : ACONST_NULL : trying to set 1 previously set to 0
+setAlertnessOptions(org.json.JSONObject androidx.core.app.NotificationCompat$Builder )
+  Exception : org.benf.cfr.reader.util.ConfusedCFRException: Invalid stack depths @ lbl49 : ALOAD_0 : trying to set 1 previously set to 0
+
+
+com.onesignal.JSONUtils
+----------------------------
+
+getJSONObjectWithoutBlankValues(com.onesignal.ImmutableJSONObject java.lang.String )
+  Exception : org.benf.cfr.reader.util.ConfusedCFRException: Invalid stack depths @ lbl18 : ALOAD : trying to set 1 previously set to 0
+toStringNE(org.json.JSONArray )
+  Exception : org.benf.cfr.reader.util.ConfusedCFRException: Invalid stack depths @ lbl36.1 : NEW : trying to set 1 previously set to 0
+
+
+com.onesignal.NotificationBundleProcessor
+----------------------------
+
+inAppPreviewPushUUID(org.json.JSONObject )
+  Exception : org.benf.cfr.reader.util.ConfusedCFRException: Invalid stack depths @ lbl22.1 : ACONST_NULL : trying to set 1 previously set to 0
+
+
+com.onesignal.NotificationOpenedProcessor
+----------------------------
+
+addChildNotifications(org.json.JSONArray java.lang.String com.onesignal.OneSignalDbHelper )
+  Exception : org.benf.cfr.reader.util.ConfusedCFRException: Invalid stack depths @ lbl58 : ALOAD_3 : trying to set 1 previously set to 0
+processToOpenIntent(android.content.Context android.content.Intent com.onesignal.OneSignalDbHelper java.lang.String )
+  Loose catch block
+
+
+com.onesignal.NotificationSummaryManager
+----------------------------
+
+getSummaryNotificationId(com.onesignal.OneSignalDb java.lang.String )
+  Loose catch block
+
+
+com.onesignal.OSInAppMessageRepository
+----------------------------
+
+cleanCachedInAppMessages()
+  Unable to fully structure code
+getCachedInAppMessages()
+  Loose catch block
+
+
+com.onesignal.OSOutcomeEvent
+----------------------------
+
+fromOutcomeEventParamsV2toOutcomeEventV1(com.onesignal.outcomes.domain.OSOutcomeEventParams )
+  Unable to fully structure code
